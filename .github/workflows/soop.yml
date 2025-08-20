@@ -2,12 +2,14 @@ name: soop-collector
 
 on:
   schedule:
-    - cron: "0 * * * *"     # 매시 정각(UTC) 실행
-    - cron: "0 0,12 * * *"  # 매일 0시, 12시(UTC) 실행
-  workflow_dispatch: {}      # 수동 실행 버튼
+    # 매시 정각: 카테고리 스냅샷
+    - cron: "0 * * * *"
+    # 하루 2회(UTC 00:00, 12:00): 상세 수집
+    - cron: "0 0,12 * * *"
+  workflow_dispatch: {}   # 수동 실행 버튼
 
 permissions:
-  contents: write            # 커밋/푸시 권한
+  contents: write
 
 concurrency:
   group: soop-collector
@@ -18,21 +20,17 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
           cache: "pip"
-
       - name: Install deps
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
-
       - name: Run category snapshot
         run: |
           python collect_categories.py
-
       - name: Commit & push snapshot
         run: |
           git config user.name "github-actions[bot]"
@@ -44,26 +42,23 @@ jobs:
           else
             echo "no changes"
           fi
+
   details_twice_daily:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
           cache: "pip"
-
       - name: Install deps
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
-
       - name: Run details snapshot
         run: |
           python collect_details.py
-
-      - name: Commit & push snapshot
+      - name: Commit & push details
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
