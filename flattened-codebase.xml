@@ -1,0 +1,707 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<files>
+	<file path='.bmadignore'>
+		# data 폴더 전체 제외
+		data/
+		
+		# 로그 파일 제외
+		*.log
+		
+		# 캐시/임시 파일 제외
+		*.tmp
+		*.cache</file>
+	<file path='.github/workflows/soop.yml'><![CDATA[
+		name: soop-collector
+		
+		on:
+		  schedule:
+		    - cron: "0 * * * *"      # 매시 정각 (카테고리)
+		    - cron: "0 0,12 * * *"   # 하루 2회 (상세) - UTC 00,12시 = KST 09,21시
+		  workflow_dispatch: {}
+		
+		permissions:
+		  contents: write
+		
+		# 같은 워크플로가 겹치면 이전 실행 취소 → push 레이스 감소
+		concurrency:
+		  group: soop-collector
+		  cancel-in-progress: true
+		
+		jobs:
+		  categories_hourly:
+		    runs-on: ubuntu-latest
+		    steps:
+		      # rebase가 가능하도록 전체 이력 체크아웃
+		      - uses: actions/checkout@v4
+		        with:
+		          fetch-depth: 0
+		
+		      - uses: actions/setup-python@v5
+		        with:
+		          python-version: "3.11"
+		          cache: "pip"
+		
+		      - name: Install deps
+		        run: |
+		          python -m pip install --upgrade pip
+		          pip install -r requirements.txt
+		
+		      - name: Run category snapshot
+		        run: |
+		          python collect_categories.py
+		
+		      - name: Commit & push (rebase-safe)
+		        shell: bash
+		        run: |
+		          git config user.name "github-actions[bot]"
+		          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+		
+		          # 변경 없으면 종료
+		          if git diff --quiet && git diff --cached --quiet; then
+		            echo "no changes"; exit 0
+		          fi
+		
+		          git add -A
+		          git commit -m "snapshot: $(date -u +'%Y-%m-%dT%H:%M:%SZ')" || true
+		
+		          # 원격 최신 이력 반영 후 푸시 (짧게 재시도)
+		          for i in {1..3}; do
+		            git fetch origin main
+		            git rebase origin/main || { git rebase --abort; git pull --rebase origin main; }
+		            git push origin HEAD:main && break || { echo "push race, retry $i"; sleep 3; }
+		          done
+		
+		  details_twice_daily:
+		    runs-on: ubuntu-latest
+		    steps:
+		      - uses: actions/checkout@v4
+		        with:
+		          fetch-depth: 0
+		
+		      - uses: actions/setup-python@v5
+		        with:
+		          python-version: "3.11"
+		          cache: "pip"
+		
+		      - name: Install deps
+		        run: |
+		          python -m pip install --upgrade pip
+		          pip install -r requirements.txt
+		
+		      - name: Run details snapshot
+		        run: |
+		          python collect_details.py
+		
+		      - name: Commit & push (rebase-safe)
+		        shell: bash
+		        run: |
+		          git config user.name "github-actions[bot]"
+		          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+		
+		          if git diff --quiet && git diff --cached --quiet; then
+		            echo "no changes"; exit 0
+		          fi
+		
+		          git add -A
+		          git commit -m "details: $(date -u +'%Y-%m-%dT%H:%M:%SZ')" || true
+		
+		          for i in {1..3}; do
+		            git fetch origin main
+		            git rebase origin/main || { git rebase --abort; git pull --rebase origin main; }
+		            git push origin HEAD:main && break || { echo "push race, retry $i"; sleep 3; }
+		          done]]></file>
+	<file path='.gitignore'>
+		venv/
+		__pycache__/
+		.vscode/</file>
+	<file path='analyze_categories.py'>
+		import pandas as pd
+		from pathlib import Path
+		
+		DATA_FILE = Path("data/soop/categories/categories_master.csv")
+		
+		def load_data():
+		    return pd.read_csv(DATA_FILE)
+		
+		def analyze():
+		    df = load_data()
+		    # 기본 타입 캐스팅
+		    df["view_cnt"] = pd.to_numeric(df["view_cnt"], errors="coerce").fillna(0).astype(int)
+		
+		    # 최근 시각별 피벗 (카테고리별 시청자 합)
+		    pivot = df.pivot_table(index="captured_at_utc",
+		                           columns="category_name",
+		                           values="view_cnt",
+		                           aggfunc="sum")
+		    pivot.to_csv("data/soop/categories/pivot_timeseries.csv", encoding="utf-8-sig")
+		
+		    # 최근 스냅샷 상위 카테고리
+		    latest_time = df["captured_at_utc"].max()
+		    latest = df[df["captured_at_utc"] == latest_time].sort_values("view_cnt", ascending=False)
+		    latest.to_csv("data/soop/categories/top_latest.csv", index=False, encoding="utf-8-sig")
+		
+		    print("Saved pivot_timeseries.csv and top_latest.csv")
+		
+		if __name__ == "__main__":
+		    analyze()</file>
+	<file path='collect_categories.py'>
+		# collect_categories.py
+		# -*- coding: utf-8 -*-
+		"""
+		SOOP 카테고리 스냅샷 수집 (CSV 저장, 라벨링/가공 없음)
+		- categoryList API를 페이징 끝까지 수집
+		- 원본 필드만 저장: category_no, category_name, view_cnt, fixed_tags, cate_img, captured_at_utc, platform
+		- 저장:
+		  1) 시각별 스냅샷: data/soop/categories/YYYY/MM/DD/HH.csv
+		  2) 마스터 누적:   data/soop/categories/categories_master.csv
+		  3) 시계열 누적:   data/soop/categories_timeseries.csv  ← 이번에 추가
+		"""
+		
+		import time
+		import pathlib
+		from datetime import datetime, timezone
+		from typing import List, Tuple, Dict, Any
+		
+		import requests
+		import pandas as pd
+		
+		# ======================
+		# 설정
+		# ======================
+		BASE = "https://sch.sooplive.co.kr/api.php"
+		HEADERS = {
+		    "User-Agent": "Mozilla/5.0",
+		    "Accept": "application/json, text/plain, */*",
+		    "Referer": "https://www.sooplive.co.kr/",
+		}
+		PAGE_SIZE = 120
+		ORDER = "view_cnt"
+		SLEEP_BETWEEN_PAGES = 0.35
+		
+		OUT_ROOT = pathlib.Path("data/soop/categories")
+		OUT_ROOT.mkdir(parents=True, exist_ok=True)
+		MASTER_CSV = OUT_ROOT / "categories_master.csv"
+		TIMESERIES_CSV = pathlib.Path("data/soop/categories_timeseries.csv")
+		
+		# ======================
+		# 요청/수집
+		# ======================
+		def fetch_category_page(page_no: int, n_per: int = PAGE_SIZE, order: str = ORDER) -> Tuple[List[Dict[str, Any]], bool]:
+		    params = {
+		        "m": "categoryList",
+		        "szKeyword": "",
+		        "szOrder": order,
+		        "nPageNo": page_no,
+		        "nListCnt": n_per,
+		        "nOffset": 0,
+		        "szPlatform": "pc",
+		    }
+		    backoff = 1.0
+		    for attempt in range(5):
+		        try:
+		            r = requests.get(BASE, params=params, headers=HEADERS, timeout=15)
+		            r.raise_for_status()
+		            j = r.json()
+		            data = j.get("data", {})
+		            items = data.get("list", []) or []
+		            is_more = bool(data.get("is_more", False))
+		            return items, is_more
+		        except Exception:
+		            if attempt == 4:
+		                raise
+		            time.sleep(backoff)
+		            backoff = min(backoff * 2, 10)
+		    return [], False
+		
+		def fetch_all_categories() -> pd.DataFrame:
+		    rows: List[Dict[str, Any]] = []
+		    page = 1
+		    while True:
+		        items, is_more = fetch_category_page(page)
+		        rows += items
+		        if not is_more:
+		            break
+		        page += 1
+		        time.sleep(SLEEP_BETWEEN_PAGES)
+		    if not rows:
+		        return pd.DataFrame(columns=["category_no","category_name","view_cnt","fixed_tags","cate_img"])
+		    df = pd.DataFrame(rows)
+		    # 필요한 컬럼만 (원본 유지)
+		    keep = [c for c in ["category_no","category_name","view_cnt","fixed_tags","cate_img"] if c in df.columns]
+		    df = df[keep].copy()
+		    # 메타
+		    ts = datetime.now(timezone.utc).replace(microsecond=0).isoformat()
+		    df["captured_at_utc"] = ts
+		    df["platform"] = "soop"
+		    return df
+		
+		def save_snapshot_csv(df: pd.DataFrame) -> pathlib.Path:
+		    ts = pd.to_datetime(df["captured_at_utc"].iloc[0])
+		    outdir = OUT_ROOT / f"{ts.year:04d}" / f"{ts.month:02d}" / f"{ts.day:02d}"
+		    outdir.mkdir(parents=True, exist_ok=True)
+		    outpath = outdir / f"{ts.hour:02d}.csv"
+		    df.to_csv(outpath, index=False, encoding="utf-8-sig")
+		    return outpath
+		
+		def append_master_csv(df: pd.DataFrame) -> pathlib.Path:
+		    header = not MASTER_CSV.exists()
+		    df.to_csv(MASTER_CSV, index=False, mode="a", header=header, encoding="utf-8-sig")
+		    return MASTER_CSV
+		
+		def upsert_timeseries_csv(df: pd.DataFrame) -> pathlib.Path:
+		    """시계열 누적 파일 갱신 (append 후 같은 시각/카테고리 중복 제거)"""
+		    # 필요한 컬럼만 축소
+		    ts_part = df[["captured_at_utc","category_no","category_name","view_cnt"]].copy()
+		    # 정시 버킷 보정(안전)
+		    ts_part["captured_at_utc"] = pd.to_datetime(ts_part["captured_at_utc"], utc=True).dt.floor("H")
+		
+		    if TIMESERIES_CSV.exists():
+		        old = pd.read_csv(TIMESERIES_CSV, encoding="utf-8-sig")
+		        # 타입 보정
+		        if "captured_at_utc" in old.columns:
+		            old["captured_at_utc"] = pd.to_datetime(old["captured_at_utc"], utc=True).dt.floor("H")
+		        ts_all = pd.concat([old, ts_part], ignore_index=True)
+		    else:
+		        TIMESERIES_CSV.parent.mkdir(parents=True, exist_ok=True)
+		        ts_all = ts_part
+		
+		    # 같은 시각(captured_at_utc) + 같은 카테고리(category_no) 중복 제거 (마지막 값 유지)
+		    ts_all = ts_all.drop_duplicates(["captured_at_utc","category_no"], keep="last")
+		    ts_all.sort_values(["captured_at_utc","category_no"], inplace=True)
+		    ts_all.to_csv(TIMESERIES_CSV, index=False, encoding="utf-8-sig")
+		    return TIMESERIES_CSV
+		
+		def main():
+		    df_all = fetch_all_categories()
+		    if df_all.empty:
+		        print("빈 응답. 잠시 후 재시도 바람.")
+		        return
+		
+		    # 콘솔 확인(상위 25)
+		    if "view_cnt" in df_all.columns:
+		        df_sorted = df_all.sort_values("view_cnt", ascending=False).copy()
+		        cols_show = [c for c in ["category_no","category_name","view_cnt","fixed_tags"] if c in df_sorted.columns]
+		        print("\n=== Snapshot (top 25 by view_cnt) ===")
+		        print(df_sorted[cols_show].head(25).to_string(index=False))
+		        print(f"\nrows_total={len(df_all)}")
+		
+		    snap = save_snapshot_csv(df_all)
+		    master = append_master_csv(df_all)
+		    tsfile = upsert_timeseries_csv(df_all)
+		    print(f"\nsaved snapshot -> {snap}")
+		    print(f"appended master -> {master}")
+		    print(f"updated timeseries -> {tsfile}")
+		
+		if __name__ == "__main__":
+		    main()</file>
+	<file path='collect_details.py'>
+		import requests
+		import pandas as pd
+		from datetime import datetime, timezone
+		import pathlib
+		
+		BASE = "https://sch.sooplive.co.kr/api.php"
+		HEADERS = {"User-Agent": "Mozilla/5.0"}
+		DATA_DIR = pathlib.Path("data/soop/details")
+		DATA_DIR.mkdir(parents=True, exist_ok=True)
+		
+		# 원하는 category_no 를 리스트로 지정
+		category_nos = ["00810000", "00040070"]  #버추얼, FC온라인
+		
+		def fetch_category_contents(cate_no, page=1, nListCnt=60):
+		    params = {
+		        "m": "categoryContentsList",
+		        "szType": "live",
+		        "nPageNo": page,
+		        "nListCnt": nListCnt,
+		        "szPlatform": "pc",
+		        "szOrder": "view_cnt_desc",
+		        "szCateNo": cate_no,
+		    }
+		    r = requests.get(BASE, params=params, headers=HEADERS, timeout=15)
+		    r.raise_for_status()
+		    js = r.json()
+		    return js["data"]["list"], js["data"]["is_more"]
+		
+		def fetch_all_for_category(cate_no):
+		    all_items = []
+		    page = 1
+		    while True:
+		        items, is_more = fetch_category_contents(cate_no, page)
+		        all_items.extend(items)
+		        if not is_more:
+		            break
+		        page += 1
+		    return all_items
+		
+		def save_snapshot(df: pd.DataFrame, cate_no: str):
+		    now = datetime.now(timezone.utc)
+		    df["captured_at_utc"] = now.isoformat()
+		    df["platform"] = "soop"
+		    df["category_no"] = cate_no
+		
+		    # 시각별 스냅샷
+		    snapshot_dir = DATA_DIR / cate_no / now.strftime("%Y/%m/%d")
+		    snapshot_dir.mkdir(parents=True, exist_ok=True)
+		    snapshot_file = snapshot_dir / f"{now.strftime('%H')}.csv"
+		    df.to_csv(snapshot_file, index=False, encoding="utf-8-sig")
+		
+		    # 누적 마스터
+		    master_file = DATA_DIR / "details_master.csv"
+		    if master_file.exists():
+		        old = pd.read_csv(master_file)
+		        df = pd.concat([old, df], ignore_index=True)
+		    df.to_csv(master_file, index=False, encoding="utf-8-sig")
+		    print(f"Saved {len(df)} rows for category {cate_no} to {snapshot_file}")
+		
+		def main():
+		    for cate_no in category_nos:
+		        items = fetch_all_for_category(cate_no)
+		        if not items:
+		            continue
+		        df = pd.DataFrame(items)
+		        cols = ["broad_no", "broad_title", "user_id", "user_nick",
+		                "view_cnt", "broad_start", "hash_tags"]
+		        df = df[cols]
+		        save_snapshot(df, cate_no)
+		
+		if __name__ == "__main__":
+		    main()
+		
+		# # -*- coding: utf-8 -*-
+		# """
+		# SOOP 카테고리 상세(방송 단위) 수집 (CSV 저장)
+		# - 입력: 대상 카테고리 번호 목록(category_nos)
+		# - 동작: 각 cate_no에 대해 categoryContentsList를 페이징 끝까지 수집
+		# - 출력:
+		#   1) 시각별 상세 스냅샷 CSV: data/soop/details/YYYY/MM/DD/HH.csv
+		#   2) 마스터 누적 CSV:        data/soop/details/details_master.csv
+		# """
+		
+		# import os
+		# import time
+		# import json
+		# import pathlib
+		# from datetime import datetime, timezone
+		# from typing import List, Tuple, Dict, Any
+		
+		# import requests
+		# import pandas as pd
+		
+		# # ======================
+		# # 설정
+		# # ======================
+		# BASE = "https://sch.sooplive.co.kr/api.php"
+		# HEADERS = {
+		#     "User-Agent": "Mozilla/5.0",
+		#     "Accept": "application/json, text/plain, */*",
+		#     "Referer": "https://www.sooplive.co.kr/",
+		# }
+		# PAGE_SIZE = 60
+		# ORDER = "view_cnt_desc"
+		# SLEEP_BETWEEN_PAGES = 0.3
+		# SLEEP_BETWEEN_CATS = 0.8
+		
+		# OUT_ROOT = pathlib.Path("data/soop/details")
+		# MASTER_CSV = OUT_ROOT / "details_master.csv"
+		
+		# # 수집 대상 카테고리 (예시: 로스트아크, 버추얼, 롤, 롤토체스 등)
+		# category_nos = [
+		#     # "00040067",  # 로스트아크
+		#     # "00810000",  # 버추얼
+		#     # "00040019",  # 리그 오브 레전드
+		#     # "00040075",  # 전략적 팀 전투(TFT)
+		# ]
+		
+		# # ======================
+		# # 요청/수집 함수
+		# # ======================
+		# def fetch_contents_page(cate_no: str, page_no: int, n_per: int = PAGE_SIZE, order: str = ORDER) -> Tuple[List[Dict[str, Any]], bool]:
+		#     params = {
+		#         "m": "categoryContentsList",
+		#         "szType": "live",
+		#         "nPageNo": page_no,
+		#         "nListCnt": n_per,
+		#         "szPlatform": "pc",
+		#         "szOrder": order,
+		#         "szCateNo": cate_no,
+		#     }
+		#     backoff = 1.0
+		#     for attempt in range(5):
+		#         try:
+		#             r = requests.get(BASE, params=params, headers=HEADERS, timeout=15)
+		#             r.raise_for_status()
+		#             j = r.json()
+		#             data = j.get("data", {})
+		#             items = data.get("list", []) or []
+		#             is_more = bool(data.get("is_more", False))
+		#             return items, is_more
+		#         except Exception:
+		#             if attempt == 4:
+		#                 raise
+		#             time.sleep(backoff)
+		#             backoff = min(backoff * 2, 10)
+		#     return [], False
+		
+		# def fetch_category_details(cate_no: str) -> pd.DataFrame:
+		#     """특정 카테고리의 방송 리스트 전체 수집"""
+		#     rows: List[Dict[str, Any]] = []
+		#     page = 1
+		#     while True:
+		#         items, is_more = fetch_contents_page(cate_no, page)
+		#         rows += items
+		#         if not is_more:
+		#             break
+		#         page += 1
+		#         time.sleep(SLEEP_BETWEEN_PAGES)
+		#     if not rows:
+		#         return pd.DataFrame(columns=[
+		#             "broad_no","broad_title","user_id","user_nick","view_cnt",
+		#             "broad_start","hash_tags","thumbnail","user_profile_img",
+		#             "category_no","captured_at_utc","platform"
+		#         ])
+		#     df = pd.DataFrame(rows)
+		
+		#     # 필요한 컬럼만 유지
+		#     keep = [c for c in [
+		#         "broad_no","broad_title","user_id","user_nick","view_cnt",
+		#         "broad_start","hash_tags","thumbnail","user_profile_img"
+		#     ] if c in df.columns]
+		#     df = df[keep].copy()
+		
+		#     # 메타 추가
+		#     ts = datetime.now(timezone.utc).replace(microsecond=0).isoformat()
+		#     df["captured_at_utc"] = ts
+		#     df["platform"] = "soop"
+		#     df["category_no"] = cate_no
+		#     return df
+		
+		# def fetch_multi_categories(cate_list: List[str]) -> pd.DataFrame:
+		#     frames = []
+		#     for cate in cate_list:
+		#         df = fetch_category_details(cate)
+		#         if not df.empty:
+		#             frames.append(df)
+		#         time.sleep(SLEEP_BETWEEN_CATS)
+		#     return pd.concat(frames, ignore_index=True) if frames else pd.DataFrame()
+		
+		# def save_snapshot_csv(df: pd.DataFrame) -> pathlib.Path:
+		#     ts = pd.to_datetime(df["captured_at_utc"].iloc[0])
+		#     outdir = OUT_ROOT / f"{ts.year:04d}" / f"{ts.month:02d}" / f"{ts.day:02d}"
+		#     outdir.mkdir(parents=True, exist_ok=True)
+		#     outpath = outdir / f"{ts.hour:02d}.csv"
+		#     df.to_csv(outpath, index=False, encoding="utf-8")
+		#     return outpath
+		
+		# def append_master_csv(df: pd.DataFrame) -> pathlib.Path:
+		#     OUT_ROOT.mkdir(parents=True, exist_ok=True)
+		#     header = not MASTER_CSV.exists()
+		#     df.to_csv(MASTER_CSV, index=False, mode="a", header=header, encoding="utf-8")
+		#     return MASTER_CSV
+		
+		# def main():
+		#     if not category_nos:
+		#         print("⚠️ category_nos 리스트에 수집할 cate_no를 하나 이상 넣어주세요.")
+		#         return
+		
+		#     df_all = fetch_multi_categories(category_nos)
+		#     if df_all.empty:
+		#         print("수집 결과가 비어 있습니다.")
+		#         return
+		
+		#     # 콘솔에 상위 20개 출력
+		#     cols_show = [c for c in ["category_no","broad_no","user_id","user_nick","view_cnt","broad_title"] if c in df_all.columns]
+		#     print("\n=== Details snapshot (top 20 by view_cnt) ===")
+		#     print(df_all.sort_values("view_cnt", ascending=False)[cols_show].head(20).to_string(index=False))
+		
+		#     # 저장
+		#     snap = save_snapshot_csv(df_all)
+		#     master = append_master_csv(df_all)
+		#     snap_kb = snap.stat().st_size/1024 if snap.exists() else 0
+		#     mast_kb = master.stat().st_size/1024 if master.exists() else 0
+		#     print(f"\nsaved snapshot -> {snap} ({snap_kb:.1f} KB)")
+		#     print(f"appended master -> {master} ({mast_kb:.1f} KB total)")
+		
+		# if __name__ == "__main__":
+		#     main()</file>
+	<file path='flattened-codebase.stats.md'><![CDATA[
+		# 🧾 Flatten Stats for flattened-codebase.xml
+		
+		## 📊 Summary
+		- Total source size: 17.9 MB
+		- Generated XML size: 21.1 MB
+		- Total lines of code: 162,399
+		- Estimated tokens: 5,520,308
+		- File breakdown: 128 text, 0 binary, 0 errors
+		
+		## 📈 Size Percentiles
+		Avg: 146,421 B, Median: 66,894 B, p90: 66,942 B, p95: 66,965 B, p99: 2,259,956 B
+		
+		## 🧮 Size Histogram
+		| Bucket | Files | Bytes |
+		| --- | ---: | ---: |
+		| 0–1KB | 5 | 1,139 |
+		| 1–10KB | 3 | 15,346 |
+		| 10–100KB | 118 | 7,840,567 |
+		| 100KB–1MB | 0 | 0 |
+		| 1–10MB | 2 | 10,884,798 |
+		| 10–100MB | 0 | 0 |
+		| >=100MB | 0 | 0 |
+		
+		## 📦 Top Extensions by Bytes (Top 20)
+		| Ext | Files | Bytes | % of total |
+		| --- | ---: | ---: | ---: |
+		| .csv | 119 | 18,714,953 | 99.86% |
+		| .py | 3 | 13,583 | 0.07% |
+		| .md | 1 | 10,412 | 0.06% |
+		| .yml | 1 | 2,730 | 0.01% |
+		| <none> | 2 | 96 | 0.00% |
+		| .json | 1 | 60 | 0.00% |
+		| .txt | 1 | 16 | 0.00% |
+		
+		## 📂 Top Directories by Bytes (Top 20)
+		| Directory | Files | Bytes | % of total |
+		| --- | ---: | ---: | ---: |
+		| data | 119 | 18,714,953 | 99.86% |
+		| data/soop | 119 | 18,714,953 | 99.86% |
+		| data/soop/categories | 118 | 16,454,997 | 87.80% |
+		| data/soop/categories/2025 | 117 | 7,830,155 | 41.78% |
+		| data/soop/categories/2025/08 | 117 | 7,830,155 | 41.78% |
+		| data/soop/categories/2025/08/24 | 22 | 1,471,718 | 7.85% |
+		| data/soop/categories/2025/08/22 | 22 | 1,471,711 | 7.85% |
+		| data/soop/categories/2025/08/21 | 22 | 1,471,692 | 7.85% |
+		| data/soop/categories/2025/08/23 | 22 | 1,471,677 | 7.85% |
+		| data/soop/categories/2025/08/20 | 19 | 1,274,488 | 6.80% |
+		| data/soop/categories/2025/08/25 | 10 | 668,869 | 3.57% |
+		| . | 8 | 24,167 | 0.13% |
+		| .github | 1 | 2,730 | 0.01% |
+		| .github/workflows | 1 | 2,730 | 0.01% |
+		
+		## 🌳 Depth Distribution
+		| Depth | Count |
+		| ---: | ---: |
+		| 1 | 8 |
+		| 3 | 2 |
+		| 4 | 1 |
+		| 7 | 117 |
+		
+		## 🧵 Longest Paths (Top 25)
+		| Path | Length | Bytes |
+		| --- | ---: | ---: |
+		| data/soop/categories/categories_master.csv | 42 | 8,624,842 |
+		| data/soop/categories/2025/08/20/09.csv | 38 | 66,912 |
+		| data/soop/categories/2025/08/20/10.csv | 38 | 66,926 |
+		| data/soop/categories/2025/08/20/07.csv | 38 | 67,040 |
+		| data/soop/categories/2025/08/20/05.csv | 38 | 70,165 |
+		| data/soop/categories/2025/08/20/08.csv | 38 | 66,884 |
+		| data/soop/categories/2025/08/20/11.csv | 38 | 66,930 |
+		| data/soop/categories/2025/08/20/12.csv | 38 | 66,934 |
+		| data/soop/categories/2025/08/20/06.csv | 38 | 67,051 |
+		| data/soop/categories/2025/08/20/16.csv | 38 | 66,899 |
+		| data/soop/categories/2025/08/20/13.csv | 38 | 66,893 |
+		| data/soop/categories/2025/08/20/14.csv | 38 | 66,920 |
+		| data/soop/categories/2025/08/20/15.csv | 38 | 66,911 |
+		| data/soop/categories/2025/08/20/17.csv | 38 | 66,889 |
+		| data/soop/categories/2025/08/20/20.csv | 38 | 66,854 |
+		| data/soop/categories/2025/08/20/19.csv | 38 | 66,868 |
+		| data/soop/categories/2025/08/20/18.csv | 38 | 66,869 |
+		| data/soop/categories/2025/08/20/22.csv | 38 | 66,845 |
+		| data/soop/categories/2025/08/20/23.csv | 38 | 66,848 |
+		| data/soop/categories/2025/08/21/03.csv | 38 | 66,876 |
+		| data/soop/categories/2025/08/21/01.csv | 38 | 66,859 |
+		| data/soop/categories/2025/08/21/04.csv | 38 | 66,882 |
+		| data/soop/categories/2025/08/21/06.csv | 38 | 66,899 |
+		| data/soop/categories/2025/08/21/05.csv | 38 | 66,897 |
+		| data/soop/categories/2025/08/21/10.csv | 38 | 66,915 |
+		
+		## ⏱️ Temporal
+		- Oldest: requirements.txt (2025-08-20T04:44:56.247Z)
+		- Newest: .bmadignore (2025-08-25T11:53:46.720Z)
+		
+		| Age | Files | Bytes |
+		| --- | ---: | ---: |
+		| > 1 year | 0 | 0 |
+		| 6–12 months | 0 | 0 |
+		| 1–6 months | 0 | 0 |
+		| 7–30 days | 0 | 0 |
+		| 1–7 days | 7 | 86,522 |
+		| < 1 day | 121 | 18,655,328 |
+		
+		## ✅ Quality Signals
+		- Zero-byte files: 0
+		- Empty text files: 0
+		- Hidden files: 3
+		- Symlinks: 0
+		- Large files (>= 50 MB): 0
+		- Suspiciously large files (>= 100 MB): 0
+		
+		## 🗜️ Compressibility
+		Sampled compressibility ratio: 22.56%
+		
+		## 🔧 Git
+		- Tracked: 125 files, 18,731,310 bytes
+		- Untracked: 3 files, 10,540 bytes
+		
+		## 📚 Largest Files (Top 50)
+		| Path | Size | % of total | LOC |
+		| --- | ---: | ---: | ---: |
+		| data/soop/categories/categories_master.csv | 8.2 MB | 46.02% | 57,541 |
+		| data/soop/categories_timeseries.csv | 2.2 MB | 12.06% | 51,718 |
+		| data/soop/categories/2025/08/20/05.csv | 68.5 KB | 0.37% | 449 |
+		| data/soop/categories/2025/08/20/06.csv | 65.5 KB | 0.36% | 449 |
+		| data/soop/categories/2025/08/20/07.csv | 65.5 KB | 0.36% | 449 |
+		| data/soop/categories/2025/08/22/12.csv | 65.4 KB | 0.36% | 448 |
+		| data/soop/categories/2025/08/21/12.csv | 65.4 KB | 0.36% | 448 |
+		| data/soop/categories/2025/08/24/14.csv | 65.4 KB | 0.36% | 448 |
+		| data/soop/categories/2025/08/24/12.csv | 65.4 KB | 0.36% | 448 |
+		| data/soop/categories/2025/08/22/13.csv | 65.4 KB | 0.36% | 448 |
+		| data/soop/categories/2025/08/21/13.csv | 65.4 KB | 0.36% | 448 |
+		| data/soop/categories/2025/08/23/11.csv | 65.4 KB | 0.36% | 448 |
+		| data/soop/categories/2025/08/21/14.csv | 65.4 KB | 0.36% | 448 |
+		| data/soop/categories/2025/08/24/11.csv | 65.4 KB | 0.36% | 448 |
+		| data/soop/categories/2025/08/20/12.csv | 65.4 KB | 0.36% | 448 |
+		| data/soop/categories/2025/08/23/12.csv | 65.4 KB | 0.36% | 448 |
+		| data/soop/categories/2025/08/23/13.csv | 65.4 KB | 0.36% | 448 |
+		| data/soop/categories/2025/08/24/13.csv | 65.4 KB | 0.36% | 448 |
+		| data/soop/categories/2025/08/20/11.csv | 65.4 KB | 0.36% | 448 |
+		| data/soop/categories/2025/08/22/11.csv | 65.4 KB | 0.36% | 448 |
+		| data/soop/categories/2025/08/20/10.csv | 65.4 KB | 0.36% | 448 |
+		| data/soop/categories/2025/08/22/14.csv | 65.4 KB | 0.36% | 448 |
+		| data/soop/categories/2025/08/23/14.csv | 65.4 KB | 0.36% | 448 |
+		| data/soop/categories/2025/08/23/10.csv | 65.4 KB | 0.36% | 448 |
+		| data/soop/categories/2025/08/24/10.csv | 65.4 KB | 0.36% | 448 |
+		| data/soop/categories/2025/08/21/11.csv | 65.4 KB | 0.36% | 448 |
+		| data/soop/categories/2025/08/22/09.csv | 65.4 KB | 0.36% | 448 |
+		| data/soop/categories/2025/08/20/14.csv | 65.4 KB | 0.36% | 448 |
+		| data/soop/categories/2025/08/22/10.csv | 65.4 KB | 0.36% | 448 |
+		| data/soop/categories/2025/08/24/09.csv | 65.4 KB | 0.36% | 448 |
+		| data/soop/categories/2025/08/25/11.csv | 65.4 KB | 0.36% | 448 |
+		| data/soop/categories/2025/08/22/15.csv | 65.3 KB | 0.36% | 448 |
+		| data/soop/categories/2025/08/23/09.csv | 65.3 KB | 0.36% | 448 |
+		| data/soop/categories/2025/08/21/10.csv | 65.3 KB | 0.36% | 448 |
+		| data/soop/categories/2025/08/21/15.csv | 65.3 KB | 0.36% | 448 |
+		| data/soop/categories/2025/08/20/09.csv | 65.3 KB | 0.36% | 448 |
+		| data/soop/categories/2025/08/23/15.csv | 65.3 KB | 0.36% | 448 |
+		| data/soop/categories/2025/08/24/06.csv | 65.3 KB | 0.36% | 448 |
+		| data/soop/categories/2025/08/24/15.csv | 65.3 KB | 0.36% | 448 |
+		| data/soop/categories/2025/08/20/15.csv | 65.3 KB | 0.36% | 448 |
+		| data/soop/categories/2025/08/21/09.csv | 65.3 KB | 0.36% | 448 |
+		| data/soop/categories/2025/08/23/16.csv | 65.3 KB | 0.36% | 448 |
+		| data/soop/categories/2025/08/23/17.csv | 65.3 KB | 0.36% | 448 |
+		| data/soop/categories/2025/08/25/10.csv | 65.3 KB | 0.36% | 448 |
+		| data/soop/categories/2025/08/24/07.csv | 65.3 KB | 0.36% | 448 |
+		| data/soop/categories/2025/08/24/08.csv | 65.3 KB | 0.36% | 448 |
+		| data/soop/categories/2025/08/22/16.csv | 65.3 KB | 0.36% | 448 |
+		| data/soop/categories/2025/08/21/08.csv | 65.3 KB | 0.36% | 448 |
+		| data/soop/categories/2025/08/21/16.csv | 65.3 KB | 0.36% | 448 |
+		| data/soop/categories/2025/08/22/05.csv | 65.3 KB | 0.36% | 448 |]]></file>
+	<file path='package.json'>
+		{
+		  "devDependencies": {
+		    "bmad-method": "^4.40.0"
+		  }
+		}</file>
+	<file path='requirements.txt'>
+		requests
+		pandas</file>
+</files>

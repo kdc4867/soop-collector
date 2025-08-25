@@ -1,29 +1,20 @@
 import pandas as pd
 from pathlib import Path
 
-DATA_FILE = Path("data/soop/categories/categories_master.csv")
-
-def load_data():
-    return pd.read_csv(DATA_FILE)
+WIDE_FILE = Path("data/soop/categories_matrix.csv")
 
 def analyze():
-    df = load_data()
-    # 기본 타입 캐스팅
-    df["view_cnt"] = pd.to_numeric(df["view_cnt"], errors="coerce").fillna(0).astype(int)
-
-    # 최근 시각별 피벗 (카테고리별 시청자 합)
-    pivot = df.pivot_table(index="captured_at_utc",
-                           columns="category_name",
-                           values="view_cnt",
-                           aggfunc="sum")
-    pivot.to_csv("data/soop/categories/pivot_timeseries.csv", encoding="utf-8-sig")
-
-    # 최근 스냅샷 상위 카테고리
-    latest_time = df["captured_at_utc"].max()
-    latest = df[df["captured_at_utc"] == latest_time].sort_values("view_cnt", ascending=False)
-    latest.to_csv("data/soop/categories/top_latest.csv", index=False, encoding="utf-8-sig")
-
-    print("Saved pivot_timeseries.csv and top_latest.csv")
+    wide = pd.read_csv(WIDE_FILE, encoding="utf-8-sig").set_index("category_no")
+    time_cols = [c for c in wide.columns if c != "category_name"]
+    if not time_cols:
+        print("시간 컬럼이 없습니다.")
+        return
+    latest_col = sorted(time_cols)[-1]
+    latest = wide[["category_name", latest_col]].sort_values(latest_col, ascending=False)
+    out = Path("data/soop/categories/top_latest.csv")
+    out.parent.mkdir(parents=True, exist_ok=True)
+    latest.to_csv(out, encoding="utf-8-sig")
+    print(f"Saved top_latest.csv from {latest_col}")
 
 if __name__ == "__main__":
     analyze()
