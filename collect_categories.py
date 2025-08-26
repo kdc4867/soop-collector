@@ -10,6 +10,7 @@ SOOP 카테고리 스냅샷 수집 + 와이드 매트릭스(행=카테고리, �
 
 import os
 import time
+import numpy as np
 import pathlib
 from datetime import datetime, timezone
 from typing import List, Tuple, Dict, Any
