@@ -135,72 +135,70 @@ def upsert_timeseries_csv(df: pd.DataFrame) -> pathlib.Path:
 def upsert_wide_csv(df: pd.DataFrame) -> pathlib.Path:
     """
     카테고리별(view_cnt) 와이드 매트릭스 누적 갱신:
-    - 행: category_no (문자열로 고정)
-    - 열: captured_hour (UTC, ISO 'YYYY-MM-DDTHH:00:00Z')
+    - 행: (category_no, category_name) 멀티인덱스
+    - 열: captured_hour (UTC, 'YYYY-MM-DDTHH:00:00Z')
     - 값: view_cnt (Int64; 결측은 NA)
     - 같은 시간/카테고리는 새 스냅샷으로 덮어씀(최근값 우선)
     """
     df = df.copy()
 
-    # ★ 타입 고정 (핵심)
+    # 1) 타입 고정
     df["category_no"] = df["category_no"].astype(str).str.zfill(8)
+    df["category_name"] = df["category_name"].astype(str)
     df["view_cnt"] = pd.to_numeric(df["view_cnt"], errors="coerce").fillna(0).astype("Int64")
 
-    # ★ 시각을 "정시 UTC"로 맞추고 문자열 컬럼 생성
+    # 2) 시각을 정시(UTC)로 맞추고 표시 문자열 생성
     df["captured_at_utc"] = pd.to_datetime(df["captured_at_utc"], utc=True).dt.floor("h")
     df["captured_hour"] = df["captured_at_utc"].dt.strftime("%Y-%m-%dT%H:00:00Z")
 
-    # 현재 스냅샷을 와이드로 피벗
+    # 3) 현재 스냅샷 피벗 (멀티인덱스)
     cur = (
         df.pivot_table(
-            index="category_no",
+            index=["category_no", "category_name"],
             columns="captured_hour",
             values="view_cnt",
-            aggfunc="max",
+            aggfunc="sum",
         )
         .astype("Int64")
+        .sort_index()
     )
 
+    # 4) 기존 매트릭스와 병합 (있으면 읽기)
     if WIDE_CSV.exists():
-        # 기존 파일 읽기: category_no를 인덱스로, 반드시 문자열로
-        old = pd.read_csv(WIDE_CSV, dtype={"category_no": str}, index_col="category_no")
-        old.index = old.index.astype(str).str.zfill(8)
-        old.columns = [str(c) for c in old.columns]  # 열 라벨 문자열화
+        # 멀티인덱스 그대로 복원
+        old = pd.read_csv(
+            WIDE_CSV,
+            dtype={"category_no": str, "category_name": str},
+        )
+        if not {"category_no", "category_name"}.issubset(old.columns):
+            # 혹시 과거에 단일 인덱스로 저장된 적이 있다면 안전탈출
+            old = old.rename(columns={old.columns[0]: "category_no"})
+            if "category_name" not in old.columns:
+                old["category_name"] = ""  # 최소한의 복구
+        old["category_no"] = old["category_no"].astype(str).str.zfill(8)
+        old = old.set_index(["category_no", "category_name"])
 
-        # 인덱스(카테고리) 풀 합집합으로 맞추기
+        # 숫자화(혹시 문자열 섞였어도 강제 숫자)
+        for c in old.columns:
+            old[c] = pd.to_numeric(old[c], errors="coerce").astype("Int64")
+
+        # 열 합집합으로 맞추고, 동일 열은 새값으로 덮어쓰기
         wide = old.reindex(index=old.index.union(cur.index))
-
-        # 열(시간) 추가/덮어쓰기: 같은 열이 있으면 새값으로 교체됨
         for col in cur.columns:
             wide[col] = cur[col]
-
     else:
         wide = cur
 
-    # ★ 정렬: 인덱스는 문자열 기준, 열은 시간 순서
-    wide.index = wide.index.astype(str)  # 혼합 타입 방지
-    # 열을 시간으로 파싱해 정렬 (파싱 실패시 맨 뒤)
+    # 5) 열 정렬(시간순)
     cols = list(wide.columns)
-    cols_sorted = sorted(
-        cols,
-        key=lambda s: pd.to_datetime(s, utc=True, errors="coerce").to_datetime64()
-                        if pd.to_datetime(s, utc=True, errors="coerce") is not pd.NaT else pd.NaT
-    )
-    # NaT(파싱 실패)가 있으면 뒤로 보내기
-    cols_sorted = [c for c in cols_sorted if str(c) != "NaT"] + [c for c in cols if pd.isna(pd.to_datetime(c, utc=True, errors="coerce"))]
+    parsed = pd.to_datetime(cols, utc=True, errors="coerce")
+    order = np.argsort(parsed.values)  # NaT는 뒤로 정렬됨
+    wide = wide.iloc[:, order]
 
-    # 판다스 1.x/2.x 호환: 인덱스 정렬은 key로 문자열 캐스팅
-    try:
-        wide = wide.sort_index(key=lambda idx: idx.astype(str))
-    except TypeError:
-        wide.index = wide.index.astype(str)
-        wide = wide.sort_index()
-
-    wide = wide.reindex(columns=cols_sorted)
-
-    # 저장 (엑셀/윈도에서 한글 깨짐 방지하려면 utf-8-sig)
+    # 6) 저장
     WIDE_CSV.parent.mkdir(parents=True, exist_ok=True)
-    wide.to_csv(WIDE_CSV, encoding="utf-8-sig")
+    out_df = wide.reset_index()  # 멀티인덱스를 두 컬럼으로 풀어 저장
+    out_df.to_csv(WIDE_CSV, index=False, encoding="utf-8-sig")
 
     return WIDE_CSV
 
