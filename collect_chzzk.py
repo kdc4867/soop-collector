@@ -37,6 +37,22 @@ WRITE_LIVE_SNAPSHOTS = os.getenv("WRITE_LIVE_SNAPSHOTS", "false").lower() == "tr
 PAGE_SIZE = 20
 SLEEP_BETWEEN = 0.25
 
+KEY_COLS = ["categoryType", "categoryId", "categoryValue"]
+
+def _read_wide_unique(path: Path, key_cols=KEY_COLS) -> pd.DataFrame:
+    """
+    기존 wide CSV를 읽되, 같은 (key_cols) 조합이 여러 줄이면
+    시간열별 최대값(max)으로 묶어 '유일 인덱스'로 만들어서 반환.
+    반환: index=MultiIndex(key_cols), 값 컬럼은 Int64
+    """
+    old = pd.read_csv(path, dtype=str)
+    num_cols = [c for c in old.columns if c not in key_cols]
+    for c in num_cols:
+        old[c] = pd.to_numeric(old[c], errors="coerce").astype("Int64")
+    old = (old.groupby(key_cols, dropna=False)[num_cols]
+              .max()
+              .reset_index())
+    return old.set_index(key_cols)
 
 def _utc_hour_iso(dt=None) -> str:
     if dt is None:
@@ -131,39 +147,35 @@ def upsert_category_matrix(df: pd.DataFrame) -> Path:
     - 값: concurrentUserCount 합계
     """
     df = _ensure_cat_cols(df)
+    CAT_WIDE.parent.mkdir(parents=True, exist_ok=True)
+
     if df.empty:
-        CAT_WIDE.parent.mkdir(parents=True, exist_ok=True)
         if not CAT_WIDE.exists():
-            pd.DataFrame(columns=["categoryType","categoryId","categoryValue"]).to_csv(CAT_WIDE, index=False, encoding="utf-8-sig")
+            pd.DataFrame(columns=KEY_COLS).to_csv(CAT_WIDE, index=False, encoding="utf-8-sig")
         return CAT_WIDE
 
     ts_col = _utc_hour_iso()
-    need = ["categoryType","categoryId","categoryValue","concurrentUserCount"]
-    cur = (df[need]
+    # 현재 스냅샷을 바로 GroupBy → Series(MultiIndex)로
+    cur = (df[KEY_COLS + ["concurrentUserCount"]]
            .assign(concurrentUserCount=pd.to_numeric(df["concurrentUserCount"], errors="coerce").fillna(0).astype("Int64"))
-           .groupby(["categoryType","categoryId","categoryValue"], dropna=False)["concurrentUserCount"]
-           .sum().astype("Int64").rename(ts_col).reset_index())
+           .groupby(KEY_COLS, dropna=False)["concurrentUserCount"]
+           .sum().astype("Int64"))
 
-    cur_pivot = (cur.pivot_table(index=["categoryType","categoryId","categoryValue"],
-                                 values=ts_col, aggfunc="last").astype("Int64"))
-
+    # 과거 파일 읽기(있다면) + 중복 유일화
     if CAT_WIDE.exists():
-        old = pd.read_csv(CAT_WIDE, dtype=str)
-        num_cols = [c for c in old.columns if c not in ("categoryType","categoryId","categoryValue")]
-        for c in num_cols:
-            old[c] = pd.to_numeric(old[c], errors="coerce").astype("Int64")
-        old = old.set_index(["categoryType","categoryId","categoryValue"])
-        wide = old.reindex(index=old.index.union(cur_pivot.index))
-        wide[ts_col] = cur_pivot
+        old = _read_wide_unique(CAT_WIDE, KEY_COLS)
+        wide = old.reindex(index=old.index.union(cur.index))
     else:
-        wide = cur_pivot
+        wide = pd.DataFrame(index=cur.index)
 
+    wide[ts_col] = cur
+
+    # 시간열 정렬
     cols = list(wide.columns)
     order = np.argsort(pd.to_datetime(cols, utc=True, errors="coerce").values)
     wide = wide.iloc[:, order]
 
     out_df = wide.reset_index()
-    CAT_WIDE.parent.mkdir(parents=True, exist_ok=True)
     out_df.to_csv(CAT_WIDE, index=False, encoding="utf-8-sig")
     return CAT_WIDE
 
@@ -177,43 +189,36 @@ def upsert_game_categories_matrix(df: pd.DataFrame) -> Path:
     - 값: concurrentUserCount 합계
     """
     df = _ensure_cat_cols(df)
-    if df.empty:
-        return GAME_CAT_WIDE
+    GAME_CAT_WIDE.parent.mkdir(parents=True, exist_ok=True)
 
     game = df[df.get("categoryType", "").astype(str) == "GAME"].copy()
     if game.empty:
         if not GAME_CAT_WIDE.exists():
-            pd.DataFrame(columns=["categoryType","categoryId","categoryValue"]).to_csv(GAME_CAT_WIDE, index=False, encoding="utf-8-sig")
+            pd.DataFrame(columns=KEY_COLS).to_csv(GAME_CAT_WIDE, index=False, encoding="utf-8-sig")
         return GAME_CAT_WIDE
 
     ts_col = _utc_hour_iso()
-    game["concurrentUserCount"] = pd.to_numeric(game["concurrentUserCount"], errors="coerce").fillna(0).astype("Int64")
-
-    cur = (game.groupby(["categoryType","categoryId","categoryValue"], dropna=False)["concurrentUserCount"]
-                .sum().astype("Int64").rename(ts_col).reset_index())
-
-    cur_pivot = (cur.pivot_table(index=["categoryType","categoryId","categoryValue"],
-                                 values=ts_col, aggfunc="last").astype("Int64"))
+    cur = (game[KEY_COLS + ["concurrentUserCount"]]
+           .assign(concurrentUserCount=pd.to_numeric(game["concurrentUserCount"], errors="coerce").fillna(0).astype("Int64"))
+           .groupby(KEY_COLS, dropna=False)["concurrentUserCount"]
+           .sum().astype("Int64"))
 
     if GAME_CAT_WIDE.exists():
-        old = pd.read_csv(GAME_CAT_WIDE, dtype=str)
-        num_cols = [c for c in old.columns if c not in ("categoryType","categoryId","categoryValue")]
-        for c in num_cols:
-            old[c] = pd.to_numeric(old[c], errors="coerce").astype("Int64")
-        old = old.set_index(["categoryType","categoryId","categoryValue"])
-        wide = old.reindex(index=old.index.union(cur_pivot.index))
-        wide[ts_col] = cur_pivot
+        old = _read_wide_unique(GAME_CAT_WIDE, KEY_COLS)
+        wide = old.reindex(index=old.index.union(cur.index))
     else:
-        wide = cur_pivot
+        wide = pd.DataFrame(index=cur.index)
+
+    wide[ts_col] = cur
 
     cols = list(wide.columns)
     order = np.argsort(pd.to_datetime(cols, utc=True, errors="coerce").values)
     wide = wide.iloc[:, order]
 
     out_df = wide.reset_index()
-    GAME_CAT_WIDE.parent.mkdir(parents=True, exist_ok=True)
     out_df.to_csv(GAME_CAT_WIDE, index=False, encoding="utf-8-sig")
     return GAME_CAT_WIDE
+
 
 
 def upsert_details_matrix_top100(df: pd.DataFrame) -> Path:
