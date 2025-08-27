@@ -1,4 +1,12 @@
 ﻿categoryType,categoryId,categoryValue,2025-08-27T03:00:00Z
+ENTERTAINMENT,drama,드라마,221
+ENTERTAINMENT,show,예능,2565
+ETC,art,그림/아트,370
+ETC,mukbang,먹방/쿡방,476
+ETC,music,음악/노래,1024
+ETC,news,시사/경제,0
+ETC,sci_tech,과학/기술,0
+ETC,talk,talk,9607
 GAME,ASTRONEER,아스트로니어,4
 GAME,Afterimage,애프터이미지,1
 GAME,Albion_Online,알비온 온라인,7
@@ -6,7 +14,6 @@ GAME,Animal_Crossing_New_Horizons,모여봐요 동물의 숲,20
 GAME,Apex_Legends,에이펙스 레전드,88
 GAME,Arena_Breakout,아레나 브레이크아웃,17
 GAME,Assassins_Creed_Mirage,어쌔신 크리드 미라지,1
-GAME,Auto_Chess,오토체스,
 GAME,BIOHAZARD_RE4,바이오하자드 RE:4,5
 GAME,BIOHAZARD_VILLAGE,바이오하자드 빌리지,280
 GAME,BLEACH_Soul_Resonance,블리치: 소울 레조넌스,20
@@ -32,9 +39,7 @@ GAME,Cyberpunk2077_Phantom_Liberty,사이버펑크 2077: 팬텀 리버티,12
 GAME,Cyphers,사이퍼즈,67
 GAME,DARK_SOULS_III,다크 소울 3,1
 GAME,DEAD_BY_DAYLIGHT,데드 바이 데이라이트,310
-GAME,DEAD_ISLAND2,데드 아일랜드 2,
 GAME,DIGIMON_MASTERS,디지몬마스터즈,13
-GAME,DOOM_The_Dark_Ages,둠: 더 다크 에이지스,
 GAME,DRAGON_BALL_THE_BREAKERS,드래곤볼 더 브레이커즈,279
 GAME,Dark_Souls_II,다크 소울 2,4
 GAME,Dark_Souls_Remastered,다크 소울 리마스터,2
@@ -57,7 +62,6 @@ GAME,EA_SPORTS_FC25,EA 스포츠 FC 25,3
 GAME,EZ2ON_REBOOT_R,이지투온 리부트: R,4
 GAME,Elden_Ring,엘든 링,5
 GAME,Elden_Ring_Nightreign,ELDEN RING 밤의 통치자,6
-GAME,Epic_Seven,에픽세븐,
 GAME,Erion,에리온: 용과 마법의 시대,10
 GAME,Escape_from_Tarkov,이스케이프 프롬 타르코프,374
 GAME,Euro_Truck_Simulator2,유로 트럭 시뮬레이터 2,0
@@ -67,7 +71,6 @@ GAME,FINAL_FANTASY_XIV,파이널판타지14,29
 GAME,Factorio,팩토리오,1
 GAME,Fall_Guys_Ultimate_Knockout,폴가이즈,9
 GAME,Farlight_84,파라이트 84,3
-GAME,Fate_Grand_order,페이트/그랜드 오더,
 GAME,Fire_Emblem_Warriors_Three_Hopes,파이어 엠블렘 무쌍 풍화설월,1
 GAME,FlyffUniverse,프리프 유니버스,0
 GAME,Football_Manager_2024,풋볼 매니저 2024,3
@@ -109,7 +112,6 @@ GAME,Marvel_Rivals,마블 라이벌즈,20
 GAME,Marvel_Snap,마블스냅,5
 GAME,MiSide,미사이드,6
 GAME,Minecraft,마인크래프트,114
-GAME,Monster_Hunter3_Ultimate,몬스터 헌터 3G,
 GAME,Monster_Hunter_Rise,몬스터 헌터 라이즈,6
 GAME,Monster_Hunter_Rise_SunBreak,몬스터 헌터 라이즈: 선브레이크,4
 GAME,Monster_Hunter_Wilds,몬스터 헌터 와일즈,211
@@ -118,10 +120,8 @@ GAME,NBA_2K25,NBA 2K25,1
 GAME,NIKKE_The_Goddess_of_Victory,승리의 여신: 니케,370
 GAME,NINJA_GAIDEN2Black,닌자 가이덴 2 블랙,21
 GAME,Naruto_Shippuden_Ultimate_Ninja_Storm4,나루토 질풍전: 나루티밋 스톰 4,22
-GAME,Nioh,인왕,
 GAME,Nioh2_The_Complete_Edition,인왕 2 더 컴플리트 에디션,1
 GAME,No_Man's_Sky,노 맨즈 스카이,0
-GAME,OCTOPATH_TRAVELER2,옥토패스 트래블러 II,
 GAME,OVERWATCH,오버워치 2,676
 GAME,Once_Human,Once Human,50
 GAME,Oxygen_Not_Included,산소미포함,2
@@ -130,13 +130,11 @@ GAME,PEAK,피크,35
 GAME,Palworld,팰월드,17
 GAME,Path_of_Exile2,패스 오브 엑자일 2,278
 GAME,Phasmophobia,파스모포비아,14
-GAME,Phoenix_Wright_Ace_Attorney_Trilogy,역전재판 123 나루호도 셀렉션,
 GAME,Player_Unknowns_Battle_Grounds,PUBG: 배틀그라운드,94
 GAME,Pokemon_Red,포켓몬스터 적,2
 GAME,Pokemon_Scarlet_Violet,포켓몬스터 스칼렛 · 바이올렛,49
 GAME,Pokemon_Soul_Silver,포켓몬스터 소울실버,2
 GAME,Pokemon_Unite,포켓몬 유나이트,6
-GAME,Poppy_Playtime_Chapter3,파피 플레이타임 - 챕터 3,
 GAME,Project_SEKAI_COLORFUL_STAGE,프로젝트 세카이 컬러풀 스테이지! feat.하츠네 미쿠,2
 GAME,Project_Zomboid,프로젝트 좀보이드,33
 GAME,Pump_It_Up,펌프 잇 업 피닉스,0
@@ -156,10 +154,7 @@ GAME,Sephiria,세피리아,7
 GAME,Shadow_Corridor,그림자 복도,108
 GAME,Shadow_Corridor2,그림자 복도 2: 비의 수국,44
 GAME,Shadowverse_Worlds_Beyond,섀도우버스 월즈 비욘드,19
-GAME,Skull_Hotel,스컬 호텔,
 GAME,Smalland,스몰랜드: 서바이브 더 와일드,16
-GAME,Spelunky2,스펠렁키 2,
-GAME,Splatoon3,스플래툰 3,
 GAME,StarCraft_II_Wings_of_Liberty,스타크래프트 II : 자유의 날개,0
 GAME,StarCraft_Remastered,스타크래프트 : 리마스터,161
 GAME,Starcraft_II_Legacy_of_the_Void,스타크래프트 II : 공허의 유산,42
@@ -183,7 +178,6 @@ GAME,The_Last_of_Us_Part1,더 라스트 오브 어스 파트 1,3
 GAME,The_Legend_of_Zelda_Breath_of_the_Wild,젤다의 전설 브레스 오브 더 와일드,11
 GAME,The_Legend_of_Zelda_Tears_of_the_Kingdom,젤다의 전설 티어스 오브 더 킹덤,2
 GAME,The_Long_Dark,더 롱 다크,10
-GAME,The_Planet_Crafter,플래닛 크래프터,
 GAME,The_Witcher3_Wild_Hunt,더 위쳐 3: 와일드 헌트,9
 GAME,Tom_Clancys_The_Division2,톰 클랜시의 더 디비전 2,21
 GAME,Tomb_Raider,툼 레이더,0
@@ -222,6 +216,8 @@ GAME,osu,osu!,4
 GAME,playinzoi,인조이,1
 GAME,racingmaster,레이싱 마스터,44
 GAME,rememento,리메멘토 - 하얀 그림자,0
-GAME,sena_rebirth,세븐나이츠 리버스,
 GAME,supervive,슈퍼바이브,21
 GAME,various_games,종합 게임,454
+None,,,87
+None,None,,90
+SPORTS,sports,스포츠,1
