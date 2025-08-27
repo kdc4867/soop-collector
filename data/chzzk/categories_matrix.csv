@@ -1,929 +1,931 @@
-﻿categoryType,categoryId,categoryValue,2025-08-27T07:00:00Z,2025-08-27T08:00:00Z,2025-08-27T09:00:00Z,2025-08-27T10:00:00Z,2025-08-27T11:00:00Z,2025-08-27T12:00:00Z,2025-08-27T13:00:00Z,2025-08-27T14:00:00Z,2025-08-27T15:00:00Z,2025-08-27T16:00:00Z,2025-08-27T17:00:00Z,2025-08-27T18:00:00Z
-ENTERTAINMENT,drama,드라마,243,190,333,241,214,210,209,207,179,175,171,204
-ENTERTAINMENT,movie,영화,,,,14,18,,,,,,,
-ENTERTAINMENT,show,예능,2447,2007,1827,1988,2346,2075,2205,2162,2000,1987,1806,1630
-ETC,art,그림/아트,706,640,697,854,873,940,1101,883,756,582,477,211
-ETC,asmr,ASMR,1,0,62,2,21,256,646,738,729,575,629,70
-ETC,mukbang,먹방/쿡방,831,9,0,0,5,24,5,137,116,12,5,21
-ETC,music,음악/노래,1036,1876,1274,3736,8725,6536,9997,6321,7353,4223,3407,2145
-ETC,news,시사/경제,0,0,0,16,20,7,7,0,0,0,0,0
-ETC,sci_tech,과학/기술,,,,,2,1,4,5,0,8,7,11
-ETC,talk,talk,9914,7147,16518,26530,45995,47423,43135,38804,20741,16167,13311,9350
-GAME,428_Shibuya_Scramble,428 ~봉쇄된 시부야에서~,,,,,4,13,,,,,,
-GAME,60_Seconds_Reatomized,60 세컨즈! 리아토마이즈드,,,,,,1,11,21,,,,
-GAME,7_Days_to_Die,세븐 데이즈 투 다이,3,3,6,13,29,21,20,25,22,36,35,
-GAME,9Kings,나인 킹즈,0,1,1,,,,,1,1,,,
-GAME,ABZU,압주,,,,,,,5,9,,,,
-GAME,ACE_COMBAT7_Skies_Unknown,에이스컴뱃 7: 스카이즈 언노운,,,,2,,,,,,,,
-GAME,AI_LIMIT,AI 리미트,0,0,1,1,2,2,0,0,,,,
-GAME,ALBEDO_CHARTA,백야기담,,,,,,,,,5,9,5,11
-GAME,ALTF4,ALTF4,,,,,,,1,0,0,3,,
-GAME,ANNO1800,아노 1800,28,5,15,18,18,7,9,,,,,
-GAME,ARK_Survival_Ascended,아크: 서바이벌 어센디드,,,,,,43,78,205,123,120,130,137
-GAME,ARK_Survival_Evolved,아크: 서바이벌 이볼브드,,,,,,11,6,6,8,13,4,
-GAME,ARMORED_CORE6,아머드 코어 VI 루비콘의 화염,,,,,3,21,25,7,6,,,
-GAME,ASSASSINS_CREED_ODYSSEY,어쌔신 크리드: 오디세이,,,,,,,,,1,1,1,2
-GAME,ASTRONEER,아스트로니어,8,,,1,1,2,2,1,,7,8,7
-GAME,ASURAJANG,아수라장,,,,,,32,23,30,18,7,9,
-GAME,A_Dance_of_Fire_and_Ice,불과 얼음의 춤,,3,6,2,12,14,48,41,22,4,,
-GAME,A_Hat_in_Time,어 햇 인 타임,,,,,,3,3,3,,,,
-GAME,A_Little_to_the_Left,어 리틀 투 더 레프트,,,,,,6,,6,7,4,5,5
-GAME,A_Night_Duty,당직근무,,,,,,,,3,2,,,
-GAME,A_Plague_Tale_Requiem,플래그 테일: 레퀴엠,,,,,1,1,1,,,2,2,0
-GAME,A_Street_Cats_Tale,길고양이 이야기,,,,,,2,4,2,,,,
-GAME,Abiotic_Factor,에이바이오틱 팩터,4,4,,,3,9,9,3,3,8,4,6
-GAME,Abraham_Test,아브라함 테스트,,,,,,4,4,,,,,
-GAME,Absolute_Fear_AOONI,절대 공포 -아오오니-,,,,,,,,,,,,41
-GAME,Ace_Attorney_Investigations_Collection,역전검사 1&2 미츠루기 셀렉션,,,,,,6,14,15,5,,,
-GAME,Afterimage,애프터이미지,3,1,,,,,,,,,,
-GAME,Against_the_Storm,어게인스트 더 스톰,,,,,,,0,1,1,,,
-GAME,Age_of_Empires4,에이지 오브 엠파이어 4,5,5,0,3,4,5,11,8,56,235,122,113
-GAME,Age_of_Empires_II_Definitive_Edition,에이지 오브 엠파이어 2: 디피니티브 에디션,,,,,,,,,1,2,1,
-GAME,Aion,아이온,,,,0,0,0,0,0,0,0,,
-GAME,Aion_Classic,아이온 클래식,1,0,0,2,0,0,1,0,,1,1,0
-GAME,Albion_Online,알비온 온라인,,,,,,5,5,,,,,
-GAME,Ale_Tale_Tavern,에일 & 테일 태번,,,,,,3,3,,,,,
-GAME,Alehouse_Tavern_Simulator,에일하우스 태번 시뮬레이터,,,,,8,,,,,,,
-GAME,Alien_Isolation,에이리언: 아이솔레이션,0,1,5,,,5,6,7,,,,
-GAME,Alien_Swarm_Reactive_Drop,에일리언 스웜: 리액티브 드롭,0,,,,,,,,,,,
-GAME,Aliens_Fireteam_Elite,에이리언: 파이어팀 엘리트,,,,,,,0,,,,,
-GAME,All_About_Chopsticks,젓가락질 개론,,,45,,,,,70,78,37,,
-GAME,All_in_Abyss_Judge_the_Fake,올인 어비스 : 속임수를 심판하라,,,,,,,,,3,1,,
-GAME,Amenti,아멘티,,,,,,,,3,4,,,
-GAME,American_Truck_Simulator,아메리칸 트럭 시뮬레이터,,,,,1,,,,,,,
-GAME,Angels_of_Death,살육의 천사,3,3,4,,,,,,,,,
-GAME,Angry_Birds2,앵그리버드 2,,,,,,,,5,,,,
-GAME,Animal_Crossing_New_Horizons,모여봐요 동물의 숲,16,13,,,1,33,11,17,9,4,14,
-GAME,Apex_Legends,에이펙스 레전드,244,147,129,206,219,281,211,189,162,192,121,84
-GAME,Apollo_Justice_Ace_Attorney_Trilogy,역전재판 456 오도로키 셀렉션,,,,,2,3,3,4,,,,
-GAME,Arena_Breakout,아레나 브레이크아웃,44,48,80,23,71,87,93,75,56,35,22,20
-GAME,Arknights,명일방주,3,3,7,86,53,22,26,24,152,126,110,15
-GAME,Arma3,아르마 3,,,,,,1,,,,,,
-GAME,Arma_Reforger,아르마 리포저,,,8,9,8,,,,,,,
-GAME,Artis_Impact,아르티스 임팩트,3,1,1,5,3,15,23,23,3,3,5,24
-GAME,Assassins_Creed2,어쌔신 크리드 2,,,,,,2,2,1,11,,,
-GAME,Assassins_Creed_Mirage,어쌔신 크리드 미라지,,,,,,2,3,2,2,2,2,3
-GAME,Assassins_Creed_Origin,어쌔신 크리드: 오리진,,,,,2,7,,,,,,
-GAME,Assassins_Creed_Unity,어쌔신 크리드: 유니티,2,1,,,,,,,2,1,1,
-GAME,Assetto_Corsa_Competizione,아세토 코르사 컴페티치오네,,,,2,6,3,,,,,,
-GAME,AtelierYumia_AlchemistMemories_EnvisionedLand,유미아의 아틀리에 ~추억의 연금술사와 창환의 땅~,,,,,,,,18,12,,9,10
-GAME,Atelier_Lydie_Suelle_Alchemist_of_the_Mysterious_Painting,리디 & 수르의 아틀리에 ~신비한 그림의 연금술사~,,,1,2,3,3,3,3,,,,
-GAME,Atelier_Ryza_Ever_Darkness_the_Secret_Hideout,라이자의 아틀리에 ~어둠의 여왕과 비밀의 은신처~,,,,,,,1,3,4,,,
-GAME,Atomfall,아톰폴,6,6,5,,,,,,,,,
-GAME,Auto_Chess,오토체스,,,,2,1,,,,,,,
-GAME,Avowed,어바우드,1,1,1,1,1,,,,,,,
-GAME,Azur_Lane,벽람항로,,,,,7,10,9,10,11,10,,
-GAME,BAKERU,바케루,,,,,,,,,,2,,
-GAME,BATTLEFIELD4,배틀필드 4,,,,,,,,,,1,,
-GAME,BATTLE_FIELD3,배틀필드 3,,,,,3,4,4,4,4,,,
-GAME,BIOHAZARD7_resident_evil,바이오하자드 7 레지던트 이블,,8,,3,3,24,17,22,2,2,2,8
-GAME,BIOHAZARD_RE4,바이오하자드 RE:4,4,4,4,4,9,,6,7,55,56,,
-GAME,BIOHAZARD_RE_3,바이오하자드 RE:3,,,,,,,1,4,4,1,3,6
-GAME,BIOHAZARD_VILLAGE,바이오하자드 빌리지,,,1,2,7,6,1,1,3,1,1,1
-GAME,BLACK_SURVIVAL,블랙서바이벌,27,14,15,31,18,34,37,35,41,23,27,15
-GAME,BLAZBLUE_CROSS_TAG_BATTLE,블레이블루 크로스 태그 배틀,,,,,0,,,,,,,
-GAME,BNS_NEO,블레이드 & 소울 네오,,6,6,,,2,2,2,4,,,
-GAME,BOKURA,다른 겨울의 우리들,,,,,,,2,2,2,,,
-GAME,Baba_Is_You,바바 이즈 유,,,,,,3,6,3,,,,
-GAME,Back_to_the_Dawn,백 투 더 던,13,9,8,7,9,16,19,11,10,9,6,
-GAME,Backpack_Battles,백팩 배틀즈,,,,,6,7,20,,10,12,9,
-GAME,Backroom_Company,백룸컴퍼니,10,,,,4,22,25,14,9,,,
-GAME,Backrooms_Escape_Together,백룸: 이스케이프 투게더,,,,5,,,,,,,,
-GAME,Balatro,발라트로,,83,83,85,,,,,,,,
-GAME,Baldurs_Gate3,발더스 게이트 3,8,9,8,12,11,14,27,30,37,36,9,11
-GAME,Battle_Brothers,배틀 브라더스,,,,,1,3,27,1272,1244,0,1129,997
-GAME,Battlefield1,배틀필드 1,,,,,,,,,1,,,
-GAME,Battlefield2042,배틀필드 2042,2,1,4,55,160,207,72,70,1,,2,2
-GAME,Battlefield6,배틀필드 6,1,1,1,,,,,,,,,
-GAME,Best_Served_Cold,베스트 서브드 콜드,,,,,,4,7,,,,,
-GAME,Beyond_Citadel,비욘드 시타델,,,,,1,1,1,1,,,,
-GAME,Beyond_the_Map,비욘드 더 맵,3,2,1,,3,9,3,,,,,
-GAME,Biped,바이페드,,,,,2,16,5,,,,,
-GAME,Birdie_Crush,버디크러시,,,,,,,,,,0,0,
-GAME,BitCraft_Online,비트크래프트 온라인,,,,,1,2,3,,5,,,
-GAME,Black_Desert,검은사막,1060,1057,1105,1195,1404,1246,1143,1294,999,833,776,765
-GAME,Black_Myth_Wukong,검은 신화: 오공,5,1,2,0,,3,3,3,8,10,7,3
-GAME,Black_Squad,블랙스쿼드,0,0,0,0,0,0,0,0,0,0,0,0
-GAME,Black_Survival_Eternal_Return,이터널 리턴,4544,3428,3153,2458,5026,6040,5843,4423,4915,4977,4253,3012
-GAME,Blade_Soul,블레이드 & 소울,1,0,,,3,,2,2,,,,
-GAME,Blade_and_Sorcery,블레이드 앤 소서리,,,,,2,2,,,,,,
-GAME,Blair_Witch,블레어 위치,,,,,,,2,2,0,,,
-GAME,Blue_Archive,블루 아카이브,29,147,147,101,192,185,300,319,221,184,50,50
-GAME,Borderlands3,보더랜드 3,,,,,0,0,1,0,,,,
-GAME,Brawl_Stars,브롤스타즈,,,,5,1,1,1,,,,,
-GAME,Broken_Arrow,브로큰 애로우,,,,,,,,,,2,4,2
-GAME,Brotato,브로테이토,,,,,,,8,11,,,0,
-GAME,BrownDust2,브라운더스트2,,,14,8,17,18,25,13,7,12,11,
-GAME,CLAIR_OBSCUR_EXPEDITION33,클레르 옵스퀴르: 33 원정대,9,8,10,5,8,9,7,11,15,2,6,11
-GAME,CLOSERS,클로저스,,,,,,10,23,17,16,13,14,12
-GAME,COUNTERSIDE,카운터사이드,5,,,,,,,13,12,0,,
-GAME,CRAZY_ARCADE_BnB,크레이지 아케이드 비엔비,,,,,,1,3,2,,,,
-GAME,Call_of_Duty_Black_Ops6,콜 오브 듀티: 블랙 옵스 6,,,,,2,6,1,0,9,13,12,
-GAME,Call_of_Duty_Warzone,콜 오브 듀티 : 워존,13,0,15,22,11,12,11,14,12,5,3,5
-GAME,Call_of_Duty_World_at_War,콜 오브 듀티: 월드 앳 워,,,,2,5,,,,,,,
-GAME,Captain_Tsubasa_Rise_of_New_Champions,캡틴 츠바사: 라이즈 오브 뉴 챔피언스,639,509,453,446,,,,,,,,
-GAME,Card_Survival_Fantasy_Forest,카드 서바이벌 : 몽환의 숲,1,1,1,,,,,,,,,
-GAME,Cat_in_the_Box,캣 인 더 박스,,,,,,14,8,,,,,
-GAME,Celeste,셀레스트,1,1,0,0,1,,,,,,,
-GAME,Chaos_Online,카오스온라인,,,,,,,,,0,1,,
-GAME,Chasing_Light,체이싱 라이트,,,,,0,0,,,,,,
-GAME,Chess_com,체스 닷컴,,,0,,,17,12,32,13,5,7,
-GAME,Children_of_Morta,칠드런 오브 몰타,,,,,,,,1,0,0,,
-GAME,Cities_Skylines,시티즈: 스카이 라인,493,439,430,488,,,,,2,2,2,2
-GAME,Cities_Skylines2,시티즈: 스카이라인 II,,,,,2,7,34,32,26,,,
-GAME,Clash_of_Clans,클래시 오브 클랜,,,,0,0,1,0,,,,,
-GAME,CloverPit,클로버핏,,,,,,26,26,,,,,
-GAME,Com2us_ProBaseballV22,컴투스프로야구V25,,,,,,,18,52,24,18,14,14
-GAME,Company_of_Heroes,컴퍼니 오브 히어로즈,,,,,,,,1,1,,,
-GAME,Company_of_Heroes3,컴퍼니 오브 히어로즈 3,0,13,20,11,,3,15,15,27,17,34,
-GAME,Conquerors_Blade,컨커러스 블레이드,,,13,32,45,45,2,0,0,0,1,1
-GAME,Contraband_Police,콘트라밴드 폴리스,,,,,11,,,,,,,
-GAME,ContractVille,콘트랙트빌,,,,,,,6,4,,,,
-GAME,ContractXLove,계약X연애,,,,,,17,13,19,4,3,,
-GAME,CookieRun_Tower_of_Adventures,쿠키런: 모험의 탑,,,,,,,5,5,,,,
-GAME,Cookie_Run_KINGDOM,쿠키런: 킹덤,4,3,2,3,12,8,5,1,,8,7,0
-GAME,Cookie_Run_OvenBreak,쿠키런 : 오븐브레이크,2,,,,,3,1,1,1,2,,
-GAME,Cooking_Simulator,쿠킹 시뮬레이터,,,,,5,6,5,,,,,
-GAME,CoopTD,협동타워디펜스,0,0,,,,,,,,,,
-GAME,Coral_Island,코랄 아일랜드,,,,,,4,5,5,,,,
-GAME,Core_Keeper,코어 키퍼,11,4,13,6,71,86,77,65,50,13,7,5
-GAME,Counter_Strike_Global_Offensive,카운터 스트라이크 2,6,4,39,34,45,48,72,13,30,15,14,6
-GAME,Counter_Strike_Online,카운터-스트라이크 온라인,,,,,,,,,15,5,3,
-GAME,Crime_Scene_Cleaner,크라임 씬 클리너,,,,,,,,7,38,40,40,
-GAME,Crusader_Kings3,크루세이더 킹즈 3,,,,,5,5,6,7,6,,,
-GAME,Crypt_of_the_NecroDancer,크립트 오브 더 네크로댄서,1,1,1,1,1,1,1,,,,,
-GAME,Crystal_of_Atlan,CoA: 아틀란의 크리스탈,,,,5,,,1186,1036,,,,
-GAME,Cube_Escape_Collection,큐브 이스케이프 컬렉션,,,,,,5,4,4,3,,,
-GAME,Cult_of_the_Lamb,컬트 오브 더 램,,,,6,,4,3,,,,,
-GAME,Cursed_Digicam,커스드 디지캠,,,,,,6,5,,,,,
-GAME,Cursed_Shorts,지옥의 짧은 영상,,,,,,,,11,,,,
-GAME,Cyberpunk2077,사이버펑크 2077,15,41,32,38,39,16,24,29,15,4,5,2
-GAME,Cyberpunk2077_Phantom_Liberty,사이버펑크 2077: 팬텀 리버티,13,15,16,16,,,4,7,3,5,7,2
-GAME,Cyberpunk2077_Ultimate_Edition,사이버펑크 2077: 얼티밋 에디션,29,,,8,5,4,6,13,18,,,
-GAME,Cyphers,사이퍼즈,70,78,56,88,99,172,283,326,288,138,108,86
-GAME,DARKEDEN,다크에덴,,,,,0,0,0,0,,,,
-GAME,DARKEDEN_M,다크에덴M,,,,,,1,,,,,,
-GAME,DARK_SOULS_III,다크 소울 3,3,1,5,,3,8,29,44,21,,,7
-GAME,DEAD_BY_DAYLIGHT,데드 바이 데이라이트,204,269,364,366,886,5403,7120,13112,11977,5961,5362,4465
-GAME,DEAD_OR_ALIVE_Xtreme_Venus_Vacation,데드 오어 얼라이브 익스트림 비너스 베케이션,3,7,8,5,,5,6,,,,,
-GAME,DEKARON,데카론,,,,,0,,,,,,,
-GAME,DIGIMON_MASTERS,디지몬마스터즈,10,16,7,9,33,56,40,28,29,31,9,
-GAME,DIGIMON_STORY_CYBER_SLEUTH_HACKERS_MEMORY,디지몬 스토리 사이버 슬루스 해커스 메모리,,,,,,1,2,,,,,
-GAME,DISTRAINT_Deluxe_Edition,디스트레인트: 디럭스 에디션,,,,,2,5,5,,,,,
-GAME,DJMAX_RESPECT,디제이맥스 리스펙트,,,,,,,37,,,,,
-GAME,DJMAX_RESPECT_V,디제이맥스 리스펙트 V,26,17,47,46,63,49,52,34,30,18,24,25
-GAME,DONKEY_KONG_BANANZA,동키콩 바난자,1,2,2,,3,7,4,0,3,,,
-GAME,DRAGON_BALL_THE_BREAKERS,드래곤볼 더 브레이커즈,447,381,326,127,135,3,10,7,2,,,
-GAME,DRAGON_QUEST_HEROES_II,드래곤 퀘스트 히어로즈 II : 쌍둥이 왕과 예언의 끝,,,,,,,,,,2,,
-GAME,DRAGON_QUEST_III_HD2D_Remake,드래곤 퀘스트 III HD-2D Remake,,,,,,0,0,0,,,,
-GAME,DREDGE,드렛지,,,,,,,,5,4,,,
-GAME,DYSMANTLE,디스맨틀,,,,,0,,,,,,,
-GAME,Danganronpa_Trigger_Happy_Havoc,단간론파: 희망의 학원과 절망의 고교생,,,,,67,68,67,72,59,77,79,51
-GAME,Danganronpa_V3_Killing_Harmony,뉴 단간론파 V3: 모두의 살인 신학기,,,,,1,1,,,,,,
-GAME,DarkTide,워해머 40K: 다크타이드,,,,,8,25,55,31,18,9,10,12
-GAME,Dark_Deception,다크 디셉션,,,,,,,,,12,11,,
-GAME,Dark_Devotion,다크 디보션,,,,,,,,,,2,1,
-GAME,Dark_Hours,다크 아워스,,,,,25,29,6,7,6,,,
-GAME,Dark_Souls_II,다크 소울 2,8,7,9,4,4,14,19,18,15,15,10,
-GAME,Dark_and_Darker,다크 앤 다커,43,182,144,123,53,117,80,171,96,27,4,17
-GAME,Dark_and_Darker_Mobile,어비스 오브 던전,,,,,,,2,3,4,,,
-GAME,Darkest_Dungeon,다키스트 던전,7,11,3,10,17,22,69,38,29,1,0,
-GAME,Dave_The_Diver,데이브 더 다이버,2,3,2,,,,0,0,2,,,5
-GAME,DayZ,데이즈,1,3,5,10,8,,,,,,,1
-GAME,Dead_Space,데드 스페이스(2008),,,,,,,,3,,4,,
-GAME,Dead_Space_Remake,데드 스페이스,,,,,,3,4,10,5,2,,
-GAME,Deadlock,데드락,11,59,55,44,1364,2164,2258,2140,1902,1844,180,122
-GAME,Deadzone_Rogue,데드존: 로그,,,,,,,9,3,4,,,
-GAME,Death_Stranding2_On_the_Beach,데스 스트랜딩 2: 온 더 비치,8,0,0,0,,64,7,12,5,1,1,1
-GAME,Death_Stranding_Directors_Cut,데스 스트랜딩 디렉터스 컷,2,2,3,,,,,,194,93,90,93
-GAME,Deaths_Door,데스 도어,,,1,,,,,,0,,,
-GAME,Debugging_Hero,디버깅 히어로,,,29,,36,34,36,,,,,
-GAME,Deep_Rock_Galactic,딥 락 갤럭틱,3,,,,17,13,12,,2,,,
-GAME,Deep_Rock_Galactic_Survivor,딥 락 갤럭틱: 서바이버,,,,,,,,,,2,3,
-GAME,DeltaForce_HawkOps,델타포스,137,132,159,273,181,272,261,238,151,185,141,102
-GAME,Deltarune,델타룬,3,3,3,,33,,40,39,36,98,69,62
-GAME,Demon_Slayer_Kimetsu_no_Yaiba_THC2,귀멸의 칼날 히노카미 혈풍담2,,,8,8,,2,9,8,,,,
-GAME,Demonologist,데모놀로지스트,,,,,,6,4,8,,,,
-GAME,Depersonalization,인격해체,,,,,1,1,2,2,2,1,,
-GAME,Destiny2_The_Edge_of_Fate,데스티니 가디언즈: 운명의 경계,10,11,11,,,,,,,,,
-GAME,Destiny_Guardians,데스티니 가디언즈,,,,1,,8,11,8,,,,
-GAME,Detroit_Become_Human,디트로이트: 비컴 휴먼,,,,,,10,10,4,4,,,
-GAME,Devil_May_Cry4,데빌 메이 크라이 4,,,,,,,,0,,,,
-GAME,Devil_May_Cry5,데빌 메이 크라이 5,,,,,,,,,,,1,2
-GAME,Diablo2_Resurrected,디아블로 II: 레저렉션,70,35,55,57,386,219,409,207,59,101,58,54
-GAME,Diablo3_Rise_of_the_Necromancer,디아블로 3: 강령술사의 귀환,,,,,,,6,6,6,,,
-GAME,Diablo_IV,디아블로 4,0,,,,,,,,,,,
-GAME,Diablo_IV_Vessel_of_Hatred,디아블로 4: 증오의 그릇,5,4,2,7,,10,4,7,3,2,3,4
-GAME,Digimon_Battle_Online,디지몬RPG,,,,,,,0,1,0,,,
-GAME,Digimon_Super_Rumble,디지몬 슈퍼럼블,21,11,8,,,1,3,8,,,,
-GAME,Dinkum,딩컴,,,,5,3,,,,,,,
-GAME,Diplomacy_is_Not_an_Option,외교는 선택이 아니다,5,4,4,,,,,3,3,,,
-GAME,Discounty,Discounty : 크레이지 마트,4,,1,1,2,2,9,6,7,7,9,
-GAME,Doki_Doki_Literature_Club,두근두근 문예부!,,,,,,,,,4,2,2,3
-GAME,Dont_Starve,돈 스타브,,,4,5,11,,,,2,,,
-GAME,Dont_Starve_Together,돈 스타브 투게더,,7,22,33,39,34,20,15,9,4,,
-GAME,Dota2,도타 2,0,7,6,9,20,28,13,48,55,23,22,16
-GAME,Dragon_Ball_Z_Kakarot,드래곤볼 Z 카카로트,,,,,,36,33,33,29,31,44,
-GAME,Dragon_Quest_Builders2,드래곤 퀘스트 빌더즈 2: 파괴신 시도와 텅 빈 섬,,,,,11,8,10,8,0,0,,
-GAME,Dragons_Dogma2,드래곤즈 도그마 2,,,,,,,,1,2,1,1,3
-GAME,Dread_Flats,흉우,33,,,,,,,,,,,
-GAME,Duet_Night_Abyss,듀엣 나이트 어비스,,,0,292,5,,,,,,,
-GAME,Dune_Awakening,듄: 어웨이크닝,,,,0,4,7,6,,,,,
-GAME,Dungeon_Fighter,던전앤파이터,1729,303,320,495,1068,1256,1554,1521,1068,1245,1036,598
-GAME,Dungeon_Fighter_Mobile,던전앤파이터 모바일,,,1,,9,6,7,4,3,15,14,9
-GAME,Dungeon_Slasher,던전슬래셔,1,2,,,,,,,,,,
-GAME,Dungeon_Stalkers,던전 스토커즈,,,,,,8,6,8,6,,,
-GAME,Dungreed,던그리드,,,0,1,1,,,,,,,
-GAME,Dying_Light,다잉 라이트,8,11,11,1,3,,,,,,,
-GAME,Dynasty_Warriors8_Xtreme_Legends,진・삼국무쌍 7 with 맹장전,0,,,,,,,,0,,,
-GAME,Dynasty_Warriors_Origins,진・삼국무쌍: ORIGINS,,,,,,,,4,3,3,4,5
-GAME,EA_SPORTS_FC25,EA 스포츠 FC 25,,,,,,1,0,2,7,8,11,
-GAME,EA_SPORTS_Madden_NFL26,EA 스포츠 매든 NFL 26,,1,2,2,1,,5,,,,,
-GAME,ELDEN_RING_Shadow_of_the_Erdtree,엘든 링 황금 나무의 그림자,,,,9,36,25,47,38,26,15,14,1
-GAME,ENDER_MAGNOLIA_Bloom_in_the_mist,엔더 매그놀리아: 블룸 인 더 미스트,,,,,2,6,5,5,,,,
-GAME,EOS_BLACK,에오스 블랙,,0,0,,,,,,,,,
-GAME,EOS_RED,에오스 레드,2,2,2,1,1,3,1,2,2,2,1,0
-GAME,EVE_Online,이브 온라인,,,,,,,0,0,0,0,0,
-GAME,EZ2ON_REBOOT_R,이지투온 리부트: R,13,14,16,18,47,10,18,1,12,11,3,
-GAME,Eastward,이스트워드,,,,,,,1,1,,,,
-GAME,Eiyuden_Chronicle_Hundred_Heroes,백영웅전,2,3,,6,2,,,,,,,
-GAME,Elden_Ring,엘든 링,23,13,58,58,90,68,83,73,45,29,24,4
-GAME,Elden_Ring_Nightreign,ELDEN RING 밤의 통치자,12,10,173,195,167,32,30,25,31,17,32,21
-GAME,Elpis_Legend_Soul_Ring,엘피스 전기: 소울링,,,,,,0,0,0,1,,,
-GAME,Elsword,엘소드,,,,1,8,4,12,10,17,9,5,7
-GAME,Enlisted,인리스티드,1,1,,1,,,,3,5,,,2
-GAME,Enotria_The_Last_Song,에노트리아: 더 라스트 송,,,,,,,,,1,1,2,
-GAME,Enshrouded,인슈라오디드,7,7,7,2,9,20,12,15,3,4,1,0
-GAME,Enter_the_Gungeon,엔터 더 건전,,2,,,,,,0,1,,3,0
-GAME,Epic_Seven,에픽세븐,,13,66,152,109,98,44,32,25,22,21,
-GAME,Erion,에리온: 용과 마법의 시대,2,11,12,10,,,,,,,,
-GAME,Eryis_Action,에리의 액션,,,,,,,0,,,,,
-GAME,Escape_Simulator,방 탈출 시뮬레이터,1,1,,,,8,7,7,2,,,
-GAME,Escape_from_Tarkov,이스케이프 프롬 타르코프,1055,970,1066,509,960,1392,1664,1707,1764,2799,455,373
-GAME,Euro_Truck_Simulator2,유로 트럭 시뮬레이터 2,0,0,,2,23,38,36,41,37,1,1,0
-GAME,Europa_Universalis_IV,유로파 유니버셜리스 4,,2,2,,0,1,2,1,1,1,1,
-GAME,F1_25,F1 25,0,0,4,4,2,,4,4,6,5,6,8
-GAME,FAKEBOOK,페이크북,,,,,22,9,35,40,9,,,
-GAME,FIFA_Mobile,FC모바일,,,,,,,,1,,,,
-GAME,FIFA_ONLINE4,FC온라인,54,43,92,40,50,61,76,64,47,6,4,3
-GAME,FINAL_FANTASY16,파이널 판타지 16,,,,,,5,5,7,7,6,7,1
-GAME,FINAL_FANTASY_Pixel_Remaster,파이널 판타지 픽셀 리마스터,,,,,,,10,11,,,,
-GAME,FINAL_FANTASY_VII_REBIRTH,파이널 판타지 7 리버스,,,,,1,3,5,4,4,3,3,
-GAME,FINAL_FANTASY_XIV,파이널판타지14,56,50,58,107,181,242,208,116,113,83,46,30
-GAME,FTL_Faster_Than_Light,FTL: 패스터 댄 라이트,,,,2,5,6,11,5,,,,
-GAME,Factorio,팩토리오,,0,3,,,,2,3,,,,
-GAME,Fall_Guys_Ultimate_Knockout,폴가이즈,9,12,16,10,21,54,87,86,71,49,,
-GAME,Fallout4,폴아웃 4,,,,,0,,,,,,,
-GAME,Fallout76,폴아웃 76,,,,,,1,4,2,3,,,
-GAME,Fallout_New_Vegas,폴아웃: 뉴 베가스,7,,,,,2,,,1,1,2,2
-GAME,Farlight_84,파라이트 84,3,3,3,3,,,,,,,,
-GAME,Farming_Simulator17,파밍 시뮬레이터 17,,,,,,2,2,3,,,,
-GAME,Farming_Simulator25,파밍 시뮬레이터 25,,1,1,,,,,,,,,
-GAME,Fast_Food_Simulator,패스트 푸드 시뮬레이터,,,,,606,1362,686,604,11,,,
-GAME,Fate_Grand_order,페이트/그랜드 오더,,,,10,48,36,112,75,,5,6,
-GAME,Fate_Trigger_The_Novita,페이트 트리거,,,,,,,,1,,,,
-GAME,Fate_stay_night_REMASTERED,페이트/스테이 나이트 리마스터드,,,,,,,10,11,11,13,,
-GAME,Fields_of_Mistria,필즈 오브 미스트리아,,,,,,,5,16,18,12,14,
-GAME,Final_Fantasy_VII,파이널 판타지 7,2,0,,,,,,,,,,
-GAME,Fingerdance,핑거댄스,364,,,,,,,,,,,
-GAME,Fire_Emblem_Warriors_Three_Hopes,파이어 엠블렘 무쌍 풍화설월,1,1,1,1,0,2,,,,,,
-GAME,Fischers_Fishing_Journey,냐옹이 낚시 일기,,,,,,3,3,,,,,
-GAME,Five_Nights_at_Freddys,프레디의 피자가게,,,,,,,1,,,,,
-GAME,Flower_in_Us,사람 속에 피는 꽃,2,17,,,,,,,,,,5
-GAME,Flowers_Blooming_at_the_End_of_Summer,여름의 끝에 피는 꽃,,,,,,4,,,,,,
-GAME,FlyffUniverse,프리프 유니버스,,,,0,0,0,1,1,0,0,,
-GAME,Football_Manager_2024,풋볼 매니저 2024,2,1,2,0,3,1,,,,,,
-GAME,Fork_Road,포크 로드,,,,,,6,102,82,91,,,
-GAME,Fortnite,포트나이트,6,3,5,5,9,18,11,10,6,,,
-GAME,Forza_Horizon5,포르자 호라이즌 5,,,,,2,3,4,,,,,
-GAME,Foundation,파운데이션,,,,,,2,2,1,1,1,1,3
-GAME,Free_Style2,프리스타일2,7,4,,,,,,,6,13,22,7
-GAME,Frostpunk,프로스트펑크,,,,,,,27,31,,36,43,50
-GAME,Frostrain,프로스트레인,,,,,,,,,8,7,7,
-GAME,Fruit_Mountain,프루트 마운틴,,,,,,30,26,23,,,,
-GAME,Fuel_Harvest_Together,기름 캐자! 베프들,1012,1035,1022,1085,1222,,,,,,,
-GAME,GOD_EATER3,갓 이터 3,,,,,,,3,2,,,,
-GAME,GRADIUS_ORIGINS,그라디우스 오리진스,,,,,,1,,,,,,
-GAME,GRAVITY_RUSH2,그라비티 러쉬 2 : 하늘로 떨어진 소녀의 선택,,,,,,3,5,,,,,
-GAME,GRIS,그리스,,,,,,,,29,33,33,,
-GAME,GTFO,GTFO,,,,,,0,0,2,3,1,,
-GAME,GUILD_WARS2,길드워 2,,,,,,,0,0,0,,,
-GAME,GUILTY_GEAR_STRIVE,길티기어 스트라이브,69,115,237,191,143,87,117,69,76,36,29,15
-GAME,Garden_of_Witches,마녀의 정원,2,3,7,2,,,,,,1,,
-GAME,Garrys_Mod,게리 모드,,,2,3,,4,,,,,,
-GAME,Garten_of_Banban0,가르텐 오브 반반 0,,,,,5,3,,,,,,
-GAME,Gears_of_War,기어스 오브 워,4,11,4,5,4,4,4,9,3,4,4,5
-GAME,Gears_of_War_Reloaded,기어스 오브 워: 리로디드,3,4,14,31,30,31,28,30,10,3,45,44
-GAME,Genshin_Impact,원신,55,32,20,95,103,366,348,273,124,77,27,16
-GAME,Geometry_Dash,지오메트리 대시,,,,,,,104,,72,,,
-GAME,Get_To_Work,겟 투 워크,,23,24,11,18,33,29,14,4,5,13,
-GAME,Getamped,겟앰프드,5,76,84,,5,9,11,6,9,3,3,3
-GAME,Ghost_of_Tsushima,고스트 오브 쓰시마,,,,,,,0,0,,,,
-GAME,Ghost_of_Tsushima_Directors_Cut,고스트 오브 쓰시마 디렉터스 컷,,,,,0,1,2,7,0,2,2,1
-GAME,Ghostwire_Tokyo,고스트와이어: 도쿄,,,,,,,1,0,0,,,
-GAME,Girls_Frontline,소녀전선,,,,,,1,0,,,,,
-GAME,Girls_Frontline2_Exilium,소녀전선2: 망명,,,,,,0,1,1,,,,
-GAME,God_of_War,갓 오브 워,,,,,5,6,6,4,14,,,
-GAME,God_of_War_Ragnarok,갓 오브 워 라그나로크,,,,,0,0,0,,,,,
-GAME,Good_Pizza_Great_Pizza,"좋은 피자, 위대한 피자",,,,,,10,,,,,,
-GAME,Goose_Goose_Duck,구스 구스 덕,,,,4,1,36,151,305,214,23,0,0
-GAME,Gori_Cuddly_Carnage,고리: 귀여운 학살자,,,,11,10,,,,,,,
-GAME,Gran_Turismo7,그란 투리스모 7,,,,,,2,4,14,,,,
-GAME,Granado_Espada,그라나도 에스파다,,,,,2,2,,,,,,
-GAME,Granblue_Fantasy_Versus_Rising,그랑블루 판타지 Versus -RISING-,,,2,3,3,4,19,10,9,8,,
-GAME,GrandChase Classic,그랜드체이스 클래식,,,13,15,15,23,22,18,14,,10,
-GAME,Grand_Theft_Auto_V,Grand Theft Auto V,23,40,35,29,596,681,696,764,725,659,660,569
-GAME,Great_Merchant,천하제일상거상,15,21,14,94,90,115,137,113,102,37,56,43
-GAME,Green_Hell,그린 헬,1,1,0,0,6,5,6,5,6,15,,
-GAME,Grim_Dawn,그림 던,3,4,,,1,1,,11,11,2,3,
-GAME,Grounded,그라운디드,,,,8,8,3,3,2,,,,
-GAME,Grounded2,그라운디드 2,,,608,3,6,10,5,,1,4,5,3
-GAME,Guardian_Tales,가디언 테일즈,,,,,6,7,,,,,,
-GAME,Gunfire_Reborn,건파이어 리본,,,,,,,,7,7,1,1,0
-GAME,HELLDIVERS2,헬다이버즈 2,9,11,36,53,82,113,134,85,61,34,50,25
-GAME,Half_Life,하프라이프,,,1,,,,,,,,,
-GAME,Halo_The_Master_Chief_Collection,헤일로: 더 마스터 치프 컬렉션,,,,11,11,11,,,,,,
-GAME,HanBaduk,한게임 바둑,,,,,0,0,0,,,,,
-GAME,Hangame_sudda,한게임 섯다&맞고,,,,,,19,16,5,,,,
-GAME,Hearthstone,하스스톤,149,76,622,1478,2506,2326,2037,1991,1330,939,838,717
-GAME,Hearts_of_Iron_IV,하츠 오브 아이언 4,,,,2,33,35,32,2,5,4,4,4
-GAME,Heavy_Rain,헤비 레인,4,,,,,,,,,,,
-GAME,Heavy_Spoilers_RPG,스포일러가 너무 심한 RPG ―최후의 적의 정체는 용사의 아버지―,,,,,,5,8,7,,,,
-GAME,HellZombie,헬좀비,,,,,,7,9,9,,,,
-GAME,Herdling,허들링,,,,,28,29,32,37,5,,,
-GAME,Hero_Siege,히어로 시즈,,,,,,,0,0,,,,
-GAME,Heroes_of_the_Strom,히어로즈 오브 더 스톰,17,19,27,9,60,112,123,137,98,51,38,46
-GAME,Higurashi_When_They_Cry_Hou,쓰르라미 울 적에 봉+,,,,,,,2,3,2,2,2,2
-GAME,Higurashi_When_They_Cry_Hou_Matsuribayashi,쓰르라미 울 적에 봉 - Ch.8 마츠리바야시,,,1,2,2,1,1,1,1,1,,
-GAME,Higurashi_When_They_Cry_Hou_Meakashi,쓰르라미 울 적에 봉 - Ch.5 메아카시,,,,,41,83,97,107,126,124,124,
-GAME,Higurashi_When_They_Cry_Hou_Minagoroshi,쓰르라미 울 적에 봉 - Ch.7 미나고로시,,,,9,17,22,28,25,,,,
-GAME,Higurashi_When_They_Cry_Hou_Tatarigoroshi,쓰르라미 울 적에 봉 - Ch.3 타타리고로시,,,,,285,542,281,252,264,244,247,246
-GAME,Higurashi_When_They_Cry_Hou_Watanagashi,쓰르라미 울 적에 봉 - Ch.2 와타나가시,,,,,,22,21,26,26,,,
-GAME,Hogwarts_Legacy,호그와트 레거시,,,,,1,4,2,2,73,58,68,54
-GAME,Hollow_Knight,할로우 나이트,651,173,168,143,678,618,883,679,781,387,340,241
-GAME,Hollow_Knight_Voidheart_Edition,할로우 나이트 : 공허의 심장 에디션,1,4,4,5,4,7,7,8,3,2,1,
-GAME,Honkai_Impact,붕괴3rd,,,,,7,718,702,11,5,,,
-GAME,Honkai_Impact_Star_Rail,붕괴: 스타레일,128,64,27,153,453,4660,5258,5640,6039,4283,196,33
-GAME,Honor_of_Kings,아너 오브 킹즈(왕자영요 글로벌),,,0,1,2,2,,8,8,,,
-GAME,Horizon_Zero_Dawn,호라이즌 제로 던,,3,4,3,3,2,,,,,,
-GAME,HorrorToleranceTest,공포내성진단검사,,,,,,45,37,,,,,
-GAME,Hospital666,호스피탈 666,,,,,12,,,,,,,
-GAME,House_Flipper,하우스 플리퍼,,,,,,,,,9,15,,
-GAME,Human_Fall_Flat,휴먼: 폴 플랫,,,,,6,7,,,,,,
-GAME,Hunt_Showdown1896,헌트: 쇼다운 1896,,5,2,4,6,5,3,2,5,5,,
-GAME,Hwanse,환세취호전,,,,,,,0,0,,,,
-GAME,I_Wanna_Be_The_Boshy,아이 워너비 더 보시,,2617,3682,4465,5302,5587,6051,5941,82,81,66,
-GAME,I_Wanna_Be_the_Guy,아이 워너비 더 가이,0,,,,,,,,,,,
-GAME,I_am_Fish,난 물고기야,,,,,,27,21,,,,,
-GAME,Ib,Ib,,,,,,,8,10,12,11,,
-GAME,Identity_V,제5인격,,,,3,,,4,,,,,
-GAME,IfSunSets,이프선셋,,,,,,2,2,4,2,3,,
-GAME,In_Sink,인 싱크,,,,,,,1,,11,12,10,11
-GAME,Indiana_Jones_and_the_Great_Circle,인디아나 존스: 그레이트 서클,0,1,1,1,,,,,,,,
-GAME,Inscryption,인스크립션,,,,,1,1,1,4,7,,,
-GAME,Inside_the_Backrooms,인사이드 더 백룸,,,,,,17,20,,20,,,
-GAME,Internet_Cafe_Evolution,PC방 시뮬레이터,,,0,1,,,,,,,,
-GAME,Into_the_Dead_Our_Darkest_Days,인투 더 데드: 아워 다키스트 데이즈,1,2,,4,6,5,5,3,4,2,,
-GAME,Is_This_Seat_Taken,이즈 디스 시트 테이큰?,,,,,,0,0,0,,,,
-GAME,It_Takes_Two,잇 테이크 투,2,2,2,,,,,2,2,1,1,1
-GAME,JUDGMENT_Remastered,저지 아이즈: 사신의 유언 Remastered,,,,,,,1,2,,,,
-GAME,JoJos_Bizarre_Adventure_All_Star_Battle_R,죠죠의 기묘한 모험 올 스타 배틀 R,,3,,,,,,,,,,
-GAME,Jump_King,점프 킹,,,,,,,4,11,16,,1,5
-GAME,Just_Dance_2025_Edition,저스트 댄스 2025 에디션,,,,,413,,,,,,,
-GAME,KUUKIYOMI_Consider_It,다함께 쿠키요미,,,,,,,,27,,,,
-GAME,Karate_Survivor,살아남아라 무도가,,,,,,,20,,,,,
-GAME,KartRider_Drift,카트라이더: 드리프트,,,,,,2,,,,,27,
-GAME,Kart_Rider,카트라이더,4,6,3,101,103,150,310,231,108,7,98,56
-GAME,Katana_ZERO,카타나 제로,,,,,,,,,3,2,1,
-GAME,Keep_on_Mining,킵 온 마이닝!,,,7,7,9,13,8,5,7,10,,
-GAME,Killing_Floor3,킬링 플로어 3,,1,1,,3,9,7,10,,,,
-GAME,Kingdom_Come_Deliverance_II,킹덤 컴: 딜리버런스 II,,,,,8,1,13,,,,0,2
-GAME,Kinki_Spiritual_Affairs_Bureau,긴키영무국 - 킨키 스피리츄얼 어페어스 뷰로,7,7,8,8,,,,,,,,
-GAME,Kirby_and_the_Forgotten_Land,별의 커비 디스커버리,,,4,7,,4,2,2,2,2,2,3
-GAME,Kirby_and_the_Forgotten_Land_Switch2Edition,별의 커비 디스커버리 Nintendo Switch 2 Edition,,,,0,21,8,8,11,49,27,27,27
-GAME,Knightica,나이티카,,,,,0,0,,,,,,
-GAME,LITTLE_NIGHTMARES,리틀 나이트메어,,,,,,4,6,3,,,,
-GAME,LOCKDOWN_Protocol,락다운 프로토콜,,,,5,4,7,8,,,,,
-GAME,LOST_JUDGMENT,로스트 저지먼트: 심판받지 않은 기억,2,2,,,,,,,,,,
-GAME,LaTale,라테일,,,,,15,11,17,14,22,28,11,5
-GAME,Langrisser,랑그릿사,,,,,,79,38,48,3,11,5,5
-GAME,Last_Epoch,라스트 에포크,55,49,20,31,317,318,327,286,16,17,16,19
-GAME,Last_Origin,라스트 오리진,,,,,,,2,3,,,,
-GAME,Last_War_Survival_Game,라스트 워: 서바이벌,,1,0,0,1,1,1,1,1,1,1,1
-GAME,Late_night_show,폐심: 심야방송,,,,,,7,5,,,,,
-GAME,Layers_of_Fear,레이어스 오브 피어 (2016),,,,,,,,,,7,8,
-GAME,Layers_of_Fear_remake,레이어스 오브 피어,55,57,44,40,42,,,14,,,,
-GAME,League_of_Legends,리그 오브 레전드,3026,89503,120056,126961,39928,38803,5206,3392,2330,2067,1809,1736
-GAME,League_of_Legends_Wild_Rift,리그 오브 레전드: 와일드 리프트,,,,,,6,2,2,0,1,0,
-GAME,Left4_Dead2,레프트 4 데드 2,,,,,16,13,11,9,,,,
-GAME,Legend_Of_Darkness,어둠의전설,,,,,,3,2,2,3,,,
-GAME,Legend_of_Mortal,활협전,62,66,65,,,55,62,77,79,,,
-GAME,Legends_of_Runeterra,레전드 오브 룬테라,,,,,,,,,,,1,
-GAME,Lethal_Company,리썰 컴퍼니,5,10,15,19,14,21,38,32,64,47,35,29
-GAME,Level_Devil,레벨 데빌,,,,,,,28,23,19,,,
-GAME,Liars_Bar,라이어스 바,,,,,,,,2,,6,,
-GAME,Library_Of_Ruina,라이브러리 오브 루이나,2,2,8,6,5,5,11,6,,,,
-GAME,Lies_of_P,P의 거짓,7,17,23,24,29,43,77,45,801,35,25,4
-GAME,Like_a_Dragon_Infinite_Wealth,용과 같이 8,,,,,,,,,,,1,
-GAME,Limbus_Company,림버스 컴퍼니,1999,15,91,123,96,218,120,197,138,178,30,35
-GAME,Lineage2,리니지2,,,,0,1,1,0,,,,,
-GAME,Lineage_M,리니지M,0,0,0,0,0,0,0,0,0,0,0,0
-GAME,Little_Angels,리틀엔젤,,,,,,,,,4,,,
-GAME,Little_Kitty_Big_City,"리틀 키티, 빅 시티",1,,,,,2,3,4,,,,
-GAME,Little_Nightmares2,리틀 나이트메어 2,1,2,3,441,613,625,651,7,7,5,,
-GAME,Little_Witch_Survivors,어린 마녀 생존자,1,1,,,,,,,,,,
-GAME,Little_Witch_in_the_Woods,숲속의 작은 마녀,,,,,7,7,3,6,5,,,
-GAME,Lobotomy_Corporation,로보토미 코퍼레이션,4,4,2,,,4,3,10,11,1,,
-GAME,Loddlenaut,로들너트,,,,,0,0,0,11,0,,,
-GAME,Longvinter,롱빈터,,,,,,,,,2,,2,16
-GAME,Lost_Ark,로스트아크,20050,19693,20598,23015,27779,23955,25480,25822,23011,21692,17840,10075
-GAME,Love_Sam,"러브, 샘",,,,,,,,2,2,,,
-GAME,Love_is,Love is : 감성 힐링 숨은그림찾기,,,,,,12,20,,,,,
-GAME,Lucky_Defense,운빨존많겜,,,,,0,1,3,3,,,,0
-GAME,Luma_Island,루마섬,,,,,46,49,77,42,36,,,
-GAME,MADiSON,매디슨,,,,,,19,11,,,,,
-GAME,METAL_GEAR_SOLID2_SONS_OF_LIBERTY,메탈 기어 솔리드 2: 선즈 오브 리버티,3,3,,,,,,,,,,
-GAME,METAL_GEAR_SOLID_Delta_SNAKE_EATER,메탈 기어 솔리드 Δ: 스네이크 이터,127,127,117,88,95,196,250,259,144,126,250,241
-GAME,METAL_SLUG3,메탈슬러그 3,,,,,,,,,,,1,0
-GAME,METAL_SLUG_X,메탈슬러그 X,,,,,,,66,,,,,
-GAME,MLB_The_Show25,MLB 더 쇼 25,5,6,,,,,,,,,,
-GAME,MONSTER_HUNTER_WORLD,몬스터 헌터: 월드,,,,2,1,2,1,0,3,,,
-GAME,Mabinogi,마비노기,110,167,120,121,165,201,119,120,40,128,71,37
-GAME,Mafia_The_Old_Country,마피아: 올드 컨트리,,,,,,2,3,4,4,,,
-GAME,Mage_Arena,메이지 아레나,1171,,,,,74,11,10,6,,,
-GAME,Magic_The_Gathering_Arena,매직 더 개더링,,,,6,5,,,,,,,
-GAME,MagicalMicDuel_Senpai_HearMySpell,마법소녀 카와이 러블리 즈큥도큥 바큥부큥 루루핑,,,,6,,,,,,,,
-GAME,Maid_of_Sker,스커의 하녀,,,,,3,,,,,,,
-GAME,Malteses_Fluffy_Onsen,몰티즈와 복실복실 온천,,,,,,4,,,,,,
-GAME,MapleStory,메이플스토리,1161,1055,995,2106,3130,3070,2964,3058,2526,2206,1788,248
-GAME,MapleStory_M,메이플스토리M,,0,1,1,4,1,1,,0,1,,
-GAME,MapleStory_WORLDS,메이플스토리 월드,87,114,110,130,232,255,312,386,289,264,240,247
-GAME,Mario_Kart_World,마리오 카트 월드,19,20,21,20,1745,1443,2389,2310,2277,1,2,0
-GAME,Mario_Luigi_Brothership,마리오&루이지 RPG 브라더십!,,,,,,2,3,,,,,
-GAME,Marvel_Future_Fight,마블 퓨처파이트,,,,,13,9,12,,,,,
-GAME,Marvel_Rivals,마블 라이벌즈,11,27,21,34,23,67,65,54,24,23,36,25
-GAME,Marvel_Snap,마블스냅,,,,,,11,4,,,,,
-GAME,Marvels_Spider_Man2,마블 스파이더맨 2,,,,,,,,5,14,14,12,
-GAME,Mass_Effect_Legendary_Edition,매스 이펙트 레전더리 에디션,0,0,0,0,,0,0,0,0,0,,
-GAME,Master_of_Study,공부의 신M,0,,,,,,,,,,,
-GAME,Mecha_BREAK,메카 브레이크,11,12,16,17,12,10,19,3,8,,12,13
-GAME,Mechabellum,메카벨룸,,,,0,,,5,4,,,,15
-GAME,Metal_Gear_Solid,메탈 기어 솔리드,,,,,,4,,,,,,
-GAME,Metal_Unit,메탈 유닛,,,,,,,,,,,,0
-GAME,Metaphor_ReFantazio,메타포: 리판타지오,9,9,7,,,2,,2,,,,
-GAME,Mind_Over_Magic,마인드 오버 매직,,,,,,5,4,,,,,
-GAME,Minecraft,마인크래프트,556,536,598,655,533,1958,2286,2403,1461,853,1016,370
-GAME,Miracle_snack_shop,기적의 분식집,,,,,,,,2,5,5,6,8
-GAME,Mobile_Suit_Gundam_Batte_Operation2,기동전사 건담 배틀 오퍼레이션 2,,,,,0,15,20,16,,,,
-GAME,Monster_Hunter_Rise,몬스터 헌터 라이즈,3,,,,,,,,,,,
-GAME,Monster_Hunter_Rise_SunBreak,몬스터 헌터 라이즈: 선브레이크,,,,4,6,9,1,1,2,,,
-GAME,Monster_Hunter_Stories,몬스터헌터 스토리즈,,,,3,3,3,,,,,,
-GAME,Monster_Hunter_Wilds,몬스터 헌터 와일즈,213,120,100,135,322,447,728,761,640,236,163,134
-GAME,Monster_Hunter_World_Iceborne,몬스터 헌터 월드: 아이스본,20,20,31,28,20,30,36,22,24,12,13,6
-GAME,Monsterest,괴물여관,,,,,,7,5,,,,,
-GAME,Monstrum,몬스트럼,,,,,,,9,9,,,,
-GAME,MoonAlong,신월동행,,7,2,0,4,7,3,,10,13,,
-GAME,Mount_&_Blade2_Bannerlord,마운트 앤 블레이드 2: 배너로드,1,4,3,1,5,23,31,29,27,,,
-GAME,Mount_Blade_Warband,마운트 앤 블레이드: 워밴드,,,,,,,,,,,2,2
-GAME,Moving_Out2,무빙 아웃 2,,,,,,1574,,,,,,
-GAME,Muse_Dash,뮤즈 대쉬,,,,,5,1,,,,,,
-GAME,My_future_girlfriend_greeted_me,미래의 여친님이 나에게 인사를 건네왔다,,,,,6,7,6,7,7,8,9,7
-GAME,NARAKA_BLADEPOINT,나라카: 블레이드포인트,,1,3,,7,6,6,4,,3,4,6
-GAME,NIKKE_The_Goddess_of_Victory,승리의 여신: 니케,277,248,231,601,705,2070,965,950,706,256,212,178
-GAME,Need_for_Speed_Heat,니드 포 스피드 히트,,,,,,2,1,1,0,,,
-GAME,Neon_Abyss2,네온 어비스 2,,0,2,,,,,,,,,
-GAME,Never_Sleep_Island,잠들지 않는 섬,,,,,,,,,,,8,
-GAME,New_Super_Mario_Bros_U_Deluxe,뉴 슈퍼 마리오브라더스 U 디럭스,1,2,,,,,,,,,,
-GAME,New_World,뉴 월드: 이터넘,,,,,0,2,1,0,0,,,
-GAME,NieR_Automata,니어: 오토마타,,,,,6,7,9,10,,,,
-GAME,Night_Grove,나이트 그로브,,,,,7,,,,,,,
-GAME,Nine_Sols,나인 솔즈,,,,,,,,,,,8,
-GAME,Nioh,인왕,,,,,2,6,5,8,,,,
-GAME,Nioh2_The_Complete_Edition,인왕 2 더 컴플리트 에디션,3,3,,6,9,19,12,14,18,26,9,
-GAME,No_Man's_Sky,노 맨즈 스카이,1,1,0,1,4,6,5,6,2,2,2,4
-GAME,No_Rest_for_the_Wicked,노 레스트 포 더 위키드,,,,,,3,,,,,,
-GAME,OCTOPATH_TRAVELER,옥토패스 트래블러,,,,,,,,,,,1,1
-GAME,OCTOPATH_TRAVELER2,옥토패스 트래블러 II,,,,,,5,6,7,7,7,6,
-GAME,ODIN_VALHALLA_RISING,오딘: 발할라 라이징,,,,,,0,0,0,,,,
-GAME,ONE_PIECE_Bounty_Rush,원피스 바운티 러쉬,,,,,,,,2,,,,
-GAME,ONLINE_THREEKINDOMS2,온라인 삼국지 2,,,,,,11,8,4,,,,
-GAME,ORDER13,오더 13,,,,,1,,37,21,,,,
-GAME,OVERWATCH,오버워치 2,911,784,1181,1238,1508,1940,3403,4178,4188,3624,5059,3984
-GAME,OVIS_LOOP,오비스 루프,2,,,,1,21,,,,,,
-GAME,Odin_Sphere_Leifthrasir,오딘 스피어: 레이브스라시르,0,0,0,0,0,0,0,0,,,,
-GAME,Ogu_and_the_Secret_Forest,오구와 비밀의 숲,15,6,8,7,6,0,0,3,,,9,
-GAME,Omega_Strikers,오메가 스트라이커스,,,,,,2,,,,,,
-GAME,Once_Human,Once Human,76,77,126,103,192,242,210,236,132,110,86,53
-GAME,OneShot,원샷,,,,,,,,4,5,,,
-GAME,One_Hand_Clapping,원 핸드 클래핑,2,3,2,,,,,,,,,
-GAME,One_Mans_Trash,원 맨스 트래쉬,,,,,,,11,7,,6,7,
-GAME,Onimusha2_Samurais_Destiny,귀무자2,,,,,,,,,,,,0
-GAME,Order_of_the_Prince,대항해시대 온라인,,,1,6,4,55,65,61,15,,,
-GAME,Ori_and_the_Blind_Forest,오리와 눈먼 숲,5,,,,,,,24,22,14,14,
-GAME,Out_of_Sight,아웃 오브 사이트,,,3,4,4,,,,,,,
-GAME,Outlast,아웃라스트,,,,,,1,,0,,,,
-GAME,Overcooked2,오버쿡! 2,8,9,38,11,13,32,43,20,21,27,29,
-GAME,Oxygen_Not_Included,산소미포함,,,,4,34,20,11,8,10,9,,
-GAME,P5X,페르소나5: 더 팬텀 X,,,,,,1,,,0,1,4,
-GAME,PANICORE,패니코어,,,,,2,,,,,,,
-GAME,PARANOIA_PLACE,파라노이아 플레이스,,,,,,,,20,8,11,,
-GAME,PATAPON12REPLAY,파타퐁 1+2 리플레이,187,160,,,5,,,17,16,,,
-GAME,PAYDAY2,페이데이 2,,,7,5,5,7,,,8,7,,
-GAME,PEAK,피크,54,29,45,49,376,553,239,253,707,111,48,68
-GAME,PERSONA3_RELOAD,페르소나 3 리로드,,,1,2,5,,,,,255,239,
-GAME,PERSONA4_ARENA_ULTIMAX,페르소나 4 디 얼티맥스 울트라 수플렉스 홀드,,,,,,,2,2,3,2,,
-GAME,PERSONA4_THE_GOLDEN,페르소나 4 더 골든,,,,,1,1,11,14,16,,,
-GAME,PERSONA_5_ROYAL,페르소나 5 더 로열,,,,46,28,37,,,,,,
-GAME,PICO_PARK,피코 파크,,,,,5,14,13,6,,,,
-GAME,PLATiNA_LAB,플라티나 랩,,,,,,6,3,3,1,,,
-GAME,POSTAL4_No_Regerts,포스탈 4 : 후회는 ㅇ벗다,,,,,,,,4,,,,
-GAME,PUBG_MOBILE,배틀그라운드 모바일,,,,,8,5,6,6,,,,
-GAME,Palia,팔리아,,,,,,4,7,2,3,,,
-GAME,Palworld,팰월드,8,10,16,15,19,22,18,13,479,389,312,18
-GAME,Papers_Please,"페이퍼즈, 플리즈",,,,,1,1,1,0,0,,,
-GAME,Paquerette_Down_the_Bunburrows,파쿠에레테 다운 더 번버로우즈,,,,,,,12,12,,,,
-GAME,Parasocial,파라소셜,,,,,15,36,,,,,,
-GAME,Parcel_Simulator,파슬 시뮬레이터,,,,,,921,922,867,740,,,
-GAME,Party_Animals,파티 애니멀즈,,,,,30,27,3,38,14,,,
-GAME,Passpartout_The_Starving_Artist,파스파투: 배고픈 예술가,,,,,,,,4,,,,
-GAME,Path_of_Exile,패스 오브 엑자일,2,,4,4,7,5,,,,,,8
-GAME,Path_of_Exile2,패스 오브 엑자일 2,663,472,549,187,318,436,402,328,402,130,146,101
-GAME,Phasmophobia,파스모포비아,4,5,7,11,7,5,1,3,19,16,6,
-GAME,Phoenix_Wright_Ace_Attorney_Trilogy,역전재판 123 나루호도 셀렉션,3,11,10,15,30,50,41,43,52,54,,
-GAME,Planet_Coaster2,플래닛 코스터 2,,,,,,7,4,8,11,27,,
-GAME,Platform8,8번 승강장,,,,,,,,,3,,,
-GAME,Player_Unknowns_Battle_Grounds,PUBG: 배틀그라운드,579,658,497,685,1285,1992,2106,2251,1557,1228,1151,785
-GAME,Pocket_Rogues,포켓로그,,,,3,5,0,4,2,,,,
-GAME,Pokemon_Brilliant_Diamond_Shining_Pearl,포켓몬스터 브릴리언트 다이아몬드 · 샤이닝 펄,,,,,,,,,,0,,
-GAME,Pokemon_Fire_Red,포켓몬스터 파이어레드,,4,8,,3,4,4,,,,,
-GAME,Pokemon_GO,포켓몬 GO,,,3,,,2,9,10,8,,,
-GAME,Pokemon_Gold,포켓몬스터 금,,,,,,1,1,1,1,,,
-GAME,Pokemon_Green_Version,포켓몬스터 녹,,,,,,,72,80,120,123,131,145
-GAME,Pokemon_Heart_Gold,포켓몬스터 하트골드,,1,0,,,,,,,,,
-GAME,Pokemon_LEGENDS_Arceus,Pokémon LEGENDS 아르세우스,,,,,192,336,285,564,300,,,
-GAME,Pokemon_Red,포켓몬스터 적,33,59,102,96,126,1364,1360,1344,1287,1393,183,64
-GAME,Pokemon_Scarlet_Violet,포켓몬스터 스칼렛 · 바이올렛,32,7,10,4,7,63,56,68,484,402,22,
-GAME,Pokemon_Soul_Silver,포켓몬스터 소울실버,,,,,,,,1,2,,,
-GAME,Pokemon_Sword_Shield,포켓몬스터 소드 · 실드,,,,,10,9,7,8,,,,
-GAME,Pokemon_Ultra_Moon,포켓몬스터 울트라문,,,,27,26,,,,,,,
-GAME,Pokemon_Unite,포켓몬 유나이트,41,50,12,1,19,44,58,34,8,17,23,7
-GAME,Pokemon_White,포켓몬스터 화이트,,,,,4,,1308,1329,1280,1295,,
-GAME,Poppy_Playtime,파피 플레이타임,,,,1,,,,,,,,
-GAME,Portal,포탈,,,,,,26,30,19,11,,,
-GAME,Portal2,포탈 2,,9,9,19,,,,60,44,23,23,
-GAME,Potion_Craft_Alchemist_Simulator,포션 크래프트: 알케미스트 시뮬레이터,23,,,,,,,,,,,
-GAME,Potion_Tycoon,포션 타이쿤,,,,,,,3,5,5,7,5,
-GAME,Potionomics,포셔노믹스 -신비한 마법물약 상점,,,,,2,2,2,2,2,,,
-GAME,PowerWash_Simulator,파워워시 시뮬레이터,4,,,,6,6,10,11,9,,,
-GAME,Princess_Connect_Re_Dive,프린세스 커넥트! Re:Dive,,,,,,,7,,,,,
-GAME,Prison_Escape_Simulator_Dig_Out,프리즌 이스케이프 시뮬레이터: 디그 아웃,70,131,74,56,23,71,1016,874,758,505,2,
-GAME,Professional_Baseball_Spirits20242025,프로야구스피리츠 2024-2025,0,,,,,,,,,,,
-GAME,Professor_Layton_and_the_Strange_Village_HD,레이튼 교수와 이상한 마을 HD,,,,,4,25,28,26,6,6,1,
-GAME,ProjectARC,PUBG: BLINDSPOT,,3,5,8,13,12,12,11,8,8,6,6
-GAME,Project_SEKAI_COLORFUL_STAGE,프로젝트 세카이 컬러풀 스테이지! feat.하츠네 미쿠,,,,,6,9,12,16,7,3,,
-GAME,Project_Zomboid,프로젝트 좀보이드,98,46,111,210,401,548,476,544,435,166,121,69
-GAME,Prominence_Poker,프로미넌스 포커,,,,,,,,,14,,,
-GAME,Pump_It_Up,펌프 잇 업 피닉스,0,0,0,0,0,0,0,,,,,
-GAME,Punishing_Gray_Raven,퍼니싱 : 그레이 레이븐,,,0,,,,,4,7,7,6,8
-GAME,Puyo_Puyo_eSports,뿌요뿌요 e스포츠,,,,,,2,,,,,,
-GAME,Puzzle_Together,퍼즐 투게더,,,,20,19,,,,,,,
-GAME,Quarantine_Zone_The_Last_Check,쿼런틴 존: 더 라스트 체크,,,,,1,,3,,,,,
-GAME,Qwilight,Qwilight,,,17,7,,10,2,,4,4,,
-GAME,R2BEAT,알투비트,,,,,,,,,5,,,
-GAME,RAIN_WORLD,레인 월드,3,4,4,,,3,,,,,,
-GAME,REMATCH,리매치,,,,,,19,23,20,21,11,7,3
-GAME,REPO,R.E.P.O.,37,21,28,28,57,56,52,64,48,33,20,24
-GAME,RIDE4,라이드 4,,,,,,,1,,,,,
-GAME,ROMANCE_OF_THE_THREE_KINGDOMS8_REMAKE,삼국지8 REMAKE,2,2,1,,,,,,,,,
-GAME,ROMANCE_OF_THE_THREE_KINGDOMS_XIII,삼국지13,,,,,,,61,,66,65,68,
-GAME,Raft,래프트,,,,,,,,8,4,12,9,5
-GAME,Ragnarok_Online,라그나로크 온라인,19,19,8,36,15,8,6,24,17,10,9,11
-GAME,Rainbow_Six_Siege,톰 클랜시의 레인보우 식스 시즈 X,42,21,31,16,80,126,157,215,149,43,42,34
-GAME,Ratopia,래토피아,,,,,4,6,6,3,,,,
-GAME,Ready_or_Not,레디 오어 낫,,,,,17,11,9,12,4,5,,
-GAME,Red_Dead_Redemption2,레드 데드 리뎀션 2,2,2,2,,,11,21,11,14,26,50,28
-GAME,Remnant2,렘넌트 2,,0,0,,0,1,3,3,3,3,2,
-GAME,Resident_Evil2,바이오하자드 RE:2,,,,3,9,12,9,4,3,,,
-GAME,Resident_Evil4,바이오하자드 4,,,,,,,81,48,41,45,44,48
-GAME,Return_of_the_Obra_Dinn,오브라 딘 호의 귀환,,,,,,,24,,,,,
-GAME,Returnal,리터널,,,,,,0,1,1,1,,,
-GAME,Reverse_1999,리버스: 1999,,,,124,3,181,188,172,13,11,0,
-GAME,Reverse_Collapse_Code_Name_Bakery,역붕괴: 베이커리 작전,1,,,,,,1,1,,,,
-GAME,Rhythm_Doctor,리듬 닥터,,,,,5,14,3,3,4,,,
-GAME,Rift_of_the_NecroDancer,리프트 오브 더 네크로댄서,,,,,,0,,,,,,
-GAME,Riichi_City,마작일번가,1,,,6,12,15,16,19,11,1,1,2
-GAME,Rimworld,림월드,513,410,361,426,784,1494,1504,976,1239,1610,1873,1174
-GAME,RingFit_Adventure,링 피트 어드벤처,0,,12,16,7,45,21,62,,,,
-GAME,Rise_of_the_Tomb_Raider,라이즈 오브 더 툼 레이더,,,,,23,,,,,1,1,0
-GAME,Risk_of_Rain2,리스크 오브 레인 2,,,,,,,5,3,,,,
-GAME,Risk_of_Rain_Returns,리스크 오브 레인 리턴즈,,,,,,,,0,0,,,
-GAME,Roblox,로블록스,44,53,36,54,85,669,659,54,29,10,10,17
-GAME,Rocket_Rats,로켓 랫츠,,,,2,3,2,,,,,,
-GAME,Romance_of_the_Three_Kingdoms14_Power_up_kit,삼국지14 with 파워업키트,,,,,10,25,25,37,38,,,
-GAME,Ruined_King,몰락한 왕: 리그 오브 레전드 이야기,,,,,6,3,3,3,,,,
-GAME,Russian_Fishing_4,러시안 피싱 4,5,,17,,,,2,4,23,15,20,6
-GAME,Rust,러스트,,,,4,18,32,21,21,27,22,17,5
-GAME,SAMURAI_MAIDEN,사무라이 메이든 ~SAMURAI MAIDEN~,2,,,,,,,,,,,
-GAME,SCP_Secret_Laboratory,SCP: 시크릿 래버러토리,,,1,2,4,3,7,4,,3,2,
-GAME,SD_Gundam_Battle_Alliance,SD 건담 배틀 얼라이언스,,,,,,1,,,,,,
-GAME,SD_Gundam_G_Generation_ETERNAL,SD건담 지 제네레이션 이터널,23,24,,45,53,13,39,1,,,,
-GAME,SD_Gundam_G_Generation_Genesis_for_Nintendo_Switch,SD건담 지 제네레이션 제네시스 for Nintendo Switch,,,,,,,,4,,,,
-GAME,SEKIRO_SHADOWS_DIE_TWICE,세키로: 섀도우 다이 트와이스,16,21,17,7,8,20,18,15,4,5,22,28
-GAME,SHINOBI_Art_of_Vengeance,SHINOBI 복수의 참격,,,6,8,8,11,20,35,33,22,11,2
-GAME,SILENT_HILL2,사일런트 힐 2,31,66,,,165,205,217,248,201,23,25,
-GAME,SKY_HILL,스카이힐,7,7,,,,2,3,,,,,
-GAME,SMASH_LEGENDS,스매시 레전드,,,,,4,7,7,,,,,
-GAME,SOMA,소마,,,,,,,5,3,4,,,
-GAME,SOUND_VOLTEX_EXCEED_GEAR,사운드 볼텍스 익시드 기어,0,0,1,0,0,0,,,,,,
-GAME,STALKER_2_Heart_of_Chornobyl,스토커 2: 초르노빌의 심장부,,,,,,,,3,4,,,
-GAME,STAR_CITIZEN,스타 시티즌,,0,9,12,27,35,22,12,5,6,4,7
-GAME,STEINS_GATE_ELITE,슈타인즈 게이트 엘리트,,,,,,,,,,3,,4
-GAME,STONKS_9800_Stock_Market_Simulator,STONKS-9800: 주식 시장 시뮬레이터,,,,,,,2,3,,,,
-GAME,SUMMONERS_WAR_SKY_ARENA,서머너즈 워: 천공의 아레나,,,,7,28,,7,5,,,,
-GAME,SUPER_ROBOT_WARS_Y,슈퍼로봇대전 Y,9,8,9,22,12,12,17,39,108,118,131,121
-GAME,Sable,세이블,,,,,,,2,,,,,
-GAME,Saiko_no_sutoka,사이코 노 스토커,,,,3,4,5,6,4,,,,
-GAME,Sakuna_Of_Rice_and_Ruin,천수의 사쿠나히메,22,5,2,4,3,,,,5,5,5,4
-GAME,Sannabi,산나비,11,32,43,30,33,84,105,94,94,115,97,15
-GAME,Satisfactory,새티스팩토리,1,3,7,7,10,7,8,2,0,0,0,
-GAME,Scene_Investigators,씬 인베스티게이터즈,,,,,4,5,3,,,,,
-GAME,School_Labyrinth,스쿨 래버린스,,,,,6,9,,,,,,
-GAME,Scrap_Mechanic,스크랩 메카닉,,,,,,,6,7,6,5,,
-GAME,Sea_of_Stars,씨 오브 스타즈,,,,,,,0,0,0,,,
-GAME,Secrets_of_Blackrock_Manor_Escape_Room,시크릿스 오브 블랙록 매너 - 이스케이프 룸,,,,,,,,730,727,790,,
-GAME,Sector404,섹터 404,,,,3,,,,,5,,,
-GAME,Seoul_Station,서울역,,,,,,,2,,,,,
-GAME,Sephiria,세피리아,25,12,,18,24,19,22,19,22,11,10,20
-GAME,Shadow_Corridor,그림자 복도,11,13,,9,9,27,14,14,14,,,
-GAME,Shadow_Corridor2,그림자 복도 2: 비의 수국,,1,1,12,7,6,21,13,6,10,14,17
-GAME,Shadowverse_Worlds_Beyond,섀도우버스 월즈 비욘드,22,54,96,120,71,290,258,261,178,55,21,31
-GAME,Shin_Chan_Shiro_of_Coal_Town,짱구는 못말려 「탄광마을의 흰둥이」,,,,,,3,3,3,,,,
-GAME,Ship_Inc,분류 작업자 시뮬레이터,,,,,,9,9,7,,,,
-GAME,Sid_Meiers_Civilization,시드 마이어의 문명,,,,1,2,2,,,,,,
-GAME,Sid_Meiers_Civilization_IV,시드 마이어의 문명 IV,,,,,0,1,0,0,,,,
-GAME,Sid_Meiers_Civilization_V,시드 마이어의 문명 V,1,,,,,1,4,3,4,3,,
-GAME,Sid_Meiers_Civilization_VI,시드 마이어의 문명 VI,5,7,18,,6,31,12,12,11,5,5,
-GAME,Silent_Reel,사일런트 릴,,,,,10,,,,,,,
-GAME,Skill_Legends_Royale,스킬 레전드 로얄,,,,,0,0,1,1,,,,
-GAME,Skul,스컬: 더 히어로 슬레이어,13,14,12,25,26,12,10,8,14,9,10,
-GAME,Sky_Children_Of_The_Light,SKY - 빛의 아이들,,,,,0,,,,15,12,,
-GAME,Slay_the_Princess,슬레이 더 프린세스,,,,,,,,,12,,15,
-GAME,Slay_the_Spire,슬레이 더 스파이어,3,,,,,65,536,322,1,1,3,1
-GAME,SlimeMaker,마왕으로 시작하는 슬라임 키우기,2,2,,,,,,,,,,
-GAME,Slime_Rancher,슬라임 랜쳐,,,,,,,,,,,10,9
-GAME,Sniper_Elite4,스나이퍼 엘리트 4,,,,,,0,0,0,,,,
-GAME,Sniper_Elite5,스나이퍼 엘리트 5,,,,,,8,10,10,10,11,,
-GAME,Snow_girl_who_calls_spring,봄을 부르는 설녀,,3,,,,,,,,,,
-GAME,Snowbreak_Containment_Zone,스노우 브레이크: 포비든 존,,,5,10,,,,,,,,
-GAME,Solo_Leveling_ARISE,나 혼자만 레벨업:어라이즈,,0,0,,,,,,,,,
-GAME,Soulmask,소울마스크,,,,,,,6,7,5,3,4,6
-GAME,Space_Adventure_Cobra_The_Awakening,스페이스 어드벤처 코브라 - 디 어웨이크닝,,,,,,5,3,2,2,2,3,3
-GAME,Special_Force,스페셜포스,,,,,,,0,0,0,0,0,0
-GAME,Spelunky,스펠렁키,,,,,,1,,,,,,
-GAME,Spelunky2,스펠렁키 2,5,6,4,3,6,5,3,6,4,0,,
-GAME,Splatoon3,스플래툰 3,,,,4,14,25,36,47,35,19,20,
-GAME,Split_Fiction,스플릿 픽션,,,,,,5609,16240,16685,15042,14040,12218,10267
-GAME,Stacklands,스택랜드,0,0,,12,6,8,6,,,,,
-GAME,Staffer_Case,스테퍼 케이스:초능력 추리 어드벤처,,,,,,,,,1,2,1,1
-GAME,StarCraft_Brood_War,스타크래프트 : 브루드 워,,,,,,15,25,10,,,,
-GAME,StarCraft_II_Wings_of_Liberty,스타크래프트 II : 자유의 날개,23,,16,57,41,53,36,8,31,12,13,2
-GAME,StarCraft_Remastered,스타크래프트 : 리마스터,2504,1606,1475,1320,2662,1207,1492,1386,1193,956,375,110
-GAME,Star_Wars_Jedi_Survivor,스타워즈 제다이: 서바이버,,,,,1,,,,,,,
-GAME,Starcraft_II_Legacy_of_the_Void,스타크래프트 II : 공허의 유산,101,147,249,783,1178,1340,1409,90,98,109,18,13
-GAME,Stardew_Valley,스타듀 밸리,3,9,15,16,47,62,69,72,69,72,11,5
-GAME,State_of_Decay2,스테이트 오브 디케이 2,,,,,,,5,,,,,
-GAME,Steelrising,스틸라이징,,,,,,0,0,,,,,
-GAME,Steins_Gate,슈타인즈 게이트,,,,,,,3,1,10,9,7,4
-GAME,Stellar_Blade,스텔라 블레이드,15,17,19,11,14,37,38,68,58,18,13,5
-GAME,Stellar_Code,스텔라 코드,,,,5,2,,,,,,,
-GAME,Stick_It_to_the_Stickman,스틱 잇 투 더 스틱맨,,,,,,,,5,,,,
-GAME,Stoneshard,스톤 샤드,16,25,31,12,21,14,18,15,14,10,10,7
-GAME,Storm_striker,스톰 스트라이커,13,39,52,139,326,160,124,98,18,,,
-GAME,Storyteller,스토리텔러,,,,,,,,7,12,10,,
-GAME,StrangePool,이상한 수영장,,,,,,,,,,,8,
-GAME,Street_Fighter6,스트리트 파이터 6,14,24,25,17,46,66,77,66,56,94,26,15
-GAME,Strinova,스트리노바,9,6,,,31,62,38,56,32,6,,
-GAME,Stumble_Guys,스텀블 가이즈,,,,1,,,,,,,,
-GAME,Subnautica,서브노티카,244,225,192,218,33,48,66,9,11,11,11,6
-GAME,Sudden_Attack,서든어택,5,14,37,25,39,24,41,33,56,42,11,6
-GAME,Summoners_War_Rush,서머너즈 워: 러쉬,,,,,2,,,,,,,
-GAME,Sun_Haven,선 헤이븐,,,,2,3,4,10,8,9,6,,
-GAME,Super_Bunny_Man,슈퍼 버니 맨,99,,,,,,,,,,,
-GAME,Super_Mario_Maker2,슈퍼 마리오 메이커 2,19,11,76,142,69,93,25,13,58,8,,
-GAME,Super_Mario_Party,슈퍼 마리오 파티,,,,,12,,14,,,,,
-GAME,Super_Mario_Party_Jamboree,슈퍼 마리오 파티 잼버리,,,,2,12,15,2,2,,,,
-GAME,Super_Robot_Wars_T,슈퍼로봇대전 T,,,,,,1,1,,,,,
-GAME,Super_Smash_Bros_ULTIMATE,슈퍼 스매시브라더스 얼티밋,,,,,1,1,1,0,1,0,3,
-GAME,Superliminal,슈퍼리미널,,,,,5,3,,,,,,
-GAME,Supermarket_Simulator,슈퍼마켓 시뮬레이터,0,0,,,,,,,,2,3,
-GAME,Supermarket_Together,슈퍼마켓 투게더,,,,0,1,2,9,6,5,,,
-GAME,Survival_Fountain_of_Youth,서바이벌: 파운틴 오브 유스,,,2,,,,,,,,,
-GAME,Sword_of_the_Sea,소드 오브 더 씨,,,,,,,,4,,,,
-GAME,TALES_WEAVER,테일즈위버,,,,,,,5,6,6,6,4,
-GAME,TEKKEN8,철권 8,131,102,116,80,182,296,259,280,231,82,82,72
-GAME,TETRIS,테트리스,,,21,,0,7,8,5,8,1,3,
-GAME,THE_EVIL_WITHIN2,디 이블 위딘 2,,,7,,5,,4,4,5,6,,
-GAME,THE_FINALS,더 파이널스,21,26,19,22,37,64,68,59,31,27,36,12
-GAME,THE_IDOLMASTER,아이돌마스터,,,,,,,,,,14,12,8
-GAME,THE_IDOLMSTER_CINDERELLA_GIRLS_STARLIGHT_STAGE,아이돌마스터 신데렐라 걸즈 스타라이트 스테이지,,,,,,,1,,,,,
-GAME,THE_KING_OF_FIGHTERS13_GLOBAL_MATCH,더 킹 오브 파이터즈 XIII 글로벌 매치,,,,,3,,,,,,,
-GAME,THE_KING_OF_FIGHTERS98,더 킹 오브 파이터즈 '98,,,,,,5,15,17,16,13,9,
-GAME,THE_LEGEND_OF_HEROES_HAJIMARI_NO_KISEKI,영웅전설 시작의 궤적,,,,,,11,8,12,,,,
-GAME,THE_PLUCKY_SQUIRE,견습 기사 모험기,,,,,6,7,7,6,13,,,
-GAME,THE_WALKING_DEAD,워킹 데드,3,5,,,,,,,,12,,
-GAME,TOF,타워 오브 판타지,,2,3,3,4,5,6,,7,1,,1
-GAME,TREE_of_SAVIOR,트리 오브 세이비어,,,,,1,,,,,,,
-GAME,TRIANGLE_STRATEGY,트라이앵글 스트래티지,,,,,,,,,,2,2,2
-GAME,TUNIC,튜닉,,,0,0,0,0,,,,,,
-GAME,Tabletop_Simulator,테이블탑 시뮬레이터,0,,,,5,3,5,,4,2,1,
-GAME,Tainted_Grail_The_Fall_of_Avalon,테인티드 그레일: 더 폴 오브 아발론,,,,,0,0,0,,,,,
-GAME,Tales_Runner,테일즈런너,24,59,76,40,22,49,41,46,26,41,26,4
-GAME,Tavern_Master,태번 마스터,,,,,,,,2,,,,
-GAME,Team_Fortress2,팀 포트리스 2,,1,3,3,7,,12,,,36,21,22
-GAME,Teamfight_Tactics,전략적 팀 전투: K.O. 콜로세움,8028,7596,7463,7809,11913,6776,9269,8610,3897,3887,3401,3121
-GAME,Tenkei_Paradox,천계 패러독스,1,2,1,1,2,1,3,4,2,,,3
-GAME,Terminus_Zombie_Survivors,터미너스: 좀비 생존자들,,,,,0,,,,,,,
-GAME,Terraria,테라리아,4,6,6,,4,7,7,5,0,2,1,
-GAME,The_Aquarium_does_not_dance,아쿠아리움은 춤추지 않아,,,,,,2,,,,,,
-GAME,The_Aquarium_does_not_dance_Special_Edition,아쿠아리움은 춤추지 않아 스페셜 에디션,,,,7,8,9,,,,,,
-GAME,The_Bathhouse,지옥전탕 리스토어드 에디션,17,8,,,,,,,6,9,10,
-GAME,The_Bazaar,더 바자르,7,,,1,5,2,5,4,13,14,15,
-GAME,The_Binding_of_Isaac,아이작의 번제,0,1,3,1,,,,,,,,
-GAME,The_Binding_of_Isaac_Rebirth,아이작의 번제: 리버스,,,,2,11,11,166,181,206,17,12,11
-GAME,The_Blind_Of_The_New_World,미래세계의 맹인,,,,,,,1,1,,,,
-GAME,The_Bridge_Curse2_The_Extrication,여귀교2: 자유로운 영혼의 길,,,,,,,,,,1758,1763,1633
-GAME,The_Cabin_Factory,더 캐빈 팩토리,,,,,,5,,,,,,
-GAME,The_Coma_Recut,더 코마: 리컷,,,,,,2,3,,,,,
-GAME,The_Drifter,더 드리프터,,,,,,25,24,25,,,,
-GAME,The_Elder_Scrolls_V_Skyrim,엘더스크롤 5: 스카이림,,,,,2,6,5,1,0,0,0,0
-GAME,The_Exit8,8번 출구,,,,,,,,3,3,,,
-GAME,The_First_Berserker_Khazan,퍼스트 버서커: 카잔,,,,,12,14,1,,,,,
-GAME,The_First_Descendant,퍼스트 디센던트,222,234,64,77,66,93,87,89,46,50,11,14
-GAME,The_Forest_of_Drizzling_Rain,안개비가 내리는 숲,,,,,,,,,,,,0
-GAME,The_Game_of_Sisyphus,더 게임 오브 시시포스,,,,,,70,,,,,,
-GAME,The_Guild3,더 길드3,3,4,4,,,2,11,10,,3,,
-GAME,The_Hundred_Line_Last_Defense_Academy,더 헌드레드 라인 -라스트 디펜스 아카데미-,1,1,1,,,,,,3176,2793,2830,2434
-GAME,The_Karters2_Turbo_Charged,더 카터스 2: 터보 차지드,,,,,,1,1,1,,,,
-GAME,The_King_of_Fighters_XV,더 킹 오브 파이터즈 XV,,,,,,1,13,,,,,
-GAME,The_Kingdom_of_the_Wind,바람의나라,11,12,12,14,14,4,24,9,3,4,2,1
-GAME,The_Last_of_Us_Part1,더 라스트 오브 어스 파트 1,,,,,4,7,11,25,19,6,19,8
-GAME,The_Last_of_Us_Part2_Remastered,더 라스트 오브 어스 파트 2 리마스터드,,,,,,,,,,,2,2
-GAME,The_Last_of_Us_Remastered,더 라스트 오브 어스 리마스터드,,,2,2,,,,,,,,
-GAME,The_Legend_of_Zelda_Breath_of_the_Wild,젤다의 전설 브레스 오브 더 와일드,19,20,36,18,46,56,38,51,10,10,14,7
-GAME,The_Legend_of_Zelda_Phantom_Hourglass,젤다의 전설 몽환의 모래시계,,,,,17,13,14,11,10,12,11,10
-GAME,The_Legend_of_Zelda_Tears_of_the_Kingdom,젤다의 전설 티어스 오브 더 킹덤,3,,3,,,4,4,4,13,0,10,0
-GAME,The_Long_Dark,더 롱 다크,26,11,30,5,12,39,45,25,28,21,16,13
-GAME,The_Maid,더 메이드,,,,,,7,,,,,,
-GAME,The_Nioh_Collection,인왕 컬렉션,,,,4,3,,,,,,,
-GAME,The_Outlast_Trials,아웃라스트 트라이얼,,,2,1,1,0,0,1,1,,1,
-GAME,The_Planet_Crafter,플래닛 크래프터,,,,,,,,,11,,,
-GAME,The_Riftbreaker,리프트브레이커,,,,,,,,,,2,8,5
-GAME,The_Rogue_Prince_of_Persia,로그: 페르시아의 왕자,,,,,,,,1,0,,,
-GAME,The_Room,더 룸,,,,,,,,,2,,,
-GAME,The_Sims4,더 심즈 4,,,,,167,293,284,262,4,6,3,
-GAME,The_Sinking_City,더 싱킹 시티,2,,,,,,,,,,,
-GAME,The_Spell_Brigade,마법 주문 팀,,9,,,5,4,3,4,8,2,,10
-GAME,The_Strongest_TOFU,최강 두부,,,,,2,1,2,,,,,
-GAME,The_Texas_Chain_Saw_Massacre,텍사스 전기톱 학살,,,,,,,,,3,3,1,1
-GAME,The_War_of_Genesis_Remnants_of_Gray,창세기전: 회색의 잔영,,,,,0,,,,,,,
-GAME,The_Witch's_House_MV,마녀의 집 MV,,,,,,1,,,,,,
-GAME,The_Witcher3_Wild_Hunt,더 위쳐 3: 와일드 헌트,20,17,,,,,,,,,,
-GAME,The_Witcher_3_Wild_Hunt_Blood_and_Wine,더 위쳐 3: 와일드 헌트 - 블러드 앤드 와인,,,,,,2,1,2,2,3,2,
-GAME,The_Witcher_3_Wild_Hunt_Complete_Edition,더 위쳐 3: 와일드 헌트 - 컴플리트 에디션,,,,,,,1,2,3,2,2,
-GAME,The_play_of_genesis,창세기전 모바일 아수라 프로젝트,,,,,0,4,2,,,,,
-GAME,They_Are_Billions,데이 아 빌리언즈,,17,8,1,9,,3,3,6,3,,
-GAME,This_War_of_Mine,디스 워 오브 마인,4,0,0,0,1,1,,,,,,
-GAME,Three_Kingdoms_Mushouden,쓰리 킹덤즈 무쇼우덴,,,,,89,158,,82,,,,
-GAME,Throne_and_Liberty,쓰론 앤 리버티,,,,,,,0,0,,,,
-GAME,Thronefall,쓰론폴,,,,,,,,,1,,,
-GAME,Timberborn,팀버본,,,0,1,2,,,,,,,
-GAME,Tinkerlands,팅커랜드,,,,,,7,7,7,,,,
-GAME,Titan_Quest,타이탄 퀘스트,,,,,0,,,,,,,
-GAME,Titan_Quest_II,타이탄 퀘스트 II,,,,,0,0,1,,,,,
-GAME,To_the_Moon,투 더 문,,,,,,,,,5,,,
-GAME,Tom_Clancys_The_Division2,톰 클랜시의 더 디비전 2,21,25,21,46,29,44,46,54,48,29,24,33
-GAME,Tomb_Raider,툼 레이더,,,,,,10,19,5,7,,,
-GAME,Torchlight_Infinite,토치라이트: 인피니트,,,,5,6,7,8,11,,,,
-GAME,Total_War_THREE_KINGDOMS,토탈 워: 삼국,,,,,,,2,4,,,,
-GAME,Total_War_WARHAMMER3,토탈 워: 워해머 3,,,,11,42,79,119,70,70,59,51,1
-GAME,Touhou_Mystias_Izakaya,동방야작식당 -Touhou Mystia's Izakaya,0,0,1,1,2,2,355,325,,1,,
-GAME,Tower_Unite,타워 유나이트,,,,,,0,0,,,,,
-GAME,Tree_of_Savior_M,트리 오브 세이비어 M,,,,,,10,12,10,9,7,4,
-GAME,Trickcal,트릭컬 리바이브,73,6,9,3,7,21,43,25,,,,1
-GAME,TurretGirls,터렛걸즈,,,,,,,,533,654,,,
-GAME,Twelve_Minutes,트웰브 미닛,,,,,,6,7,7,,,,
-GAME,Two_Point_Hospital,투 포인트 호스피탈,,,,,,1,1,2,,,,
-GAME,UNCHARTED_LEGACY_OF_THIEVES_COLLECTION,언차티드: 레거시 오브 시브즈 컬렉션,,,,,,3,4,4,2,2,1,2
-GAME,UNDERTALE,언더테일,2310,2042,2090,1962,28,50,48,41,9,18,16,
-GAME,Umamusume,우마무스메 프리티 더비,18,16,36,20,22,62,50,41,56,39,23,14
-GAME,Umineko_When_They_Cry_Question_Arcs,괭이갈매기 울 적에 - 문제편,,,,,3,,,,,,,
-GAME,Uncharted_Waters_Origin,대항해시대 오리진,,,,5,9,9,,,,,,
-GAME,Uncover_the_Smoking_Gun,언커버 더 스모킹 건,,,,17,22,24,22,41,,,,
-GAME,Undecember,언디셈버,,,,,3,7,0,,0,0,,
-GAME,Underground_Blossom,언더그라운드 블라썸,,,,,,,,4,,,,
-GAME,Unicorn_Overlord,유니콘 오버로드,,,,,6,13,9,23,12,11,,
-GAME,Untitled_Goose_Game,언타이틀드 구스 게임,,,,,9,8,6,,,,,
-GAME,Urban_Myth_Dissolution_Center,도시전설 해체센터,,,,2,3,11,0,,,,,
-GAME,VAMPIR,뱀피르,38,25,43,59,150,174,217,213,179,31,119,91
-GAME,VINDICTUS,마비노기 영웅전,26,47,21,14,46,45,67,69,27,16,32,24
-GAME,VOIDBREAKER,보이드/브레이커,,,,,,3,2,4,3,2,1,
-GAME,VRChat,VR챗,,,,53,162,88,122,231,79,47,9,29
-GAME,V_Rising,V 라이징,,,,,,7,,2,2,,,
-GAME,Valheim,발하임,18,16,20,25,16,21,12,13,22,36,9,11
-GAME,Valorant,발로란트,524,641,586,1086,1663,1750,1847,1798,1418,3675,1794,615
-GAME,Vampire_Survivors,뱀파이어 서바이버즈,,,,,,,,2,3,,,
-GAME,Victoria3,빅토리아 3,,,,,7,10,16,11,,0,0,0
-GAME,Viewfinder,뷰파인더,,,,,,,6,6,6,,,
-GAME,Viscera_Cleanup_Detail,비세라 클린업 디테일,,,,,0,0,0,0,,,,
-GAME,Volcano_Princess,화산의 딸,7,7,6,8,9,8,,,,4,3,2
-GAME,WARS_OF_PRASIA,프라시아 전기,,,,,,0,0,1,,,,
-GAME,WASD_The_Adventure_of_Tori,WASD : 토리의 모험,,,,616,143,729,804,458,534,454,456,
-GAME,WILD_HEARTS,와일드 하츠,,,,,,0,,,,,,
-GAME,WITCH_ON_THE_HOLY_NIGHT,마법사의 밤,,,,,,,2,4,4,,,
-GAME,WRC_Generations,WRC 제너레이션,,,,,,243,244,,,,,
-GAME,WUCHANG_Fallen_Feathers,명말: 공허의 깃털,7,8,9,6,16,13,42,25,14,13,10,4
-GAME,WWE_BATTLEGROUNDS,WWE 2K 배틀그라운드,,,,,,,,,,,,2
-GAME,War_Thunder,워 썬더,25,18,24,34,47,66,93,82,70,40,9,8
-GAME,Warcraft3,워크래프트3,,,,15,22,55,29,34,50,64,59,44
-GAME,Warcraft_III_Reforged,워크래프트 3: 리포지드,372,300,286,17,7,14,11,10,10,14,140,122
-GAME,Warcraft_III_The_Frozen_Throne,워크래프트 III : 프로즌 쓰론,0,,,10,34,45,45,55,39,25,0,0
-GAME,Warframe,워프레임,23,13,21,18,44,85,80,55,57,11,35,20
-GAME,Warhammer40000_Dawn_of_War_Definitive_Edition,"워해머 40,000: 던 오브 워 - 디피니티브 에디션",,,,,9,11,20,13,3,,,
-GAME,Warhammer40k_Space_Marine2,"워해머 40,000: 스페이스 마린 2",5,,,,,,1,0,1,,,
-GAME,Warhammer_40K_Rogue_Trader,"워해머 40,000: 로그 트레이더",,,,,,1,2,2,2,3,3,2
-GAME,Warhammer_Vermintide2,워해머: 버민타이드 2,30,,,,,,,,,,,
-GAME,Wartales,워테일즈,2,3,8,5,,,,,,,,
-GAME,Watermelon_Game,수박게임,,,,,,,,,7,,,
-GAME,Waterpark_Simulator,워터파크 시뮬레이터,,,,,0,,,1,0,,,
-GAME,Welcome_to_Kowloon,웰컴 투 구룡,,,,,,,1,,,,,
-GAME,Whisker_Wanderlust,길잃은 고양이의 신비한 여정,,,,,9,,,,,,,
-GAME,White_Day_A_Labyrinth_Named_School,화이트데이: 학교라는 이름의 미궁,,,,,,7,5,,,,,
-GAME,Whos_at_the_door,후즈 앳 더 도어,,,11,15,76,170,127,43,55,24,9,11
-GAME,Wild_Assault,와일드 어썰트,,,,,,,,,,289,,
-GAME,Wildgate,와일드 게이트,,,,,,,,,,4,6,5
-GAME,Windslayer,윈드슬레이어,0,1,1,,,5,6,7,4,5,4,2
-GAME,Winkeltje_The_Little_Shop,윙클츠: 더 리틀 샵,3,,,,,,,,,,,
-GAME,Wish_Upon_a_Cat,고양이의 작은 소원,,,,,,,4,3,,,,
-GAME,WitchSpring_R,마녀의샘R,,,,,,12,16,,,,,
-GAME,Withering_Rooms,위더링 룸스,,,,,,,,,,5,6,7
-GAME,WorldBox,월드박스,0,0,0,0,0,,,,0,2,1,1
-GAME,World_Of_Warships,월드 오브 워쉽,6,5,0,,25,43,53,47,45,39,33,5
-GAME,World_War_Z,월드 워 Z,,,,,,6,5,8,10,9,,
-GAME,World_War_Z_Aftermath,월드 워 Z: 애프터매스,,,,3,1,1,1,2,4,3,,
-GAME,World_of_Tanks,월드 오브 탱크,70,63,62,204,352,94,84,40,42,71,25,17
-GAME,World_of_Warcraft_Classic,월드 오브 워크래프트 클래식,149,414,208,199,266,199,169,224,95,98,42,26
-GAME,World_of_Warcraft_Mists_of_Pandaria_Classic,월드 오브 워크래프트: 판다리아의 안개 클래식,191,,,,20,37,51,52,63,92,,
-GAME,World_of_Warcraft_The_War_Within,월드 오브 워크래프트: 내부 전쟁,1150,1072,1102,1481,2679,3040,3130,3181,2386,2126,1502,1109
-GAME,WutheringWaves,명조: 워더링 웨이브,34,81,100,137,190,211,249,312,855,1762,1549,635
-GAME,X4_Foundations,X4: 파운데이션,,,,,,,,,,0,0,1
-GAME,XCOM2,엑스컴 2,,,,1,3,2,3,,,,,
-GAME,Xenoblade_Chronicles,제노블레이드 크로니클스,0,,,,,,,0,0,0,,
-GAME,YOUR_BLIGHT,유어 블라이트,,,,,,,0,2,3,4,3,3
-GAME,YOU_WANT_THOSE_GAMES_RIGHT,"어디서 많이 본 그 게임을 막대 인간으로 진짜 만들어 봤는데, 과연 당신이 클리어할 수 있을까?",,,,,,,,134,144,214,,
-GAME,Yacht_Dice,요트 다이스,,,,,,,7,4,,,,
-GAME,Yakuza_Kiwami2,용과 같이: 극 2,,,,,,,,,,5,3,3
-GAME,Yakuza_Like_a_Dragon_International,용과 같이 7 빛과 어둠의 행방 International,,,,,,,,,,1,,
-GAME,Ys_X_Proud_Nordics,이스 X -프라우드 노딕스-,2,1,1,,1,6,6,5,1,1,2,1
-GAME,Yu_Gi_Oh_Duel_Links,유희왕 듀얼 링크스,,,,6,,1,5,5,,,,
-GAME,Yu_Gi_Oh_Master_Duel,유희왕 마스터 듀얼,67,64,81,87,171,176,133,58,222,243,192,0
-GAME,ZERO_Sievert,제로 시버트,,,,,,,,,17,12,10,
-GAME,ZZZ,젠레스 존 제로,33,10,13,69,157,289,140,64,27,18,44,8
-GAME,Zero_Escape_The_Nonary_Games,제로 이스케이프: 더 노나리 게임즈,,,,,,0,3,4,2,,,
-GAME,Zombie_Highschool,좀비고등학교,,,,,,19,29,24,11,10,9,
-GAME,a_record_of_girl_development,소녀육성기록: 격동의 시대,,,,,17,12,,,,,,
-GAME,beatmania_IIDX32_PinkyCrush,비트매니아 IIDX 32 핑키 크러시,0,0,0,0,0,0,,,,,,
-GAME,beatmania_IIDX_INFINITAS,비트매니아 IIDX 인피니타스,,,,,,0,1,1,,,,
-GAME,classic_game,고전 게임,13,26,85,46,103,261,420,458,330,349,238,48
-GAME,coin_rpg,코인키우기 - 방치형 가상화폐 RPG,,,,1,0,0,0,1,,,,
-GAME,dai_gyakuten_saiban2_naruhodō_ryūnosuke_no_kakugo,대역전재판 2: 나루호도 류노스케의 각오,,,,,17,8,11,,,,,
-GAME,demo_game,데모 게임,0,0,17,20,27,7,27,22,18,86,,
-GAME,hololive_Holos_Hanafuda,hololive Holo's 화투,,,,,3,12,,,,,,
-GAME,iRacing,아이레이싱,,,,,,0,0,0,,,,
-GAME,kartrider_rush_plus,카트라이더 러쉬플러스,12,21,2,5,21,48,249,104,43,57,19,7
-GAME,kurobas_sr,쿠로코의 농구 Street Rivals,,,,,,7,,,5,3,2,1
-GAME,mabinogimobile,마비노기 모바일,494,430,490,689,804,790,973,1068,1010,649,394,257
-GAME,mahjong_soul,작혼: 리치 마작,64,47,39,128,292,451,404,437,614,218,221,158
-GAME,maimai_DX_PRiSM,마이마이 디럭스 프리즘,0,0,0,0,0,0,,,,,,
-GAME,osu,osu!,0,0,0,0,0,1,3,4,4,,,4
-GAME,playinzoi,인조이,9,18,2,9,6,,13,19,18,3,6,11
-GAME,pokemon_tcg_pocket,포켓몬 카드 게임 Pocket,,,5,,,,,,,,,
-GAME,racingmaster,레이싱 마스터,28,14,23,29,41,61,49,59,50,17,15,31
-GAME,red_city,붉은 도시,,,0,0,,,,,,,,
-GAME,rfonlinenext,RF 온라인 넥스트,3,2,,,,,0,1,,,,
-GAME,sena_rebirth,세븐나이츠 리버스,1,2,9,841,121,58,26,23,35,16,10,9
-GAME,shape_of_dreams,셰이프 오브 드림즈,,,,,0,4,4,4,,,,
-GAME,sketch_Quiz,스케치퀴즈,,,,,,,,,,5,6,
-GAME,some_some_convenience_store,썸썸 편의점,,,,,,,,,,,2,
-GAME,soulworker,소울워커,,,,,8,70,52,57,23,59,,
-GAME,star_wars_jedi_fallen_order,스타워즈 제다이: 오더의 몰락,,,,,5,6,9,7,,,,
-GAME,super_robot_wars_30,슈퍼로봇대전 30,,,,,0,0,0,,,,,
-GAME,supervive,슈퍼바이브,90,92,75,133,108,163,134,112,73,113,79,38
-GAME,theHunter_Call_of_the_Wild,더 헌터: 야생의 부름,,,,,,,7,21,,,,
-GAME,various_games,종합 게임,4638,3607,1229,1411,6227,18584,19645,19070,15733,4629,3617,2712
-GAME,yulgangreturn,열혈강호:귀환,0,1,1,1,,1,1,1,2,,,
-None,,,,,,,,,,,,,,485
-None,None,,,,,,,,,,,,,359
-SPORTS,baseball,야구,0,70,218,954,1240,489,124,37,14,0,0,1
-SPORTS,soccer,축구,,,45,1,0,,1,0,1,,,
-SPORTS,sports,스포츠,16,,,,,,15,21,,,,
-,,,907,781,746,2501,3775,3088,3284,2852,7752,979,993,
+﻿categoryType,categoryId,categoryValue,2025-08-27T07:00:00Z,2025-08-27T08:00:00Z,2025-08-27T09:00:00Z,2025-08-27T10:00:00Z,2025-08-27T11:00:00Z,2025-08-27T12:00:00Z,2025-08-27T13:00:00Z,2025-08-27T14:00:00Z,2025-08-27T15:00:00Z,2025-08-27T16:00:00Z,2025-08-27T17:00:00Z,2025-08-27T18:00:00Z,2025-08-27T19:00:00Z
+ENTERTAINMENT,drama,드라마,243,190,333,241,214,210,209,207,179,175,171,204,165
+ENTERTAINMENT,movie,영화,,,,14,18,,,,,,,,
+ENTERTAINMENT,show,예능,2447,2007,1827,1988,2346,2075,2205,2162,2000,1987,1806,1630,1539
+ETC,art,그림/아트,706,640,697,854,873,940,1101,883,756,582,477,211,206
+ETC,asmr,ASMR,1,0,62,2,21,256,646,738,729,575,629,70,20
+ETC,mukbang,먹방/쿡방,831,9,0,0,5,24,5,137,116,12,5,21,6
+ETC,music,음악/노래,1036,1876,1274,3736,8725,6536,9997,6321,7353,4223,3407,2145,943
+ETC,news,시사/경제,0,0,0,16,20,7,7,0,0,0,0,0,0
+ETC,sci_tech,과학/기술,,,,,2,1,4,5,0,8,7,11,1
+ETC,talk,talk,9914,7147,16518,26530,45995,47423,43135,38804,20741,16167,13311,9350,4488
+GAME,428_Shibuya_Scramble,428 ~봉쇄된 시부야에서~,,,,,4,13,,,,,,,
+GAME,60_Seconds_Reatomized,60 세컨즈! 리아토마이즈드,,,,,,1,11,21,,,,,
+GAME,7_Days_to_Die,세븐 데이즈 투 다이,3,3,6,13,29,21,20,25,22,36,35,,6
+GAME,9Kings,나인 킹즈,0,1,1,,,,,1,1,,,,
+GAME,ABZU,압주,,,,,,,5,9,,,,,
+GAME,ACE_COMBAT7_Skies_Unknown,에이스컴뱃 7: 스카이즈 언노운,,,,2,,,,,,,,,
+GAME,AI_LIMIT,AI 리미트,0,0,1,1,2,2,0,0,,,,,
+GAME,ALBEDO_CHARTA,백야기담,,,,,,,,,5,9,5,11,6
+GAME,ALTF4,ALTF4,,,,,,,1,0,0,3,,,
+GAME,ANNO1800,아노 1800,28,5,15,18,18,7,9,,,,,,
+GAME,ARK_Survival_Ascended,아크: 서바이벌 어센디드,,,,,,43,78,205,123,120,130,137,137
+GAME,ARK_Survival_Evolved,아크: 서바이벌 이볼브드,,,,,,11,6,6,8,13,4,,
+GAME,ARMORED_CORE6,아머드 코어 VI 루비콘의 화염,,,,,3,21,25,7,6,,,,
+GAME,ASSASSINS_CREED_ODYSSEY,어쌔신 크리드: 오디세이,,,,,,,,,1,1,1,2,1
+GAME,ASTRONEER,아스트로니어,8,,,1,1,2,2,1,,7,8,7,8
+GAME,ASURAJANG,아수라장,,,,,,32,23,30,18,7,9,,
+GAME,A_Dance_of_Fire_and_Ice,불과 얼음의 춤,,3,6,2,12,14,48,41,22,4,,,
+GAME,A_Hat_in_Time,어 햇 인 타임,,,,,,3,3,3,,,,,
+GAME,A_Little_to_the_Left,어 리틀 투 더 레프트,,,,,,6,,6,7,4,5,5,
+GAME,A_Night_Duty,당직근무,,,,,,,,3,2,,,,
+GAME,A_Plague_Tale_Requiem,플래그 테일: 레퀴엠,,,,,1,1,1,,,2,2,0,0
+GAME,A_Street_Cats_Tale,길고양이 이야기,,,,,,2,4,2,,,,,
+GAME,Abiotic_Factor,에이바이오틱 팩터,4,4,,,3,9,9,3,3,8,4,6,4
+GAME,Abraham_Test,아브라함 테스트,,,,,,4,4,,,,,,
+GAME,Absolute_Fear_AOONI,절대 공포 -아오오니-,,,,,,,,,,,,41,30
+GAME,Ace_Attorney_Investigations_Collection,역전검사 1&2 미츠루기 셀렉션,,,,,,6,14,15,5,,,,
+GAME,Afterimage,애프터이미지,3,1,,,,,,,,,,,
+GAME,Against_the_Storm,어게인스트 더 스톰,,,,,,,0,1,1,,,,
+GAME,Age_of_Empires4,에이지 오브 엠파이어 4,5,5,0,3,4,5,11,8,56,235,122,113,106
+GAME,Age_of_Empires_II_Definitive_Edition,에이지 오브 엠파이어 2: 디피니티브 에디션,,,,,,,,,1,2,1,,
+GAME,Aion,아이온,,,,0,0,0,0,0,0,0,,,
+GAME,Aion_Classic,아이온 클래식,1,0,0,2,0,0,1,0,,1,1,0,0
+GAME,Albion_Online,알비온 온라인,,,,,,5,5,,,,,,0
+GAME,Ale_Tale_Tavern,에일 & 테일 태번,,,,,,3,3,,,,,,
+GAME,Alehouse_Tavern_Simulator,에일하우스 태번 시뮬레이터,,,,,8,,,,,,,,
+GAME,Alien_Isolation,에이리언: 아이솔레이션,0,1,5,,,5,6,7,,,,,
+GAME,Alien_Swarm_Reactive_Drop,에일리언 스웜: 리액티브 드롭,0,,,,,,,,,,,,
+GAME,Aliens_Fireteam_Elite,에이리언: 파이어팀 엘리트,,,,,,,0,,,,,,
+GAME,All_About_Chopsticks,젓가락질 개론,,,45,,,,,70,78,37,,,
+GAME,All_in_Abyss_Judge_the_Fake,올인 어비스 : 속임수를 심판하라,,,,,,,,,3,1,,,
+GAME,Amenti,아멘티,,,,,,,,3,4,,,,
+GAME,American_Truck_Simulator,아메리칸 트럭 시뮬레이터,,,,,1,,,,,,,,
+GAME,Angels_of_Death,살육의 천사,3,3,4,,,,,,,,,,
+GAME,Angry_Birds2,앵그리버드 2,,,,,,,,5,,,,,
+GAME,Animal_Crossing_New_Horizons,모여봐요 동물의 숲,16,13,,,1,33,11,17,9,4,14,,
+GAME,Apex_Legends,에이펙스 레전드,244,147,129,206,219,281,211,189,162,192,121,84,45
+GAME,Apollo_Justice_Ace_Attorney_Trilogy,역전재판 456 오도로키 셀렉션,,,,,2,3,3,4,,,,,
+GAME,Arena_Breakout,아레나 브레이크아웃,44,48,80,23,71,87,93,75,56,35,22,20,12
+GAME,Arknights,명일방주,3,3,7,86,53,22,26,24,152,126,110,15,4
+GAME,Arma3,아르마 3,,,,,,1,,,,,,,
+GAME,Arma_Reforger,아르마 리포저,,,8,9,8,,,,,,,,
+GAME,Artis_Impact,아르티스 임팩트,3,1,1,5,3,15,23,23,3,3,5,24,30
+GAME,Assassins_Creed2,어쌔신 크리드 2,,,,,,2,2,1,11,,,,
+GAME,Assassins_Creed_Mirage,어쌔신 크리드 미라지,,,,,,2,3,2,2,2,2,3,
+GAME,Assassins_Creed_Origin,어쌔신 크리드: 오리진,,,,,2,7,,,,,,,
+GAME,Assassins_Creed_Unity,어쌔신 크리드: 유니티,2,1,,,,,,,2,1,1,,
+GAME,Assetto_Corsa_Competizione,아세토 코르사 컴페티치오네,,,,2,6,3,,,,,,,
+GAME,AtelierYumia_AlchemistMemories_EnvisionedLand,유미아의 아틀리에 ~추억의 연금술사와 창환의 땅~,,,,,,,,18,12,,9,10,7
+GAME,Atelier_Lydie_Suelle_Alchemist_of_the_Mysterious_Painting,리디 & 수르의 아틀리에 ~신비한 그림의 연금술사~,,,1,2,3,3,3,3,,,,,
+GAME,Atelier_Ryza_Ever_Darkness_the_Secret_Hideout,라이자의 아틀리에 ~어둠의 여왕과 비밀의 은신처~,,,,,,,1,3,4,,,,
+GAME,Atomfall,아톰폴,6,6,5,,,,,,,,,,
+GAME,Auto_Chess,오토체스,,,,2,1,,,,,,,,
+GAME,Avowed,어바우드,1,1,1,1,1,,,,,,,,
+GAME,Azur_Lane,벽람항로,,,,,7,10,9,10,11,10,,,
+GAME,BAKERU,바케루,,,,,,,,,,2,,,
+GAME,BATTLEFIELD4,배틀필드 4,,,,,,,,,,1,,,
+GAME,BATTLE_FIELD3,배틀필드 3,,,,,3,4,4,4,4,,,,
+GAME,BIOHAZARD7_resident_evil,바이오하자드 7 레지던트 이블,,8,,3,3,24,17,22,2,2,2,8,4
+GAME,BIOHAZARD_RE4,바이오하자드 RE:4,4,4,4,4,9,,6,7,55,56,,,3
+GAME,BIOHAZARD_RE_3,바이오하자드 RE:3,,,,,,,1,4,4,1,3,6,
+GAME,BIOHAZARD_VILLAGE,바이오하자드 빌리지,,,1,2,7,6,1,1,3,1,1,1,
+GAME,BLACK_SURVIVAL,블랙서바이벌,27,14,15,31,18,34,37,35,41,23,27,15,11
+GAME,BLAZBLUE_CROSS_TAG_BATTLE,블레이블루 크로스 태그 배틀,,,,,0,,,,,,,,
+GAME,BNS_NEO,블레이드 & 소울 네오,,6,6,,,2,2,2,4,,,,
+GAME,BOKURA,다른 겨울의 우리들,,,,,,,2,2,2,,,,
+GAME,Baba_Is_You,바바 이즈 유,,,,,,3,6,3,,,,,
+GAME,Back_to_the_Dawn,백 투 더 던,13,9,8,7,9,16,19,11,10,9,6,,
+GAME,Backpack_Battles,백팩 배틀즈,,,,,6,7,20,,10,12,9,,
+GAME,Backroom_Company,백룸컴퍼니,10,,,,4,22,25,14,9,,,,
+GAME,Backrooms_Escape_Together,백룸: 이스케이프 투게더,,,,5,,,,,,,,,
+GAME,Balatro,발라트로,,83,83,85,,,,,,,,,
+GAME,Baldurs_Gate3,발더스 게이트 3,8,9,8,12,11,14,27,30,37,36,9,11,8
+GAME,Battle_Brothers,배틀 브라더스,,,,,1,3,27,1272,1244,0,1129,997,910
+GAME,Battlefield1,배틀필드 1,,,,,,,,,1,,,,
+GAME,Battlefield2042,배틀필드 2042,2,1,4,55,160,207,72,70,1,,2,2,3
+GAME,Battlefield6,배틀필드 6,1,1,1,,,,,,,,,,
+GAME,Best_Served_Cold,베스트 서브드 콜드,,,,,,4,7,,,,,,
+GAME,Beyond_Citadel,비욘드 시타델,,,,,1,1,1,1,,,,,
+GAME,Beyond_the_Map,비욘드 더 맵,3,2,1,,3,9,3,,,,,,
+GAME,Biped,바이페드,,,,,2,16,5,,,,,,
+GAME,Birdie_Crush,버디크러시,,,,,,,,,,0,0,,
+GAME,BitCraft_Online,비트크래프트 온라인,,,,,1,2,3,,5,,,,
+GAME,Black_Desert,검은사막,1060,1057,1105,1195,1404,1246,1143,1294,999,833,776,765,517
+GAME,Black_Myth_Wukong,검은 신화: 오공,5,1,2,0,,3,3,3,8,10,7,3,3
+GAME,Black_Squad,블랙스쿼드,0,0,0,0,0,0,0,0,0,0,0,0,
+GAME,Black_Survival_Eternal_Return,이터널 리턴,4544,3428,3153,2458,5026,6040,5843,4423,4915,4977,4253,3012,1715
+GAME,Blade_Soul,블레이드 & 소울,1,0,,,3,,2,2,,,,,
+GAME,Blade_and_Sorcery,블레이드 앤 소서리,,,,,2,2,,,,,,,
+GAME,Blair_Witch,블레어 위치,,,,,,,2,2,0,,,,
+GAME,Bloons_TD6,블룬스 TD 6,,,,,,,,,,,,,1
+GAME,Blue_Archive,블루 아카이브,29,147,147,101,192,185,300,319,221,184,50,50,3
+GAME,Borderlands3,보더랜드 3,,,,,0,0,1,0,,,,,
+GAME,Brawl_Stars,브롤스타즈,,,,5,1,1,1,,,,,,
+GAME,Broken_Arrow,브로큰 애로우,,,,,,,,,,2,4,2,
+GAME,Brotato,브로테이토,,,,,,,8,11,,,0,,
+GAME,BrownDust2,브라운더스트2,,,14,8,17,18,25,13,7,12,11,,
+GAME,CLAIR_OBSCUR_EXPEDITION33,클레르 옵스퀴르: 33 원정대,9,8,10,5,8,9,7,11,15,2,6,11,4
+GAME,CLOSERS,클로저스,,,,,,10,23,17,16,13,14,12,0
+GAME,COUNTERSIDE,카운터사이드,5,,,,,,,13,12,0,,,
+GAME,CRAZY_ARCADE_BnB,크레이지 아케이드 비엔비,,,,,,1,3,2,,,,,
+GAME,Call_of_Duty_Black_Ops6,콜 오브 듀티: 블랙 옵스 6,,,,,2,6,1,0,9,13,12,,
+GAME,Call_of_Duty_Warzone,콜 오브 듀티 : 워존,13,0,15,22,11,12,11,14,12,5,3,5,
+GAME,Call_of_Duty_World_at_War,콜 오브 듀티: 월드 앳 워,,,,2,5,,,,,,,,
+GAME,Captain_Tsubasa_Rise_of_New_Champions,캡틴 츠바사: 라이즈 오브 뉴 챔피언스,639,509,453,446,,,,,,,,,
+GAME,Card_Survival_Fantasy_Forest,카드 서바이벌 : 몽환의 숲,1,1,1,,,,,,,,,,
+GAME,Cat_in_the_Box,캣 인 더 박스,,,,,,14,8,,,,,,
+GAME,Celeste,셀레스트,1,1,0,0,1,,,,,,,,
+GAME,Chaos_Online,카오스온라인,,,,,,,,,0,1,,,
+GAME,Chasing_Light,체이싱 라이트,,,,,0,0,,,,,,,
+GAME,Chess_com,체스 닷컴,,,0,,,17,12,32,13,5,7,,3
+GAME,Children_of_Morta,칠드런 오브 몰타,,,,,,,,1,0,0,,,
+GAME,Cities_Skylines,시티즈: 스카이 라인,493,439,430,488,,,,,2,2,2,2,
+GAME,Cities_Skylines2,시티즈: 스카이라인 II,,,,,2,7,34,32,26,,,,
+GAME,Clash_of_Clans,클래시 오브 클랜,,,,0,0,1,0,,,,,,
+GAME,CloverPit,클로버핏,,,,,,26,26,,,,,,
+GAME,Com2us_ProBaseballV22,컴투스프로야구V25,,,,,,,18,52,24,18,14,14,
+GAME,Company_of_Heroes,컴퍼니 오브 히어로즈,,,,,,,,1,1,,,,
+GAME,Company_of_Heroes3,컴퍼니 오브 히어로즈 3,0,13,20,11,,3,15,15,27,17,34,,
+GAME,Conquerors_Blade,컨커러스 블레이드,,,13,32,45,45,2,0,0,0,1,1,0
+GAME,Contraband_Police,콘트라밴드 폴리스,,,,,11,,,,,,,,
+GAME,ContractVille,콘트랙트빌,,,,,,,6,4,,,,,
+GAME,ContractXLove,계약X연애,,,,,,17,13,19,4,3,,,
+GAME,CookieRun_Tower_of_Adventures,쿠키런: 모험의 탑,,,,,,,5,5,,,,,
+GAME,Cookie_Run_KINGDOM,쿠키런: 킹덤,4,3,2,3,12,8,5,1,,8,7,0,
+GAME,Cookie_Run_OvenBreak,쿠키런 : 오븐브레이크,2,,,,,3,1,1,1,2,,,
+GAME,Cooking_Simulator,쿠킹 시뮬레이터,,,,,5,6,5,,,,,,
+GAME,CoopTD,협동타워디펜스,0,0,,,,,,,,,,,
+GAME,Coral_Island,코랄 아일랜드,,,,,,4,5,5,,,,,
+GAME,Core_Keeper,코어 키퍼,11,4,13,6,71,86,77,65,50,13,7,5,4
+GAME,Counter_Strike_Global_Offensive,카운터 스트라이크 2,6,4,39,34,45,48,72,13,30,15,14,6,6
+GAME,Counter_Strike_Online,카운터-스트라이크 온라인,,,,,,,,,15,5,3,,
+GAME,Crime_Scene_Cleaner,크라임 씬 클리너,,,,,,,,7,38,40,40,,2
+GAME,Crusader_Kings3,크루세이더 킹즈 3,,,,,5,5,6,7,6,,,,
+GAME,Crypt_of_the_NecroDancer,크립트 오브 더 네크로댄서,1,1,1,1,1,1,1,,,,,,
+GAME,Crystal_of_Atlan,CoA: 아틀란의 크리스탈,,,,5,,,1186,1036,,,,,
+GAME,Cube_Escape_Collection,큐브 이스케이프 컬렉션,,,,,,5,4,4,3,,,,
+GAME,Cult_of_the_Lamb,컬트 오브 더 램,,,,6,,4,3,,,,,,
+GAME,Cursed_Digicam,커스드 디지캠,,,,,,6,5,,,,,,
+GAME,Cursed_Shorts,지옥의 짧은 영상,,,,,,,,11,,,,,
+GAME,Cyberpunk2077,사이버펑크 2077,15,41,32,38,39,16,24,29,15,4,5,2,2
+GAME,Cyberpunk2077_Phantom_Liberty,사이버펑크 2077: 팬텀 리버티,13,15,16,16,,,4,7,3,5,7,2,
+GAME,Cyberpunk2077_Ultimate_Edition,사이버펑크 2077: 얼티밋 에디션,29,,,8,5,4,6,13,18,,,,
+GAME,Cyphers,사이퍼즈,70,78,56,88,99,172,283,326,288,138,108,86,104
+GAME,DARKEDEN,다크에덴,,,,,0,0,0,0,,,,,
+GAME,DARKEDEN_M,다크에덴M,,,,,,1,,,,,,,
+GAME,DARK_SOULS_III,다크 소울 3,3,1,5,,3,8,29,44,21,,,7,9
+GAME,DEAD_BY_DAYLIGHT,데드 바이 데이라이트,204,269,364,366,886,5403,7120,13112,11977,5961,5362,4465,3912
+GAME,DEAD_OR_ALIVE_Xtreme_Venus_Vacation,데드 오어 얼라이브 익스트림 비너스 베케이션,3,7,8,5,,5,6,,,,,,
+GAME,DEKARON,데카론,,,,,0,,,,,,,,
+GAME,DIGIMON_MASTERS,디지몬마스터즈,10,16,7,9,33,56,40,28,29,31,9,,
+GAME,DIGIMON_STORY_CYBER_SLEUTH_HACKERS_MEMORY,디지몬 스토리 사이버 슬루스 해커스 메모리,,,,,,1,2,,,,,,
+GAME,DISTRAINT_Deluxe_Edition,디스트레인트: 디럭스 에디션,,,,,2,5,5,,,,,,
+GAME,DJMAX_RESPECT,디제이맥스 리스펙트,,,,,,,37,,,,,,
+GAME,DJMAX_RESPECT_V,디제이맥스 리스펙트 V,26,17,47,46,63,49,52,34,30,18,24,25,13
+GAME,DONKEY_KONG_BANANZA,동키콩 바난자,1,2,2,,3,7,4,0,3,,,,
+GAME,DRAGON_BALL_THE_BREAKERS,드래곤볼 더 브레이커즈,447,381,326,127,135,3,10,7,2,,,,
+GAME,DRAGON_QUEST_HEROES_II,드래곤 퀘스트 히어로즈 II : 쌍둥이 왕과 예언의 끝,,,,,,,,,,2,,,
+GAME,DRAGON_QUEST_III_HD2D_Remake,드래곤 퀘스트 III HD-2D Remake,,,,,,0,0,0,,,,,
+GAME,DREDGE,드렛지,,,,,,,,5,4,,,,
+GAME,DYSMANTLE,디스맨틀,,,,,0,,,,,,,,
+GAME,Danganronpa_Trigger_Happy_Havoc,단간론파: 희망의 학원과 절망의 고교생,,,,,67,68,67,72,59,77,79,51,
+GAME,Danganronpa_V3_Killing_Harmony,뉴 단간론파 V3: 모두의 살인 신학기,,,,,1,1,,,,,,,
+GAME,DarkTide,워해머 40K: 다크타이드,,,,,8,25,55,31,18,9,10,12,
+GAME,Dark_Deception,다크 디셉션,,,,,,,,,12,11,,,
+GAME,Dark_Devotion,다크 디보션,,,,,,,,,,2,1,,
+GAME,Dark_Hours,다크 아워스,,,,,25,29,6,7,6,,,,
+GAME,Dark_Souls_II,다크 소울 2,8,7,9,4,4,14,19,18,15,15,10,,
+GAME,Dark_and_Darker,다크 앤 다커,43,182,144,123,53,117,80,171,96,27,4,17,34
+GAME,Dark_and_Darker_Mobile,어비스 오브 던전,,,,,,,2,3,4,,,,
+GAME,Darkest_Dungeon,다키스트 던전,7,11,3,10,17,22,69,38,29,1,0,,
+GAME,Dave_The_Diver,데이브 더 다이버,2,3,2,,,,0,0,2,,,5,4
+GAME,DayZ,데이즈,1,3,5,10,8,,,,,,,1,2
+GAME,Dead_Space,데드 스페이스(2008),,,,,,,,3,,4,,,
+GAME,Dead_Space_Remake,데드 스페이스,,,,,,3,4,10,5,2,,,
+GAME,Deadlock,데드락,11,59,55,44,1364,2164,2258,2140,1902,1844,180,122,116
+GAME,Deadzone_Rogue,데드존: 로그,,,,,,,9,3,4,,,,
+GAME,Death_Stranding2_On_the_Beach,데스 스트랜딩 2: 온 더 비치,8,0,0,0,,64,7,12,5,1,1,1,
+GAME,Death_Stranding_Directors_Cut,데스 스트랜딩 디렉터스 컷,2,2,3,,,,,,194,93,90,93,95
+GAME,Deaths_Door,데스 도어,,,1,,,,,,0,,,,
+GAME,Debugging_Hero,디버깅 히어로,,,29,,36,34,36,,,,,,
+GAME,Deep_Rock_Galactic,딥 락 갤럭틱,3,,,,17,13,12,,2,,,,
+GAME,Deep_Rock_Galactic_Survivor,딥 락 갤럭틱: 서바이버,,,,,,,,,,2,3,,
+GAME,DeltaForce_HawkOps,델타포스,137,132,159,273,181,272,261,238,151,185,141,102,65
+GAME,Deltarune,델타룬,3,3,3,,33,,40,39,36,98,69,62,44
+GAME,Demon_Slayer_Kimetsu_no_Yaiba_THC2,귀멸의 칼날 히노카미 혈풍담2,,,8,8,,2,9,8,,,,,
+GAME,Demonologist,데모놀로지스트,,,,,,6,4,8,,,,,
+GAME,Depersonalization,인격해체,,,,,1,1,2,2,2,1,,,
+GAME,Destiny2_The_Edge_of_Fate,데스티니 가디언즈: 운명의 경계,10,11,11,,,,,,,,,,
+GAME,Destiny_Guardians,데스티니 가디언즈,,,,1,,8,11,8,,,,,
+GAME,Detroit_Become_Human,디트로이트: 비컴 휴먼,,,,,,10,10,4,4,,,,
+GAME,Devil_May_Cry4,데빌 메이 크라이 4,,,,,,,,0,,,,,
+GAME,Devil_May_Cry5,데빌 메이 크라이 5,,,,,,,,,,,1,2,4
+GAME,Diablo2_Resurrected,디아블로 II: 레저렉션,70,35,55,57,386,219,409,207,59,101,58,54,58
+GAME,Diablo3_Rise_of_the_Necromancer,디아블로 3: 강령술사의 귀환,,,,,,,6,6,6,,,,
+GAME,Diablo_IV,디아블로 4,0,,,,,,,,,,,,
+GAME,Diablo_IV_Vessel_of_Hatred,디아블로 4: 증오의 그릇,5,4,2,7,,10,4,7,3,2,3,4,2
+GAME,Digimon_Battle_Online,디지몬RPG,,,,,,,0,1,0,,,,
+GAME,Digimon_Super_Rumble,디지몬 슈퍼럼블,21,11,8,,,1,3,8,,,,,
+GAME,Dinkum,딩컴,,,,5,3,,,,,,,,
+GAME,Diplomacy_is_Not_an_Option,외교는 선택이 아니다,5,4,4,,,,,3,3,,,,
+GAME,Discounty,Discounty : 크레이지 마트,4,,1,1,2,2,9,6,7,7,9,,
+GAME,Doki_Doki_Literature_Club,두근두근 문예부!,,,,,,,,,4,2,2,3,
+GAME,Dont_Starve,돈 스타브,,,4,5,11,,,,2,,,,
+GAME,Dont_Starve_Together,돈 스타브 투게더,,7,22,33,39,34,20,15,9,4,,,
+GAME,Dota2,도타 2,0,7,6,9,20,28,13,48,55,23,22,16,37
+GAME,Dragon_Ball_Z_Kakarot,드래곤볼 Z 카카로트,,,,,,36,33,33,29,31,44,,
+GAME,Dragon_Quest_Builders2,드래곤 퀘스트 빌더즈 2: 파괴신 시도와 텅 빈 섬,,,,,11,8,10,8,0,0,,,
+GAME,Dragons_Dogma2,드래곤즈 도그마 2,,,,,,,,1,2,1,1,3,2
+GAME,Dread_Flats,흉우,33,,,,,,,,,,,,
+GAME,Duet_Night_Abyss,듀엣 나이트 어비스,,,0,292,5,,,,,,,,
+GAME,Dune_Awakening,듄: 어웨이크닝,,,,0,4,7,6,,,,,,
+GAME,Dungeon_Fighter,던전앤파이터,1729,303,320,495,1068,1256,1554,1521,1068,1245,1036,598,312
+GAME,Dungeon_Fighter_Mobile,던전앤파이터 모바일,,,1,,9,6,7,4,3,15,14,9,5
+GAME,Dungeon_Slasher,던전슬래셔,1,2,,,,,,,,,,,
+GAME,Dungeon_Stalkers,던전 스토커즈,,,,,,8,6,8,6,,,,
+GAME,Dungreed,던그리드,,,0,1,1,,,,,,,,
+GAME,Dying_Light,다잉 라이트,8,11,11,1,3,,,,,,,,
+GAME,Dynasty_Warriors8_Xtreme_Legends,진・삼국무쌍 7 with 맹장전,0,,,,,,,,0,,,,
+GAME,Dynasty_Warriors_Origins,진・삼국무쌍: ORIGINS,,,,,,,,4,3,3,4,5,
+GAME,EA_SPORTS_FC25,EA 스포츠 FC 25,,,,,,1,0,2,7,8,11,,
+GAME,EA_SPORTS_Madden_NFL26,EA 스포츠 매든 NFL 26,,1,2,2,1,,5,,,,,,
+GAME,ELDEN_RING_Shadow_of_the_Erdtree,엘든 링 황금 나무의 그림자,,,,9,36,25,47,38,26,15,14,1,1
+GAME,ENDER_MAGNOLIA_Bloom_in_the_mist,엔더 매그놀리아: 블룸 인 더 미스트,,,,,2,6,5,5,,,,,
+GAME,EOS_BLACK,에오스 블랙,,0,0,,,,,,,,,,
+GAME,EOS_RED,에오스 레드,2,2,2,1,1,3,1,2,2,2,1,0,
+GAME,EVE_Online,이브 온라인,,,,,,,0,0,0,0,0,,
+GAME,EZ2ON_REBOOT_R,이지투온 리부트: R,13,14,16,18,47,10,18,1,12,11,3,,2
+GAME,Eastward,이스트워드,,,,,,,1,1,,,,,
+GAME,Eiyuden_Chronicle_Hundred_Heroes,백영웅전,2,3,,6,2,,,,,,,,
+GAME,Elden_Ring,엘든 링,23,13,58,58,90,68,83,73,45,29,24,4,
+GAME,Elden_Ring_Nightreign,ELDEN RING 밤의 통치자,12,10,173,195,167,32,30,25,31,17,32,21,22
+GAME,Elpis_Legend_Soul_Ring,엘피스 전기: 소울링,,,,,,0,0,0,1,,,,
+GAME,Elsword,엘소드,,,,1,8,4,12,10,17,9,5,7,
+GAME,Enlisted,인리스티드,1,1,,1,,,,3,5,,,2,1
+GAME,Enotria_The_Last_Song,에노트리아: 더 라스트 송,,,,,,,,,1,1,2,,
+GAME,Enshrouded,인슈라오디드,7,7,7,2,9,20,12,15,3,4,1,0,0
+GAME,Enter_the_Gungeon,엔터 더 건전,,2,,,,,,0,1,,3,0,1
+GAME,Epic_Seven,에픽세븐,,13,66,152,109,98,44,32,25,22,21,,
+GAME,Erion,에리온: 용과 마법의 시대,2,11,12,10,,,,,,,,,
+GAME,Eryis_Action,에리의 액션,,,,,,,0,,,,,,
+GAME,Escape_Simulator,방 탈출 시뮬레이터,1,1,,,,8,7,7,2,,,,
+GAME,Escape_from_Tarkov,이스케이프 프롬 타르코프,1055,970,1066,509,960,1392,1664,1707,1764,2799,455,373,363
+GAME,Euro_Truck_Simulator2,유로 트럭 시뮬레이터 2,0,0,,2,23,38,36,41,37,1,1,0,0
+GAME,Europa_Universalis_IV,유로파 유니버셜리스 4,,2,2,,0,1,2,1,1,1,1,,
+GAME,F1_25,F1 25,0,0,4,4,2,,4,4,6,5,6,8,5
+GAME,FAKEBOOK,페이크북,,,,,22,9,35,40,9,,,,
+GAME,FIFA_Mobile,FC모바일,,,,,,,,1,,,,,
+GAME,FIFA_ONLINE4,FC온라인,54,43,92,40,50,61,76,64,47,6,4,3,3
+GAME,FINAL_FANTASY16,파이널 판타지 16,,,,,,5,5,7,7,6,7,1,
+GAME,FINAL_FANTASY_Pixel_Remaster,파이널 판타지 픽셀 리마스터,,,,,,,10,11,,,,,
+GAME,FINAL_FANTASY_VII_REBIRTH,파이널 판타지 7 리버스,,,,,1,3,5,4,4,3,3,,
+GAME,FINAL_FANTASY_XIV,파이널판타지14,56,50,58,107,181,242,208,116,113,83,46,30,15
+GAME,FTL_Faster_Than_Light,FTL: 패스터 댄 라이트,,,,2,5,6,11,5,,,,,
+GAME,Factorio,팩토리오,,0,3,,,,2,3,,,,,
+GAME,Fall_Guys_Ultimate_Knockout,폴가이즈,9,12,16,10,21,54,87,86,71,49,,,
+GAME,Fallout4,폴아웃 4,,,,,0,,,,,,,,
+GAME,Fallout76,폴아웃 76,,,,,,1,4,2,3,,,,
+GAME,Fallout_New_Vegas,폴아웃: 뉴 베가스,7,,,,,2,,,1,1,2,2,
+GAME,Farlight_84,파라이트 84,3,3,3,3,,,,,,,,,1
+GAME,Farming_Simulator17,파밍 시뮬레이터 17,,,,,,2,2,3,,,,,
+GAME,Farming_Simulator25,파밍 시뮬레이터 25,,1,1,,,,,,,,,,
+GAME,Fast_Food_Simulator,패스트 푸드 시뮬레이터,,,,,606,1362,686,604,11,,,,
+GAME,Fate_Grand_order,페이트/그랜드 오더,,,,10,48,36,112,75,,5,6,,
+GAME,Fate_Trigger_The_Novita,페이트 트리거,,,,,,,,1,,,,,
+GAME,Fate_stay_night_REMASTERED,페이트/스테이 나이트 리마스터드,,,,,,,10,11,11,13,,,
+GAME,Fields_of_Mistria,필즈 오브 미스트리아,,,,,,,5,16,18,12,14,,
+GAME,Final_Fantasy_VII,파이널 판타지 7,2,0,,,,,,,,,,,
+GAME,Fingerdance,핑거댄스,364,,,,,,,,,,,,
+GAME,Fire_Emblem_Warriors_Three_Hopes,파이어 엠블렘 무쌍 풍화설월,1,1,1,1,0,2,,,,,,,
+GAME,Fischers_Fishing_Journey,냐옹이 낚시 일기,,,,,,3,3,,,,,,
+GAME,Five_Nights_at_Freddys,프레디의 피자가게,,,,,,,1,,,,,,
+GAME,Flower_in_Us,사람 속에 피는 꽃,2,17,,,,,,,,,,5,4
+GAME,Flowers_Blooming_at_the_End_of_Summer,여름의 끝에 피는 꽃,,,,,,4,,,,,,,
+GAME,FlyffUniverse,프리프 유니버스,,,,0,0,0,1,1,0,0,,,
+GAME,Football_Manager_2024,풋볼 매니저 2024,2,1,2,0,3,1,,,,,,,
+GAME,Fork_Road,포크 로드,,,,,,6,102,82,91,,,,
+GAME,Fortnite,포트나이트,6,3,5,5,9,18,11,10,6,,,,
+GAME,Forza_Horizon5,포르자 호라이즌 5,,,,,2,3,4,,,,,,
+GAME,Foundation,파운데이션,,,,,,2,2,1,1,1,1,3,2
+GAME,Free_Style2,프리스타일2,7,4,,,,,,,6,13,22,7,
+GAME,Frostpunk,프로스트펑크,,,,,,,27,31,,36,43,50,50
+GAME,Frostrain,프로스트레인,,,,,,,,,8,7,7,,
+GAME,Fruit_Mountain,프루트 마운틴,,,,,,30,26,23,,,,,
+GAME,Fuel_Harvest_Together,기름 캐자! 베프들,1012,1035,1022,1085,1222,,,,,,,,
+GAME,GOD_EATER3,갓 이터 3,,,,,,,3,2,,,,,
+GAME,GRADIUS_ORIGINS,그라디우스 오리진스,,,,,,1,,,,,,,
+GAME,GRAVITY_RUSH2,그라비티 러쉬 2 : 하늘로 떨어진 소녀의 선택,,,,,,3,5,,,,,,
+GAME,GRIS,그리스,,,,,,,,29,33,33,,,
+GAME,GTFO,GTFO,,,,,,0,0,2,3,1,,,2
+GAME,GUILD_WARS2,길드워 2,,,,,,,0,0,0,,,,
+GAME,GUILTY_GEAR_STRIVE,길티기어 스트라이브,69,115,237,191,143,87,117,69,76,36,29,15,
+GAME,Garden_of_Witches,마녀의 정원,2,3,7,2,,,,,,1,,,
+GAME,Garrys_Mod,게리 모드,,,2,3,,4,,,,,,,
+GAME,Garten_of_Banban0,가르텐 오브 반반 0,,,,,5,3,,,,,,,
+GAME,Gears_of_War,기어스 오브 워,4,11,4,5,4,4,4,9,3,4,4,5,
+GAME,Gears_of_War_Reloaded,기어스 오브 워: 리로디드,3,4,14,31,30,31,28,30,10,3,45,44,
+GAME,Genshin_Impact,원신,55,32,20,95,103,366,348,273,124,77,27,16,20
+GAME,Geometry_Dash,지오메트리 대시,,,,,,,104,,72,,,,
+GAME,Get_To_Work,겟 투 워크,,23,24,11,18,33,29,14,4,5,13,,
+GAME,Getamped,겟앰프드,5,76,84,,5,9,11,6,9,3,3,3,
+GAME,Ghost_of_Tsushima,고스트 오브 쓰시마,,,,,,,0,0,,,,,
+GAME,Ghost_of_Tsushima_Directors_Cut,고스트 오브 쓰시마 디렉터스 컷,,,,,0,1,2,7,0,2,2,1,2
+GAME,Ghostwire_Tokyo,고스트와이어: 도쿄,,,,,,,1,0,0,,,,
+GAME,Girls_Frontline,소녀전선,,,,,,1,0,,,,,,
+GAME,Girls_Frontline2_Exilium,소녀전선2: 망명,,,,,,0,1,1,,,,,
+GAME,God_of_War,갓 오브 워,,,,,5,6,6,4,14,,,,
+GAME,God_of_War_Ragnarok,갓 오브 워 라그나로크,,,,,0,0,0,,,,,,
+GAME,Good_Pizza_Great_Pizza,"좋은 피자, 위대한 피자",,,,,,10,,,,,,,
+GAME,Goose_Goose_Duck,구스 구스 덕,,,,4,1,36,151,305,214,23,0,0,0
+GAME,Gori_Cuddly_Carnage,고리: 귀여운 학살자,,,,11,10,,,,,,,,
+GAME,Gran_Turismo7,그란 투리스모 7,,,,,,2,4,14,,,,,
+GAME,Granado_Espada,그라나도 에스파다,,,,,2,2,,,,,,,
+GAME,Granblue_Fantasy_Versus_Rising,그랑블루 판타지 Versus -RISING-,,,2,3,3,4,19,10,9,8,,,
+GAME,GrandChase Classic,그랜드체이스 클래식,,,13,15,15,23,22,18,14,,10,,
+GAME,Grand_Theft_Auto_V,Grand Theft Auto V,23,40,35,29,596,681,696,764,725,659,660,569,491
+GAME,Great_Merchant,천하제일상거상,15,21,14,94,90,115,137,113,102,37,56,43,30
+GAME,Green_Hell,그린 헬,1,1,0,0,6,5,6,5,6,15,,,
+GAME,Grim_Dawn,그림 던,3,4,,,1,1,,11,11,2,3,,
+GAME,Grounded,그라운디드,,,,8,8,3,3,2,,,,,
+GAME,Grounded2,그라운디드 2,,,608,3,6,10,5,,1,4,5,3,
+GAME,Guardian_Tales,가디언 테일즈,,,,,6,7,,,,,,,
+GAME,Gunfire_Reborn,건파이어 리본,,,,,,,,7,7,1,1,0,0
+GAME,HELLDIVERS2,헬다이버즈 2,9,11,36,53,82,113,134,85,61,34,50,25,13
+GAME,Half_Life,하프라이프,,,1,,,,,,,,,,
+GAME,Halo_The_Master_Chief_Collection,헤일로: 더 마스터 치프 컬렉션,,,,11,11,11,,,,,,,
+GAME,HanBaduk,한게임 바둑,,,,,0,0,0,,,,,,
+GAME,Hangame_sudda,한게임 섯다&맞고,,,,,,19,16,5,,,,,
+GAME,Hearthstone,하스스톤,149,76,622,1478,2506,2326,2037,1991,1330,939,838,717,650
+GAME,Hearts_of_Iron_IV,하츠 오브 아이언 4,,,,2,33,35,32,2,5,4,4,4,3
+GAME,Heavy_Rain,헤비 레인,4,,,,,,,,,,,,
+GAME,Heavy_Spoilers_RPG,스포일러가 너무 심한 RPG ―최후의 적의 정체는 용사의 아버지―,,,,,,5,8,7,,,,,
+GAME,HellZombie,헬좀비,,,,,,7,9,9,,,,,
+GAME,Herdling,허들링,,,,,28,29,32,37,5,,,,
+GAME,Hero_Siege,히어로 시즈,,,,,,,0,0,,,,,
+GAME,Heroes_of_the_Strom,히어로즈 오브 더 스톰,17,19,27,9,60,112,123,137,98,51,38,46,34
+GAME,Higurashi_When_They_Cry_Hou,쓰르라미 울 적에 봉+,,,,,,,2,3,2,2,2,2,
+GAME,Higurashi_When_They_Cry_Hou_Matsuribayashi,쓰르라미 울 적에 봉 - Ch.8 마츠리바야시,,,1,2,2,1,1,1,1,1,,,
+GAME,Higurashi_When_They_Cry_Hou_Meakashi,쓰르라미 울 적에 봉 - Ch.5 메아카시,,,,,41,83,97,107,126,124,124,,
+GAME,Higurashi_When_They_Cry_Hou_Minagoroshi,쓰르라미 울 적에 봉 - Ch.7 미나고로시,,,,9,17,22,28,25,,,,,
+GAME,Higurashi_When_They_Cry_Hou_Tatarigoroshi,쓰르라미 울 적에 봉 - Ch.3 타타리고로시,,,,,285,542,281,252,264,244,247,246,239
+GAME,Higurashi_When_They_Cry_Hou_Watanagashi,쓰르라미 울 적에 봉 - Ch.2 와타나가시,,,,,,22,21,26,26,,,,
+GAME,Hogwarts_Legacy,호그와트 레거시,,,,,1,4,2,2,73,58,68,54,5
+GAME,Hollow_Knight,할로우 나이트,651,173,168,143,678,618,883,679,781,387,340,241,221
+GAME,Hollow_Knight_Voidheart_Edition,할로우 나이트 : 공허의 심장 에디션,1,4,4,5,4,7,7,8,3,2,1,,
+GAME,Honkai_Impact,붕괴3rd,,,,,7,718,702,11,5,,,,
+GAME,Honkai_Impact_Star_Rail,붕괴: 스타레일,128,64,27,153,453,4660,5258,5640,6039,4283,196,33,12
+GAME,Honor_of_Kings,아너 오브 킹즈(왕자영요 글로벌),,,0,1,2,2,,8,8,,,,
+GAME,Horizon_Zero_Dawn,호라이즌 제로 던,,3,4,3,3,2,,,,,,,
+GAME,HorrorToleranceTest,공포내성진단검사,,,,,,45,37,,,,,,
+GAME,Hospital666,호스피탈 666,,,,,12,,,,,,,,
+GAME,House_Flipper,하우스 플리퍼,,,,,,,,,9,15,,,
+GAME,Human_Fall_Flat,휴먼: 폴 플랫,,,,,6,7,,,,,,,
+GAME,Hunt_Showdown1896,헌트: 쇼다운 1896,,5,2,4,6,5,3,2,5,5,,,
+GAME,Hwanse,환세취호전,,,,,,,0,0,,,,,
+GAME,I_Wanna_Be_The_Boshy,아이 워너비 더 보시,,2617,3682,4465,5302,5587,6051,5941,82,81,66,,
+GAME,I_Wanna_Be_the_Guy,아이 워너비 더 가이,0,,,,,,,,,,,,
+GAME,I_am_Fish,난 물고기야,,,,,,27,21,,,,,,
+GAME,Ib,Ib,,,,,,,8,10,12,11,,,
+GAME,Identity_V,제5인격,,,,3,,,4,,,,,,
+GAME,IfSunSets,이프선셋,,,,,,2,2,4,2,3,,,
+GAME,In_Sink,인 싱크,,,,,,,1,,11,12,10,11,9
+GAME,Indiana_Jones_and_the_Great_Circle,인디아나 존스: 그레이트 서클,0,1,1,1,,,,,,,,,
+GAME,Inscryption,인스크립션,,,,,1,1,1,4,7,,,,
+GAME,Inside_the_Backrooms,인사이드 더 백룸,,,,,,17,20,,20,,,,
+GAME,Internet_Cafe_Evolution,PC방 시뮬레이터,,,0,1,,,,,,,,,
+GAME,Into_the_Dead_Our_Darkest_Days,인투 더 데드: 아워 다키스트 데이즈,1,2,,4,6,5,5,3,4,2,,,
+GAME,Is_This_Seat_Taken,이즈 디스 시트 테이큰?,,,,,,0,0,0,,,,,
+GAME,It_Takes_Two,잇 테이크 투,2,2,2,,,,,2,2,1,1,1,
+GAME,JUDGMENT_Remastered,저지 아이즈: 사신의 유언 Remastered,,,,,,,1,2,,,,,
+GAME,JoJos_Bizarre_Adventure_All_Star_Battle_R,죠죠의 기묘한 모험 올 스타 배틀 R,,3,,,,,,,,,,,
+GAME,Jump_King,점프 킹,,,,,,,4,11,16,,1,5,1
+GAME,Just_Dance_2025_Edition,저스트 댄스 2025 에디션,,,,,413,,,,,,,,
+GAME,KUUKIYOMI_Consider_It,다함께 쿠키요미,,,,,,,,27,,,,,
+GAME,Karate_Survivor,살아남아라 무도가,,,,,,,20,,,,,,
+GAME,KartRider_Drift,카트라이더: 드리프트,,,,,,2,,,,,27,,
+GAME,Kart_Rider,카트라이더,4,6,3,101,103,150,310,231,108,7,98,56,
+GAME,Katana_ZERO,카타나 제로,,,,,,,,,3,2,1,,
+GAME,Keep_on_Mining,킵 온 마이닝!,,,7,7,9,13,8,5,7,10,,,
+GAME,Killing_Floor3,킬링 플로어 3,,1,1,,3,9,7,10,,,,,
+GAME,Kingdom_Come_Deliverance_II,킹덤 컴: 딜리버런스 II,,,,,8,1,13,,,,0,2,1
+GAME,Kinki_Spiritual_Affairs_Bureau,긴키영무국 - 킨키 스피리츄얼 어페어스 뷰로,7,7,8,8,,,,,,,,,
+GAME,Kirby_and_the_Forgotten_Land,별의 커비 디스커버리,,,4,7,,4,2,2,2,2,2,3,2
+GAME,Kirby_and_the_Forgotten_Land_Switch2Edition,별의 커비 디스커버리 Nintendo Switch 2 Edition,,,,0,21,8,8,11,49,27,27,27,74
+GAME,Knightica,나이티카,,,,,0,0,,,,,,,
+GAME,LITTLE_NIGHTMARES,리틀 나이트메어,,,,,,4,6,3,,,,,
+GAME,LOCKDOWN_Protocol,락다운 프로토콜,,,,5,4,7,8,,,,,,
+GAME,LOST_JUDGMENT,로스트 저지먼트: 심판받지 않은 기억,2,2,,,,,,,,,,,
+GAME,LaTale,라테일,,,,,15,11,17,14,22,28,11,5,3
+GAME,Langrisser,랑그릿사,,,,,,79,38,48,3,11,5,5,3
+GAME,Last_Epoch,라스트 에포크,55,49,20,31,317,318,327,286,16,17,16,19,4
+GAME,Last_Origin,라스트 오리진,,,,,,,2,3,,,,,
+GAME,Last_War_Survival_Game,라스트 워: 서바이벌,,1,0,0,1,1,1,1,1,1,1,1,1
+GAME,Late_night_show,폐심: 심야방송,,,,,,7,5,,,,,,
+GAME,Layers_of_Fear,레이어스 오브 피어 (2016),,,,,,,,,,7,8,,
+GAME,Layers_of_Fear_remake,레이어스 오브 피어,55,57,44,40,42,,,14,,,,,
+GAME,League_of_Legends,리그 오브 레전드,3026,89503,120056,126961,39928,38803,5206,3392,2330,2067,1809,1736,1104
+GAME,League_of_Legends_Wild_Rift,리그 오브 레전드: 와일드 리프트,,,,,,6,2,2,0,1,0,,
+GAME,Left4_Dead2,레프트 4 데드 2,,,,,16,13,11,9,,,,,
+GAME,Legend_Of_Darkness,어둠의전설,,,,,,3,2,2,3,,,,
+GAME,Legend_of_Mortal,활협전,62,66,65,,,55,62,77,79,,,,1
+GAME,Legends_of_Runeterra,레전드 오브 룬테라,,,,,,,,,,,1,,
+GAME,Lethal_Company,리썰 컴퍼니,5,10,15,19,14,21,38,32,64,47,35,29,24
+GAME,Level_Devil,레벨 데빌,,,,,,,28,23,19,,,,
+GAME,Liars_Bar,라이어스 바,,,,,,,,2,,6,,,5
+GAME,Library_Of_Ruina,라이브러리 오브 루이나,2,2,8,6,5,5,11,6,,,,,
+GAME,Lies_of_P,P의 거짓,7,17,23,24,29,43,77,45,801,35,25,4,
+GAME,Like_a_Dragon_Infinite_Wealth,용과 같이 8,,,,,,,,,,,1,,
+GAME,Limbus_Company,림버스 컴퍼니,1999,15,91,123,96,218,120,197,138,178,30,35,38
+GAME,Lineage2,리니지2,,,,0,1,1,0,,,,,,
+GAME,Lineage_M,리니지M,0,0,0,0,0,0,0,0,0,0,0,0,0
+GAME,Little_Angels,리틀엔젤,,,,,,,,,4,,,,
+GAME,Little_Kitty_Big_City,"리틀 키티, 빅 시티",1,,,,,2,3,4,,,,,
+GAME,Little_Nightmares2,리틀 나이트메어 2,1,2,3,441,613,625,651,7,7,5,,,
+GAME,Little_Witch_Survivors,어린 마녀 생존자,1,1,,,,,,,,,,,
+GAME,Little_Witch_in_the_Woods,숲속의 작은 마녀,,,,,7,7,3,6,5,,,,
+GAME,Lobotomy_Corporation,로보토미 코퍼레이션,4,4,2,,,4,3,10,11,1,,,
+GAME,Loddlenaut,로들너트,,,,,0,0,0,11,0,,,,
+GAME,Longvinter,롱빈터,,,,,,,,,2,,2,16,14
+GAME,Lost_Ark,로스트아크,20050,19693,20598,23015,27779,23955,25480,25822,23011,21692,17840,10075,1405
+GAME,Love_Sam,"러브, 샘",,,,,,,,2,2,,,,
+GAME,Love_is,Love is : 감성 힐링 숨은그림찾기,,,,,,12,20,,,,,,
+GAME,Lucky_Defense,운빨존많겜,,,,,0,1,3,3,,,,0,0
+GAME,Luma_Island,루마섬,,,,,46,49,77,42,36,,,,
+GAME,MADiSON,매디슨,,,,,,19,11,,,,,,
+GAME,METAL_GEAR_SOLID2_SONS_OF_LIBERTY,메탈 기어 솔리드 2: 선즈 오브 리버티,3,3,,,,,,,,,,,
+GAME,METAL_GEAR_SOLID_Delta_SNAKE_EATER,메탈 기어 솔리드 Δ: 스네이크 이터,127,127,117,88,95,196,250,259,144,126,250,241,128
+GAME,METAL_SLUG3,메탈슬러그 3,,,,,,,,,,,1,0,
+GAME,METAL_SLUG_X,메탈슬러그 X,,,,,,,66,,,,,,
+GAME,MLB_The_Show25,MLB 더 쇼 25,5,6,,,,,,,,,,,
+GAME,MONSTER_HUNTER_WORLD,몬스터 헌터: 월드,,,,2,1,2,1,0,3,,,,
+GAME,Mabinogi,마비노기,110,167,120,121,165,201,119,120,40,128,71,37,29
+GAME,Mafia_The_Old_Country,마피아: 올드 컨트리,,,,,,2,3,4,4,,,,
+GAME,Mage_Arena,메이지 아레나,1171,,,,,74,11,10,6,,,,
+GAME,Magic_The_Gathering_Arena,매직 더 개더링,,,,6,5,,,,,,,,
+GAME,MagicalMicDuel_Senpai_HearMySpell,마법소녀 카와이 러블리 즈큥도큥 바큥부큥 루루핑,,,,6,,,,,,,,,
+GAME,Maid_of_Sker,스커의 하녀,,,,,3,,,,,,,,
+GAME,Malteses_Fluffy_Onsen,몰티즈와 복실복실 온천,,,,,,4,,,,,,,
+GAME,MapleStory,메이플스토리,1161,1055,995,2106,3130,3070,2964,3058,2526,2206,1788,248,160
+GAME,MapleStory_M,메이플스토리M,,0,1,1,4,1,1,,0,1,,,
+GAME,MapleStory_WORLDS,메이플스토리 월드,87,114,110,130,232,255,312,386,289,264,240,247,272
+GAME,Mario_Kart_World,마리오 카트 월드,19,20,21,20,1745,1443,2389,2310,2277,1,2,0,1
+GAME,Mario_Luigi_Brothership,마리오&루이지 RPG 브라더십!,,,,,,2,3,,,,,,
+GAME,Marvel_Future_Fight,마블 퓨처파이트,,,,,13,9,12,,,,,,
+GAME,Marvel_Rivals,마블 라이벌즈,11,27,21,34,23,67,65,54,24,23,36,25,14
+GAME,Marvel_Snap,마블스냅,,,,,,11,4,,,,,,
+GAME,Marvels_Spider_Man2,마블 스파이더맨 2,,,,,,,,5,14,14,12,,
+GAME,Mass_Effect_Legendary_Edition,매스 이펙트 레전더리 에디션,0,0,0,0,,0,0,0,0,0,,,
+GAME,Master_of_Study,공부의 신M,0,,,,,,,,,,,,
+GAME,Mecha_BREAK,메카 브레이크,11,12,16,17,12,10,19,3,8,,12,13,15
+GAME,Mechabellum,메카벨룸,,,,0,,,5,4,,,,15,
+GAME,Metal_Gear_Solid,메탈 기어 솔리드,,,,,,4,,,,,,,
+GAME,Metal_Unit,메탈 유닛,,,,,,,,,,,,0,0
+GAME,Metaphor_ReFantazio,메타포: 리판타지오,9,9,7,,,2,,2,,,,,
+GAME,Mind_Over_Magic,마인드 오버 매직,,,,,,5,4,,,,,,
+GAME,Minecraft,마인크래프트,556,536,598,655,533,1958,2286,2403,1461,853,1016,370,243
+GAME,Miracle_snack_shop,기적의 분식집,,,,,,,,2,5,5,6,8,5
+GAME,Mobile_Suit_Gundam_Batte_Operation2,기동전사 건담 배틀 오퍼레이션 2,,,,,0,15,20,16,,,,,
+GAME,Monster_Hunter_Rise,몬스터 헌터 라이즈,3,,,,,,,,,,,,
+GAME,Monster_Hunter_Rise_SunBreak,몬스터 헌터 라이즈: 선브레이크,,,,4,6,9,1,1,2,,,,
+GAME,Monster_Hunter_Stories,몬스터헌터 스토리즈,,,,3,3,3,,,,,,,
+GAME,Monster_Hunter_Wilds,몬스터 헌터 와일즈,213,120,100,135,322,447,728,761,640,236,163,134,14
+GAME,Monster_Hunter_World_Iceborne,몬스터 헌터 월드: 아이스본,20,20,31,28,20,30,36,22,24,12,13,6,4
+GAME,Monsterest,괴물여관,,,,,,7,5,,,,,,
+GAME,Monstrum,몬스트럼,,,,,,,9,9,,,,,
+GAME,MoonAlong,신월동행,,7,2,0,4,7,3,,10,13,,,
+GAME,Mount_&_Blade2_Bannerlord,마운트 앤 블레이드 2: 배너로드,1,4,3,1,5,23,31,29,27,,,,
+GAME,Mount_Blade_Warband,마운트 앤 블레이드: 워밴드,,,,,,,,,,,2,2,1
+GAME,Moving_Out2,무빙 아웃 2,,,,,,1574,,,,,,,
+GAME,Muse_Dash,뮤즈 대쉬,,,,,5,1,,,,,,,
+GAME,My_future_girlfriend_greeted_me,미래의 여친님이 나에게 인사를 건네왔다,,,,,6,7,6,7,7,8,9,7,
+GAME,NARAKA_BLADEPOINT,나라카: 블레이드포인트,,1,3,,7,6,6,4,,3,4,6,5
+GAME,NIKKE_The_Goddess_of_Victory,승리의 여신: 니케,277,248,231,601,705,2070,965,950,706,256,212,178,144
+GAME,Need_for_Speed_Heat,니드 포 스피드 히트,,,,,,2,1,1,0,,,,
+GAME,Neon_Abyss2,네온 어비스 2,,0,2,,,,,,,,,,
+GAME,Never_Sleep_Island,잠들지 않는 섬,,,,,,,,,,,8,,
+GAME,New_Super_Mario_Bros_U_Deluxe,뉴 슈퍼 마리오브라더스 U 디럭스,1,2,,,,,,,,,,,
+GAME,New_World,뉴 월드: 이터넘,,,,,0,2,1,0,0,,,,
+GAME,NieR_Automata,니어: 오토마타,,,,,6,7,9,10,,,,,
+GAME,Night_Grove,나이트 그로브,,,,,7,,,,,,,,
+GAME,Nine_Sols,나인 솔즈,,,,,,,,,,,8,,
+GAME,Nioh,인왕,,,,,2,6,5,8,,,,,
+GAME,Nioh2_The_Complete_Edition,인왕 2 더 컴플리트 에디션,3,3,,6,9,19,12,14,18,26,9,,
+GAME,No_Man's_Sky,노 맨즈 스카이,1,1,0,1,4,6,5,6,2,2,2,4,
+GAME,No_Rest_for_the_Wicked,노 레스트 포 더 위키드,,,,,,3,,,,,,,
+GAME,OCTOPATH_TRAVELER,옥토패스 트래블러,,,,,,,,,,,1,1,
+GAME,OCTOPATH_TRAVELER2,옥토패스 트래블러 II,,,,,,5,6,7,7,7,6,,
+GAME,ODIN_VALHALLA_RISING,오딘: 발할라 라이징,,,,,,0,0,0,,,,,
+GAME,ONE_PIECE_Bounty_Rush,원피스 바운티 러쉬,,,,,,,,2,,,,,
+GAME,ONLINE_THREEKINDOMS2,온라인 삼국지 2,,,,,,11,8,4,,,,,
+GAME,ORDER13,오더 13,,,,,1,,37,21,,,,,
+GAME,OVERWATCH,오버워치 2,911,784,1181,1238,1508,1940,3403,4178,4188,3624,5059,3984,2765
+GAME,OVIS_LOOP,오비스 루프,2,,,,1,21,,,,,,,
+GAME,Odin_Sphere_Leifthrasir,오딘 스피어: 레이브스라시르,0,0,0,0,0,0,0,0,,,,,
+GAME,Ogu_and_the_Secret_Forest,오구와 비밀의 숲,15,6,8,7,6,0,0,3,,,9,,
+GAME,Omega_Strikers,오메가 스트라이커스,,,,,,2,,,,,,,
+GAME,Once_Human,Once Human,76,77,126,103,192,242,210,236,132,110,86,53,7
+GAME,OneShot,원샷,,,,,,,,4,5,,,,
+GAME,One_Hand_Clapping,원 핸드 클래핑,2,3,2,,,,,,,,,,
+GAME,One_Mans_Trash,원 맨스 트래쉬,,,,,,,11,7,,6,7,,
+GAME,Onimusha2_Samurais_Destiny,귀무자2,,,,,,,,,,,,0,
+GAME,Order_of_the_Prince,대항해시대 온라인,,,1,6,4,55,65,61,15,,,,
+GAME,Ori_and_the_Blind_Forest,오리와 눈먼 숲,5,,,,,,,24,22,14,14,,
+GAME,Out_of_Sight,아웃 오브 사이트,,,3,4,4,,,,,,,,
+GAME,Outlast,아웃라스트,,,,,,1,,0,,,,,
+GAME,Overcooked2,오버쿡! 2,8,9,38,11,13,32,43,20,21,27,29,,
+GAME,Oxygen_Not_Included,산소미포함,,,,4,34,20,11,8,10,9,,,
+GAME,P5X,페르소나5: 더 팬텀 X,,,,,,1,,,0,1,4,,
+GAME,PANICORE,패니코어,,,,,2,,,,,,,,
+GAME,PARANOIA_PLACE,파라노이아 플레이스,,,,,,,,20,8,11,,,
+GAME,PATAPON12REPLAY,파타퐁 1+2 리플레이,187,160,,,5,,,17,16,,,,
+GAME,PAYDAY2,페이데이 2,,,7,5,5,7,,,8,7,,,
+GAME,PEAK,피크,54,29,45,49,376,553,239,253,707,111,48,68,628
+GAME,PERSONA3_RELOAD,페르소나 3 리로드,,,1,2,5,,,,,255,239,,
+GAME,PERSONA4_ARENA_ULTIMAX,페르소나 4 디 얼티맥스 울트라 수플렉스 홀드,,,,,,,2,2,3,2,,,
+GAME,PERSONA4_THE_GOLDEN,페르소나 4 더 골든,,,,,1,1,11,14,16,,,,
+GAME,PERSONA_5_ROYAL,페르소나 5 더 로열,,,,46,28,37,,,,,,,
+GAME,PICO_PARK,피코 파크,,,,,5,14,13,6,,,,,
+GAME,PLATiNA_LAB,플라티나 랩,,,,,,6,3,3,1,,,,
+GAME,POSTAL4_No_Regerts,포스탈 4 : 후회는 ㅇ벗다,,,,,,,,4,,,,,
+GAME,PUBG_MOBILE,배틀그라운드 모바일,,,,,8,5,6,6,,,,,
+GAME,Palia,팔리아,,,,,,4,7,2,3,,,,
+GAME,Palworld,팰월드,8,10,16,15,19,22,18,13,479,389,312,18,12
+GAME,Papers_Please,"페이퍼즈, 플리즈",,,,,1,1,1,0,0,,,,
+GAME,Paquerette_Down_the_Bunburrows,파쿠에레테 다운 더 번버로우즈,,,,,,,12,12,,,,,
+GAME,Parasocial,파라소셜,,,,,15,36,,,,,,,
+GAME,Parcel_Simulator,파슬 시뮬레이터,,,,,,921,922,867,740,,,,
+GAME,Party_Animals,파티 애니멀즈,,,,,30,27,3,38,14,,,,
+GAME,Passpartout_The_Starving_Artist,파스파투: 배고픈 예술가,,,,,,,,4,,,,,
+GAME,Path_of_Exile,패스 오브 엑자일,2,,4,4,7,5,,,,,,8,6
+GAME,Path_of_Exile2,패스 오브 엑자일 2,663,472,549,187,318,436,402,328,402,130,146,101,74
+GAME,Phasmophobia,파스모포비아,4,5,7,11,7,5,1,3,19,16,6,,5
+GAME,Phoenix_Wright_Ace_Attorney_Trilogy,역전재판 123 나루호도 셀렉션,3,11,10,15,30,50,41,43,52,54,,,
+GAME,Planet_Coaster2,플래닛 코스터 2,,,,,,7,4,8,11,27,,,
+GAME,Platform8,8번 승강장,,,,,,,,,3,,,,
+GAME,Player_Unknowns_Battle_Grounds,PUBG: 배틀그라운드,579,658,497,685,1285,1992,2106,2251,1557,1228,1151,785,633
+GAME,Pocket_Rogues,포켓로그,,,,3,5,0,4,2,,,,,
+GAME,Pokemon_Brilliant_Diamond_Shining_Pearl,포켓몬스터 브릴리언트 다이아몬드 · 샤이닝 펄,,,,,,,,,,0,,,
+GAME,Pokemon_Fire_Red,포켓몬스터 파이어레드,,4,8,,3,4,4,,,,,,
+GAME,Pokemon_GO,포켓몬 GO,,,3,,,2,9,10,8,,,,
+GAME,Pokemon_Gold,포켓몬스터 금,,,,,,1,1,1,1,,,,
+GAME,Pokemon_Green_Version,포켓몬스터 녹,,,,,,,72,80,120,123,131,145,
+GAME,Pokemon_Heart_Gold,포켓몬스터 하트골드,,1,0,,,,,,,,,,
+GAME,Pokemon_LEGENDS_Arceus,Pokémon LEGENDS 아르세우스,,,,,192,336,285,564,300,,,,0
+GAME,Pokemon_Red,포켓몬스터 적,33,59,102,96,126,1364,1360,1344,1287,1393,183,64,77
+GAME,Pokemon_Scarlet_Violet,포켓몬스터 스칼렛 · 바이올렛,32,7,10,4,7,63,56,68,484,402,22,,
+GAME,Pokemon_Soul_Silver,포켓몬스터 소울실버,,,,,,,,1,2,,,,
+GAME,Pokemon_Sword_Shield,포켓몬스터 소드 · 실드,,,,,10,9,7,8,,,,,
+GAME,Pokemon_Ultra_Moon,포켓몬스터 울트라문,,,,27,26,,,,,,,,
+GAME,Pokemon_Unite,포켓몬 유나이트,41,50,12,1,19,44,58,34,8,17,23,7,
+GAME,Pokemon_White,포켓몬스터 화이트,,,,,4,,1308,1329,1280,1295,,,
+GAME,Poppy_Playtime,파피 플레이타임,,,,1,,,,,,,,,
+GAME,Portal,포탈,,,,,,26,30,19,11,,,,
+GAME,Portal2,포탈 2,,9,9,19,,,,60,44,23,23,,
+GAME,Potion_Craft_Alchemist_Simulator,포션 크래프트: 알케미스트 시뮬레이터,23,,,,,,,,,,,,
+GAME,Potion_Tycoon,포션 타이쿤,,,,,,,3,5,5,7,5,,
+GAME,Potionomics,포셔노믹스 -신비한 마법물약 상점,,,,,2,2,2,2,2,,,,
+GAME,PowerWash_Simulator,파워워시 시뮬레이터,4,,,,6,6,10,11,9,,,,
+GAME,Princess_Connect_Re_Dive,프린세스 커넥트! Re:Dive,,,,,,,7,,,,,,
+GAME,Prison_Escape_Simulator_Dig_Out,프리즌 이스케이프 시뮬레이터: 디그 아웃,70,131,74,56,23,71,1016,874,758,505,2,,
+GAME,Professional_Baseball_Spirits20242025,프로야구스피리츠 2024-2025,0,,,,,,,,,,,,
+GAME,Professor_Layton_and_the_Strange_Village_HD,레이튼 교수와 이상한 마을 HD,,,,,4,25,28,26,6,6,1,,
+GAME,ProjectARC,PUBG: BLINDSPOT,,3,5,8,13,12,12,11,8,8,6,6,
+GAME,Project_SEKAI_COLORFUL_STAGE,프로젝트 세카이 컬러풀 스테이지! feat.하츠네 미쿠,,,,,6,9,12,16,7,3,,,
+GAME,Project_Zomboid,프로젝트 좀보이드,98,46,111,210,401,548,476,544,435,166,121,69,63
+GAME,Prominence_Poker,프로미넌스 포커,,,,,,,,,14,,,,
+GAME,Pump_It_Up,펌프 잇 업 피닉스,0,0,0,0,0,0,0,,,,,,
+GAME,Punishing_Gray_Raven,퍼니싱 : 그레이 레이븐,,,0,,,,,4,7,7,6,8,
+GAME,Puyo_Puyo_eSports,뿌요뿌요 e스포츠,,,,,,2,,,,,,,
+GAME,Puzzle_Together,퍼즐 투게더,,,,20,19,,,,,,,,
+GAME,Quarantine_Zone_The_Last_Check,쿼런틴 존: 더 라스트 체크,,,,,1,,3,,,,,,
+GAME,Qwilight,Qwilight,,,17,7,,10,2,,4,4,,,8
+GAME,R2BEAT,알투비트,,,,,,,,,5,,,,
+GAME,RAIN_WORLD,레인 월드,3,4,4,,,3,,,,,,,
+GAME,REMATCH,리매치,,,,,,19,23,20,21,11,7,3,
+GAME,REPO,R.E.P.O.,37,21,28,28,57,56,52,64,48,33,20,24,12
+GAME,RIDE4,라이드 4,,,,,,,1,,,,,,
+GAME,ROMANCE_OF_THE_THREE_KINGDOMS8_REMAKE,삼국지8 REMAKE,2,2,1,,,,,,,,,,
+GAME,ROMANCE_OF_THE_THREE_KINGDOMS_XIII,삼국지13,,,,,,,61,,66,65,68,,
+GAME,Raft,래프트,,,,,,,,8,4,12,9,5,
+GAME,Ragnarok_Online,라그나로크 온라인,19,19,8,36,15,8,6,24,17,10,9,11,19
+GAME,Rainbow_Six_Siege,톰 클랜시의 레인보우 식스 시즈 X,42,21,31,16,80,126,157,215,149,43,42,34,26
+GAME,Ratopia,래토피아,,,,,4,6,6,3,,,,,
+GAME,Ready_or_Not,레디 오어 낫,,,,,17,11,9,12,4,5,,,
+GAME,Red_Dead_Redemption2,레드 데드 리뎀션 2,2,2,2,,,11,21,11,14,26,50,28,30
+GAME,Remnant2,렘넌트 2,,0,0,,0,1,3,3,3,3,2,,
+GAME,Resident_Evil2,바이오하자드 RE:2,,,,3,9,12,9,4,3,,,,
+GAME,Resident_Evil4,바이오하자드 4,,,,,,,81,48,41,45,44,48,49
+GAME,Return_of_the_Obra_Dinn,오브라 딘 호의 귀환,,,,,,,24,,,,,,
+GAME,Returnal,리터널,,,,,,0,1,1,1,,,,
+GAME,Reverse_1999,리버스: 1999,,,,124,3,181,188,172,13,11,0,,
+GAME,Reverse_Collapse_Code_Name_Bakery,역붕괴: 베이커리 작전,1,,,,,,1,1,,,,,
+GAME,Rhythm_Doctor,리듬 닥터,,,,,5,14,3,3,4,,,,
+GAME,Rift_of_the_NecroDancer,리프트 오브 더 네크로댄서,,,,,,0,,,,,,,
+GAME,Riichi_City,마작일번가,1,,,6,12,15,16,19,11,1,1,2,3
+GAME,Rimworld,림월드,513,410,361,426,784,1494,1504,976,1239,1610,1873,1174,1059
+GAME,RingFit_Adventure,링 피트 어드벤처,0,,12,16,7,45,21,62,,,,,
+GAME,Rise_of_the_Tomb_Raider,라이즈 오브 더 툼 레이더,,,,,23,,,,,1,1,0,1
+GAME,Risk_of_Rain2,리스크 오브 레인 2,,,,,,,5,3,,,,,
+GAME,Risk_of_Rain_Returns,리스크 오브 레인 리턴즈,,,,,,,,0,0,,,,
+GAME,Roblox,로블록스,44,53,36,54,85,669,659,54,29,10,10,17,10
+GAME,Rocket_Rats,로켓 랫츠,,,,2,3,2,,,,,,,
+GAME,Romance_of_the_Three_Kingdoms14_Power_up_kit,삼국지14 with 파워업키트,,,,,10,25,25,37,38,,,,
+GAME,Ruined_King,몰락한 왕: 리그 오브 레전드 이야기,,,,,6,3,3,3,,,,,
+GAME,Russian_Fishing_4,러시안 피싱 4,5,,17,,,,2,4,23,15,20,6,6
+GAME,Rust,러스트,,,,4,18,32,21,21,27,22,17,5,5
+GAME,SAMURAI_MAIDEN,사무라이 메이든 ~SAMURAI MAIDEN~,2,,,,,,,,,,,,
+GAME,SCP_Secret_Laboratory,SCP: 시크릿 래버러토리,,,1,2,4,3,7,4,,3,2,,
+GAME,SD_Gundam_Battle_Alliance,SD 건담 배틀 얼라이언스,,,,,,1,,,,,,,
+GAME,SD_Gundam_G_Generation_ETERNAL,SD건담 지 제네레이션 이터널,23,24,,45,53,13,39,1,,,,,
+GAME,SD_Gundam_G_Generation_Genesis_for_Nintendo_Switch,SD건담 지 제네레이션 제네시스 for Nintendo Switch,,,,,,,,4,,,,,
+GAME,SEKIRO_SHADOWS_DIE_TWICE,세키로: 섀도우 다이 트와이스,16,21,17,7,8,20,18,15,4,5,22,28,20
+GAME,SHINOBI_Art_of_Vengeance,SHINOBI 복수의 참격,,,6,8,8,11,20,35,33,22,11,2,14
+GAME,SILENT_HILL2,사일런트 힐 2,31,66,,,165,205,217,248,201,23,25,,
+GAME,SKY_HILL,스카이힐,7,7,,,,2,3,,,,,,
+GAME,SMASH_LEGENDS,스매시 레전드,,,,,4,7,7,,,,,,
+GAME,SOMA,소마,,,,,,,5,3,4,,,,
+GAME,SOUND_VOLTEX_EXCEED_GEAR,사운드 볼텍스 익시드 기어,0,0,1,0,0,0,,,,,,,
+GAME,STALKER_2_Heart_of_Chornobyl,스토커 2: 초르노빌의 심장부,,,,,,,,3,4,,,,
+GAME,STAR_CITIZEN,스타 시티즌,,0,9,12,27,35,22,12,5,6,4,7,1
+GAME,STEINS_GATE_ELITE,슈타인즈 게이트 엘리트,,,,,,,,,,3,,4,4
+GAME,STONKS_9800_Stock_Market_Simulator,STONKS-9800: 주식 시장 시뮬레이터,,,,,,,2,3,,,,,
+GAME,SUMMONERS_WAR_SKY_ARENA,서머너즈 워: 천공의 아레나,,,,7,28,,7,5,,,,,
+GAME,SUPER_ROBOT_WARS_Y,슈퍼로봇대전 Y,9,8,9,22,12,12,17,39,108,118,131,121,82
+GAME,Sable,세이블,,,,,,,2,,,,,,
+GAME,Saiko_no_sutoka,사이코 노 스토커,,,,3,4,5,6,4,,,,,
+GAME,Sakuna_Of_Rice_and_Ruin,천수의 사쿠나히메,22,5,2,4,3,,,,5,5,5,4,3
+GAME,Sannabi,산나비,11,32,43,30,33,84,105,94,94,115,97,15,12
+GAME,Satisfactory,새티스팩토리,1,3,7,7,10,7,8,2,0,0,0,,
+GAME,Scene_Investigators,씬 인베스티게이터즈,,,,,4,5,3,,,,,,
+GAME,School_Labyrinth,스쿨 래버린스,,,,,6,9,,,,,,,
+GAME,Scrap_Mechanic,스크랩 메카닉,,,,,,,6,7,6,5,,,
+GAME,Sea_of_Stars,씨 오브 스타즈,,,,,,,0,0,0,,,,7
+GAME,Secrets_of_Blackrock_Manor_Escape_Room,시크릿스 오브 블랙록 매너 - 이스케이프 룸,,,,,,,,730,727,790,,,
+GAME,Sector404,섹터 404,,,,3,,,,,5,,,,
+GAME,Seoul_Station,서울역,,,,,,,2,,,,,,
+GAME,Sephiria,세피리아,25,12,,18,24,19,22,19,22,11,10,20,30
+GAME,Shadow_Corridor,그림자 복도,11,13,,9,9,27,14,14,14,,,,
+GAME,Shadow_Corridor2,그림자 복도 2: 비의 수국,,1,1,12,7,6,21,13,6,10,14,17,
+GAME,Shadowverse_Worlds_Beyond,섀도우버스 월즈 비욘드,22,54,96,120,71,290,258,261,178,55,21,31,33
+GAME,Shin_Chan_Shiro_of_Coal_Town,짱구는 못말려 「탄광마을의 흰둥이」,,,,,,3,3,3,,,,,
+GAME,Ship_Inc,분류 작업자 시뮬레이터,,,,,,9,9,7,,,,,
+GAME,Sid_Meiers_Civilization,시드 마이어의 문명,,,,1,2,2,,,,,,,
+GAME,Sid_Meiers_Civilization_IV,시드 마이어의 문명 IV,,,,,0,1,0,0,,,,,
+GAME,Sid_Meiers_Civilization_V,시드 마이어의 문명 V,1,,,,,1,4,3,4,3,,,
+GAME,Sid_Meiers_Civilization_VI,시드 마이어의 문명 VI,5,7,18,,6,31,12,12,11,5,5,,
+GAME,Silent_Reel,사일런트 릴,,,,,10,,,,,,,,
+GAME,Skill_Legends_Royale,스킬 레전드 로얄,,,,,0,0,1,1,,,,,
+GAME,Skul,스컬: 더 히어로 슬레이어,13,14,12,25,26,12,10,8,14,9,10,,
+GAME,Sky_Children_Of_The_Light,SKY - 빛의 아이들,,,,,0,,,,15,12,,,
+GAME,Slay_the_Princess,슬레이 더 프린세스,,,,,,,,,12,,15,,
+GAME,Slay_the_Spire,슬레이 더 스파이어,3,,,,,65,536,322,1,1,3,1,1015
+GAME,SlimeMaker,마왕으로 시작하는 슬라임 키우기,2,2,,,,,,,,,,,
+GAME,Slime_Rancher,슬라임 랜쳐,,,,,,,,,,,10,9,10
+GAME,Sniper_Elite4,스나이퍼 엘리트 4,,,,,,0,0,0,,,,,
+GAME,Sniper_Elite5,스나이퍼 엘리트 5,,,,,,8,10,10,10,11,,,
+GAME,Snow_girl_who_calls_spring,봄을 부르는 설녀,,3,,,,,,,,,,,
+GAME,Snowbreak_Containment_Zone,스노우 브레이크: 포비든 존,,,5,10,,,,,,,,,
+GAME,Solo_Leveling_ARISE,나 혼자만 레벨업:어라이즈,,0,0,,,,,,,,,,
+GAME,Soulmask,소울마스크,,,,,,,6,7,5,3,4,6,6
+GAME,Space_Adventure_Cobra_The_Awakening,스페이스 어드벤처 코브라 - 디 어웨이크닝,,,,,,5,3,2,2,2,3,3,5
+GAME,Special_Force,스페셜포스,,,,,,,0,0,0,0,0,0,0
+GAME,Spelunky,스펠렁키,,,,,,1,,,,,,,
+GAME,Spelunky2,스펠렁키 2,5,6,4,3,6,5,3,6,4,0,,,
+GAME,Splatoon3,스플래툰 3,,,,4,14,25,36,47,35,19,20,,
+GAME,Split_Fiction,스플릿 픽션,,,,,,5609,16240,16685,15042,14040,12218,10267,7246
+GAME,Stacklands,스택랜드,0,0,,12,6,8,6,,,,,,
+GAME,Staffer_Case,스테퍼 케이스:초능력 추리 어드벤처,,,,,,,,,1,2,1,1,
+GAME,StarCraft_Brood_War,스타크래프트 : 브루드 워,,,,,,15,25,10,,,,,
+GAME,StarCraft_II_Wings_of_Liberty,스타크래프트 II : 자유의 날개,23,,16,57,41,53,36,8,31,12,13,2,
+GAME,StarCraft_Remastered,스타크래프트 : 리마스터,2504,1606,1475,1320,2662,1207,1492,1386,1193,956,375,110,72
+GAME,Star_Wars_Jedi_Survivor,스타워즈 제다이: 서바이버,,,,,1,,,,,,,,
+GAME,Starcraft_II_Legacy_of_the_Void,스타크래프트 II : 공허의 유산,101,147,249,783,1178,1340,1409,90,98,109,18,13,8
+GAME,Stardew_Valley,스타듀 밸리,3,9,15,16,47,62,69,72,69,72,11,5,2
+GAME,State_of_Decay2,스테이트 오브 디케이 2,,,,,,,5,,,,,,
+GAME,Steelrising,스틸라이징,,,,,,0,0,,,,,,
+GAME,Steins_Gate,슈타인즈 게이트,,,,,,,3,1,10,9,7,4,
+GAME,Stellar_Blade,스텔라 블레이드,15,17,19,11,14,37,38,68,58,18,13,5,3
+GAME,Stellar_Code,스텔라 코드,,,,5,2,,,,,,,,
+GAME,Stick_It_to_the_Stickman,스틱 잇 투 더 스틱맨,,,,,,,,5,,,,,
+GAME,Stoneshard,스톤 샤드,16,25,31,12,21,14,18,15,14,10,10,7,
+GAME,Storm_striker,스톰 스트라이커,13,39,52,139,326,160,124,98,18,,,,
+GAME,Storyteller,스토리텔러,,,,,,,,7,12,10,,,
+GAME,StrangePool,이상한 수영장,,,,,,,,,,,8,,
+GAME,Street_Fighter6,스트리트 파이터 6,14,24,25,17,46,66,77,66,56,94,26,15,20
+GAME,Strinova,스트리노바,9,6,,,31,62,38,56,32,6,,,
+GAME,Stumble_Guys,스텀블 가이즈,,,,1,,,,,,,,,
+GAME,Subnautica,서브노티카,244,225,192,218,33,48,66,9,11,11,11,6,6
+GAME,Sudden_Attack,서든어택,5,14,37,25,39,24,41,33,56,42,11,6,0
+GAME,Summoners_War_Rush,서머너즈 워: 러쉬,,,,,2,,,,,,,,
+GAME,Sun_Haven,선 헤이븐,,,,2,3,4,10,8,9,6,,,
+GAME,Super_Bunny_Man,슈퍼 버니 맨,99,,,,,,,,,,,,
+GAME,Super_Mario_Maker2,슈퍼 마리오 메이커 2,19,11,76,142,69,93,25,13,58,8,,,
+GAME,Super_Mario_Party,슈퍼 마리오 파티,,,,,12,,14,,,,,,
+GAME,Super_Mario_Party_Jamboree,슈퍼 마리오 파티 잼버리,,,,2,12,15,2,2,,,,,
+GAME,Super_Robot_Wars_T,슈퍼로봇대전 T,,,,,,1,1,,,,,,
+GAME,Super_Smash_Bros_ULTIMATE,슈퍼 스매시브라더스 얼티밋,,,,,1,1,1,0,1,0,3,,
+GAME,Superliminal,슈퍼리미널,,,,,5,3,,,,,,,
+GAME,Supermarket_Simulator,슈퍼마켓 시뮬레이터,0,0,,,,,,,,2,3,,
+GAME,Supermarket_Together,슈퍼마켓 투게더,,,,0,1,2,9,6,5,,,,
+GAME,Survival_Fountain_of_Youth,서바이벌: 파운틴 오브 유스,,,2,,,,,,,,,,
+GAME,Sword_of_the_Sea,소드 오브 더 씨,,,,,,,,4,,,,,
+GAME,TALES_WEAVER,테일즈위버,,,,,,,5,6,6,6,4,,
+GAME,TEKKEN8,철권 8,131,102,116,80,182,296,259,280,231,82,82,72,108
+GAME,TETRIS,테트리스,,,21,,0,7,8,5,8,1,3,,
+GAME,THE_EVIL_WITHIN2,디 이블 위딘 2,,,7,,5,,4,4,5,6,,,
+GAME,THE_FINALS,더 파이널스,21,26,19,22,37,64,68,59,31,27,36,12,3
+GAME,THE_IDOLMASTER,아이돌마스터,,,,,,,,,,14,12,8,7
+GAME,THE_IDOLMSTER_CINDERELLA_GIRLS_STARLIGHT_STAGE,아이돌마스터 신데렐라 걸즈 스타라이트 스테이지,,,,,,,1,,,,,,
+GAME,THE_KING_OF_FIGHTERS13_GLOBAL_MATCH,더 킹 오브 파이터즈 XIII 글로벌 매치,,,,,3,,,,,,,,
+GAME,THE_KING_OF_FIGHTERS98,더 킹 오브 파이터즈 '98,,,,,,5,15,17,16,13,9,,
+GAME,THE_LEGEND_OF_HEROES_HAJIMARI_NO_KISEKI,영웅전설 시작의 궤적,,,,,,11,8,12,,,,,
+GAME,THE_LEGEND_OF_HEROES_ZERO_NO_KISEKI_KAI,영웅전설 제로의 궤적: Kai,,,,,,,,,,,,,0
+GAME,THE_PLUCKY_SQUIRE,견습 기사 모험기,,,,,6,7,7,6,13,,,,
+GAME,THE_WALKING_DEAD,워킹 데드,3,5,,,,,,,,12,,,
+GAME,TOF,타워 오브 판타지,,2,3,3,4,5,6,,7,1,,1,
+GAME,TREE_of_SAVIOR,트리 오브 세이비어,,,,,1,,,,,,,,
+GAME,TRIANGLE_STRATEGY,트라이앵글 스트래티지,,,,,,,,,,2,2,2,2
+GAME,TUNIC,튜닉,,,0,0,0,0,,,,,,,
+GAME,Tabletop_Simulator,테이블탑 시뮬레이터,0,,,,5,3,5,,4,2,1,,
+GAME,Tainted_Grail_The_Fall_of_Avalon,테인티드 그레일: 더 폴 오브 아발론,,,,,0,0,0,,,,,,
+GAME,Tales_Runner,테일즈런너,24,59,76,40,22,49,41,46,26,41,26,4,3
+GAME,Tavern_Master,태번 마스터,,,,,,,,2,,,,,
+GAME,Team_Fortress2,팀 포트리스 2,,1,3,3,7,,12,,,36,21,22,32
+GAME,Teamfight_Tactics,전략적 팀 전투: K.O. 콜로세움,8028,7596,7463,7809,11913,6776,9269,8610,3897,3887,3401,3121,5074
+GAME,Tenkei_Paradox,천계 패러독스,1,2,1,1,2,1,3,4,2,,,3,
+GAME,Terminus_Zombie_Survivors,터미너스: 좀비 생존자들,,,,,0,,,,,,,,
+GAME,Terraria,테라리아,4,6,6,,4,7,7,5,0,2,1,,
+GAME,The_Aquarium_does_not_dance,아쿠아리움은 춤추지 않아,,,,,,2,,,,,,,
+GAME,The_Aquarium_does_not_dance_Special_Edition,아쿠아리움은 춤추지 않아 스페셜 에디션,,,,7,8,9,,,,,,,
+GAME,The_Bathhouse,지옥전탕 리스토어드 에디션,17,8,,,,,,,6,9,10,,
+GAME,The_Bazaar,더 바자르,7,,,1,5,2,5,4,13,14,15,,
+GAME,The_Binding_of_Isaac,아이작의 번제,0,1,3,1,,,,,,,,,
+GAME,The_Binding_of_Isaac_Rebirth,아이작의 번제: 리버스,,,,2,11,11,166,181,206,17,12,11,10
+GAME,The_Blind_Of_The_New_World,미래세계의 맹인,,,,,,,1,1,,,,,
+GAME,The_Bridge_Curse2_The_Extrication,여귀교2: 자유로운 영혼의 길,,,,,,,,,,1758,1763,1633,1503
+GAME,The_Cabin_Factory,더 캐빈 팩토리,,,,,,5,,,,,,,
+GAME,The_Coma_Recut,더 코마: 리컷,,,,,,2,3,,,,,,
+GAME,The_Drifter,더 드리프터,,,,,,25,24,25,,,,,
+GAME,The_Elder_Scrolls_V_Skyrim,엘더스크롤 5: 스카이림,,,,,2,6,5,1,0,0,0,0,
+GAME,The_Exit8,8번 출구,,,,,,,,3,3,,,,
+GAME,The_First_Berserker_Khazan,퍼스트 버서커: 카잔,,,,,12,14,1,,,,,,
+GAME,The_First_Descendant,퍼스트 디센던트,222,234,64,77,66,93,87,89,46,50,11,14,11
+GAME,The_Forest_of_Drizzling_Rain,안개비가 내리는 숲,,,,,,,,,,,,0,0
+GAME,The_Game_of_Sisyphus,더 게임 오브 시시포스,,,,,,70,,,,,,,
+GAME,The_Guild3,더 길드3,3,4,4,,,2,11,10,,3,,,
+GAME,The_Hundred_Line_Last_Defense_Academy,더 헌드레드 라인 -라스트 디펜스 아카데미-,1,1,1,,,,,,3176,2793,2830,2434,2309
+GAME,The_Karters2_Turbo_Charged,더 카터스 2: 터보 차지드,,,,,,1,1,1,,,,,
+GAME,The_King_of_Fighters_XV,더 킹 오브 파이터즈 XV,,,,,,1,13,,,,,,
+GAME,The_Kingdom_of_the_Wind,바람의나라,11,12,12,14,14,4,24,9,3,4,2,1,
+GAME,The_Last_of_Us_Part1,더 라스트 오브 어스 파트 1,,,,,4,7,11,25,19,6,19,8,8
+GAME,The_Last_of_Us_Part2_Remastered,더 라스트 오브 어스 파트 2 리마스터드,,,,,,,,,,,2,2,
+GAME,The_Last_of_Us_Remastered,더 라스트 오브 어스 리마스터드,,,2,2,,,,,,,,,
+GAME,The_Legend_of_Zelda_Breath_of_the_Wild,젤다의 전설 브레스 오브 더 와일드,19,20,36,18,46,56,38,51,10,10,14,7,2
+GAME,The_Legend_of_Zelda_Phantom_Hourglass,젤다의 전설 몽환의 모래시계,,,,,17,13,14,11,10,12,11,10,8
+GAME,The_Legend_of_Zelda_Tears_of_the_Kingdom,젤다의 전설 티어스 오브 더 킹덤,3,,3,,,4,4,4,13,0,10,0,
+GAME,The_Long_Dark,더 롱 다크,26,11,30,5,12,39,45,25,28,21,16,13,9
+GAME,The_Maid,더 메이드,,,,,,7,,,,,,,
+GAME,The_Nioh_Collection,인왕 컬렉션,,,,4,3,,,,,,,,
+GAME,The_Outlast_Trials,아웃라스트 트라이얼,,,2,1,1,0,0,1,1,,1,,
+GAME,The_Planet_Crafter,플래닛 크래프터,,,,,,,,,11,,,,
+GAME,The_Riftbreaker,리프트브레이커,,,,,,,,,,2,8,5,6
+GAME,The_Rogue_Prince_of_Persia,로그: 페르시아의 왕자,,,,,,,,1,0,,,,
+GAME,The_Room,더 룸,,,,,,,,,2,,,,
+GAME,The_Sims4,더 심즈 4,,,,,167,293,284,262,4,6,3,,
+GAME,The_Sinking_City,더 싱킹 시티,2,,,,,,,,,,,,
+GAME,The_Spell_Brigade,마법 주문 팀,,9,,,5,4,3,4,8,2,,10,
+GAME,The_Strongest_TOFU,최강 두부,,,,,2,1,2,,,,,,
+GAME,The_Texas_Chain_Saw_Massacre,텍사스 전기톱 학살,,,,,,,,,3,3,1,1,
+GAME,The_War_of_Genesis_Remnants_of_Gray,창세기전: 회색의 잔영,,,,,0,,,,,,,,
+GAME,The_Witch's_House_MV,마녀의 집 MV,,,,,,1,,,,,,,
+GAME,The_Witcher3_Wild_Hunt,더 위쳐 3: 와일드 헌트,20,17,,,,,,,,,,,
+GAME,The_Witcher_3_Wild_Hunt_Blood_and_Wine,더 위쳐 3: 와일드 헌트 - 블러드 앤드 와인,,,,,,2,1,2,2,3,2,,
+GAME,The_Witcher_3_Wild_Hunt_Complete_Edition,더 위쳐 3: 와일드 헌트 - 컴플리트 에디션,,,,,,,1,2,3,2,2,,
+GAME,The_play_of_genesis,창세기전 모바일 아수라 프로젝트,,,,,0,4,2,,,,,,
+GAME,They_Are_Billions,데이 아 빌리언즈,,17,8,1,9,,3,3,6,3,,,
+GAME,This_War_of_Mine,디스 워 오브 마인,4,0,0,0,1,1,,,,,,,
+GAME,Three_Kingdoms_Mushouden,쓰리 킹덤즈 무쇼우덴,,,,,89,158,,82,,,,,
+GAME,Throne_and_Liberty,쓰론 앤 리버티,,,,,,,0,0,,,,,
+GAME,Thronefall,쓰론폴,,,,,,,,,1,,,,
+GAME,Timberborn,팀버본,,,0,1,2,,,,,,,,
+GAME,Tinkerlands,팅커랜드,,,,,,7,7,7,,,,,
+GAME,Titan_Quest,타이탄 퀘스트,,,,,0,,,,,,,,
+GAME,Titan_Quest_II,타이탄 퀘스트 II,,,,,0,0,1,,,,,,
+GAME,To_the_Moon,투 더 문,,,,,,,,,5,,,,
+GAME,Tom_Clancys_The_Division2,톰 클랜시의 더 디비전 2,21,25,21,46,29,44,46,54,48,29,24,33,
+GAME,Tomb_Raider,툼 레이더,,,,,,10,19,5,7,,,,
+GAME,Torchlight_Infinite,토치라이트: 인피니트,,,,5,6,7,8,11,,,,,
+GAME,Total_War_THREE_KINGDOMS,토탈 워: 삼국,,,,,,,2,4,,,,,
+GAME,Total_War_WARHAMMER3,토탈 워: 워해머 3,,,,11,42,79,119,70,70,59,51,1,
+GAME,Touhou_Mystias_Izakaya,동방야작식당 -Touhou Mystia's Izakaya,0,0,1,1,2,2,355,325,,1,,,
+GAME,Tower_Unite,타워 유나이트,,,,,,0,0,,,,,,
+GAME,Tree_of_Savior_M,트리 오브 세이비어 M,,,,,,10,12,10,9,7,4,,
+GAME,Trickcal,트릭컬 리바이브,73,6,9,3,7,21,43,25,,,,1,
+GAME,TurretGirls,터렛걸즈,,,,,,,,533,654,,,,
+GAME,Twelve_Minutes,트웰브 미닛,,,,,,6,7,7,,,,,
+GAME,Two_Point_Hospital,투 포인트 호스피탈,,,,,,1,1,2,,,,,
+GAME,UNCHARTED_LEGACY_OF_THIEVES_COLLECTION,언차티드: 레거시 오브 시브즈 컬렉션,,,,,,3,4,4,2,2,1,2,
+GAME,UNDERTALE,언더테일,2310,2042,2090,1962,28,50,48,41,9,18,16,,
+GAME,Umamusume,우마무스메 프리티 더비,18,16,36,20,22,62,50,41,56,39,23,14,12
+GAME,Umineko_When_They_Cry_Question_Arcs,괭이갈매기 울 적에 - 문제편,,,,,3,,,,,,,,
+GAME,Uncharted_Waters_Origin,대항해시대 오리진,,,,5,9,9,,,,,,,
+GAME,Uncover_the_Smoking_Gun,언커버 더 스모킹 건,,,,17,22,24,22,41,,,,,
+GAME,Undecember,언디셈버,,,,,3,7,0,,0,0,,,
+GAME,Underground_Blossom,언더그라운드 블라썸,,,,,,,,4,,,,,
+GAME,Unicorn_Overlord,유니콘 오버로드,,,,,6,13,9,23,12,11,,,
+GAME,Untitled_Goose_Game,언타이틀드 구스 게임,,,,,9,8,6,,,,,,
+GAME,Urban_Myth_Dissolution_Center,도시전설 해체센터,,,,2,3,11,0,,,,,,
+GAME,VAMPIR,뱀피르,38,25,43,59,150,174,217,213,179,31,119,91,98
+GAME,VINDICTUS,마비노기 영웅전,26,47,21,14,46,45,67,69,27,16,32,24,14
+GAME,VOIDBREAKER,보이드/브레이커,,,,,,3,2,4,3,2,1,,
+GAME,VRChat,VR챗,,,,53,162,88,122,231,79,47,9,29,47
+GAME,V_Rising,V 라이징,,,,,,7,,2,2,,,,
+GAME,Valheim,발하임,18,16,20,25,16,21,12,13,22,36,9,11,3
+GAME,Valorant,발로란트,524,641,586,1086,1663,1750,1847,1798,1418,3675,1794,615,508
+GAME,Vampire_Survivors,뱀파이어 서바이버즈,,,,,,,,2,3,,,,
+GAME,Victoria3,빅토리아 3,,,,,7,10,16,11,,0,0,0,0
+GAME,Viewfinder,뷰파인더,,,,,,,6,6,6,,,,
+GAME,Viscera_Cleanup_Detail,비세라 클린업 디테일,,,,,0,0,0,0,,,,,
+GAME,Volcano_Princess,화산의 딸,7,7,6,8,9,8,,,,4,3,2,3
+GAME,WARS_OF_PRASIA,프라시아 전기,,,,,,0,0,1,,,,,
+GAME,WASD_The_Adventure_of_Tori,WASD : 토리의 모험,,,,616,143,729,804,458,534,454,456,,
+GAME,WILD_HEARTS,와일드 하츠,,,,,,0,,,,,,,
+GAME,WITCH_ON_THE_HOLY_NIGHT,마법사의 밤,,,,,,,2,4,4,,,,
+GAME,WRC_Generations,WRC 제너레이션,,,,,,243,244,,,,,,
+GAME,WUCHANG_Fallen_Feathers,명말: 공허의 깃털,7,8,9,6,16,13,42,25,14,13,10,4,
+GAME,WWE_BATTLEGROUNDS,WWE 2K 배틀그라운드,,,,,,,,,,,,2,
+GAME,War_Thunder,워 썬더,25,18,24,34,47,66,93,82,70,40,9,8,6
+GAME,Warcraft3,워크래프트3,,,,15,22,55,29,34,50,64,59,44,
+GAME,Warcraft_III_Reforged,워크래프트 3: 리포지드,372,300,286,17,7,14,11,10,10,14,140,122,112
+GAME,Warcraft_III_The_Frozen_Throne,워크래프트 III : 프로즌 쓰론,0,,,10,34,45,45,55,39,25,0,0,
+GAME,Warframe,워프레임,23,13,21,18,44,85,80,55,57,11,35,20,38
+GAME,Warhammer40000_Dawn_of_War_Definitive_Edition,"워해머 40,000: 던 오브 워 - 디피니티브 에디션",,,,,9,11,20,13,3,,,,
+GAME,Warhammer40k_Space_Marine2,"워해머 40,000: 스페이스 마린 2",5,,,,,,1,0,1,,,,
+GAME,Warhammer_40K_Rogue_Trader,"워해머 40,000: 로그 트레이더",,,,,,1,2,2,2,3,3,2,2
+GAME,Warhammer_Vermintide2,워해머: 버민타이드 2,30,,,,,,,,,,,,
+GAME,Wartales,워테일즈,2,3,8,5,,,,,,,,,
+GAME,Watermelon_Game,수박게임,,,,,,,,,7,,,,
+GAME,Waterpark_Simulator,워터파크 시뮬레이터,,,,,0,,,1,0,,,,
+GAME,Welcome_to_Kowloon,웰컴 투 구룡,,,,,,,1,,,,,,
+GAME,Whisker_Wanderlust,길잃은 고양이의 신비한 여정,,,,,9,,,,,,,,
+GAME,White_Day_A_Labyrinth_Named_School,화이트데이: 학교라는 이름의 미궁,,,,,,7,5,,,,,,
+GAME,Whos_at_the_door,후즈 앳 더 도어,,,11,15,76,170,127,43,55,24,9,11,11
+GAME,Wild_Assault,와일드 어썰트,,,,,,,,,,289,,,
+GAME,Wildgate,와일드 게이트,,,,,,,,,,4,6,5,
+GAME,Windslayer,윈드슬레이어,0,1,1,,,5,6,7,4,5,4,2,1
+GAME,Winkeltje_The_Little_Shop,윙클츠: 더 리틀 샵,3,,,,,,,,,,,,
+GAME,Wish_Upon_a_Cat,고양이의 작은 소원,,,,,,,4,3,,,,,
+GAME,WitchSpring_R,마녀의샘R,,,,,,12,16,,,,,,
+GAME,Withering_Rooms,위더링 룸스,,,,,,,,,,5,6,7,
+GAME,WorldBox,월드박스,0,0,0,0,0,,,,0,2,1,1,1
+GAME,World_Of_Warships,월드 오브 워쉽,6,5,0,,25,43,53,47,45,39,33,5,
+GAME,World_War_Z,월드 워 Z,,,,,,6,5,8,10,9,,,
+GAME,World_War_Z_Aftermath,월드 워 Z: 애프터매스,,,,3,1,1,1,2,4,3,,,
+GAME,World_of_Tanks,월드 오브 탱크,70,63,62,204,352,94,84,40,42,71,25,17,15
+GAME,World_of_Warcraft_Classic,월드 오브 워크래프트 클래식,149,414,208,199,266,199,169,224,95,98,42,26,11
+GAME,World_of_Warcraft_Mists_of_Pandaria_Classic,월드 오브 워크래프트: 판다리아의 안개 클래식,191,,,,20,37,51,52,63,92,,,
+GAME,World_of_Warcraft_The_War_Within,월드 오브 워크래프트: 내부 전쟁,1150,1072,1102,1481,2679,3040,3130,3181,2386,2126,1502,1109,679
+GAME,WutheringWaves,명조: 워더링 웨이브,34,81,100,137,190,211,249,312,855,1762,1549,635,1087
+GAME,X4_Foundations,X4: 파운데이션,,,,,,,,,,0,0,1,1
+GAME,XCOM2,엑스컴 2,,,,1,3,2,3,,,,,,
+GAME,Xenoblade_Chronicles,제노블레이드 크로니클스,0,,,,,,,0,0,0,,,
+GAME,YOUR_BLIGHT,유어 블라이트,,,,,,,0,2,3,4,3,3,3
+GAME,YOU_WANT_THOSE_GAMES_RIGHT,"어디서 많이 본 그 게임을 막대 인간으로 진짜 만들어 봤는데, 과연 당신이 클리어할 수 있을까?",,,,,,,,134,144,214,,,
+GAME,Yacht_Dice,요트 다이스,,,,,,,7,4,,,,,
+GAME,Yakuza_Kiwami2,용과 같이: 극 2,,,,,,,,,,5,3,3,3
+GAME,Yakuza_Like_a_Dragon_International,용과 같이 7 빛과 어둠의 행방 International,,,,,,,,,,1,,,
+GAME,Ys_X_Proud_Nordics,이스 X -프라우드 노딕스-,2,1,1,,1,6,6,5,1,1,2,1,
+GAME,Yu_Gi_Oh_Duel_Links,유희왕 듀얼 링크스,,,,6,,1,5,5,,,,,
+GAME,Yu_Gi_Oh_Master_Duel,유희왕 마스터 듀얼,67,64,81,87,171,176,133,58,222,243,192,0,0
+GAME,ZERO_Sievert,제로 시버트,,,,,,,,,17,12,10,,
+GAME,ZZZ,젠레스 존 제로,33,10,13,69,157,289,140,64,27,18,44,8,2
+GAME,Zero_Escape_The_Nonary_Games,제로 이스케이프: 더 노나리 게임즈,,,,,,0,3,4,2,,,,
+GAME,Zombie_Highschool,좀비고등학교,,,,,,19,29,24,11,10,9,,
+GAME,a_record_of_girl_development,소녀육성기록: 격동의 시대,,,,,17,12,,,,,,,
+GAME,beatmania_IIDX32_PinkyCrush,비트매니아 IIDX 32 핑키 크러시,0,0,0,0,0,0,,,,,,,
+GAME,beatmania_IIDX_INFINITAS,비트매니아 IIDX 인피니타스,,,,,,0,1,1,,,,,
+GAME,classic_game,고전 게임,13,26,85,46,103,261,420,458,330,349,238,48,57
+GAME,coin_rpg,코인키우기 - 방치형 가상화폐 RPG,,,,1,0,0,0,1,,,,,
+GAME,dai_gyakuten_saiban2_naruhodō_ryūnosuke_no_kakugo,대역전재판 2: 나루호도 류노스케의 각오,,,,,17,8,11,,,,,,3
+GAME,demo_game,데모 게임,0,0,17,20,27,7,27,22,18,86,,,
+GAME,hololive_Holos_Hanafuda,hololive Holo's 화투,,,,,3,12,,,,,,,
+GAME,iRacing,아이레이싱,,,,,,0,0,0,,,,,
+GAME,kartrider_rush_plus,카트라이더 러쉬플러스,12,21,2,5,21,48,249,104,43,57,19,7,
+GAME,kurobas_sr,쿠로코의 농구 Street Rivals,,,,,,7,,,5,3,2,1,
+GAME,mabinogimobile,마비노기 모바일,494,430,490,689,804,790,973,1068,1010,649,394,257,156
+GAME,mahjong_soul,작혼: 리치 마작,64,47,39,128,292,451,404,437,614,218,221,158,128
+GAME,maimai_DX_PRiSM,마이마이 디럭스 프리즘,0,0,0,0,0,0,,,,,,,
+GAME,osu,osu!,0,0,0,0,0,1,3,4,4,,,4,2
+GAME,playinzoi,인조이,9,18,2,9,6,,13,19,18,3,6,11,3
+GAME,pokemon_tcg_pocket,포켓몬 카드 게임 Pocket,,,5,,,,,,,,,,
+GAME,racingmaster,레이싱 마스터,28,14,23,29,41,61,49,59,50,17,15,31,26
+GAME,red_city,붉은 도시,,,0,0,,,,,,,,,
+GAME,rfonlinenext,RF 온라인 넥스트,3,2,,,,,0,1,,,,,
+GAME,sena_rebirth,세븐나이츠 리버스,1,2,9,841,121,58,26,23,35,16,10,9,
+GAME,shape_of_dreams,셰이프 오브 드림즈,,,,,0,4,4,4,,,,,
+GAME,sketch_Quiz,스케치퀴즈,,,,,,,,,,5,6,,
+GAME,some_some_convenience_store,썸썸 편의점,,,,,,,,,,,2,,
+GAME,soulworker,소울워커,,,,,8,70,52,57,23,59,,,
+GAME,star_wars_jedi_fallen_order,스타워즈 제다이: 오더의 몰락,,,,,5,6,9,7,,,,,
+GAME,super_robot_wars_30,슈퍼로봇대전 30,,,,,0,0,0,,,,,,
+GAME,supervive,슈퍼바이브,90,92,75,133,108,163,134,112,73,113,79,38,27
+GAME,theHunter_Call_of_the_Wild,더 헌터: 야생의 부름,,,,,,,7,21,,,,,
+GAME,various_games,종합 게임,4638,3607,1229,1411,6227,18584,19645,19070,15733,4629,3617,2712,2361
+GAME,yulgangreturn,열혈강호:귀환,0,1,1,1,,1,1,1,2,,,,
+None,,,,,,,,,,,,,,,27
+None,None,,,,,,,,,,,,,,335
+SPORTS,baseball,야구,0,70,218,954,1240,489,124,37,14,0,0,1,0
+SPORTS,soccer,축구,,,45,1,0,,1,0,1,,,,4
+SPORTS,sports,스포츠,16,,,,,,15,21,,,,,
+,,,907,781,746,2501,3775,3088,3284,2852,7752,979,993,485,
